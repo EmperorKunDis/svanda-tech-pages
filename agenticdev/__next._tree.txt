@@ -2,4 +2,4 @@
 :HL["/_next/static/css/f0338c94d559e9df.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":{"n":"topic","t":"d","k":"agenticdev","s":["_not-found","_global-error","JobRadar","about","admin","ai","blog","build-info.json","case-studies","compare","contact","data","desktop","en","engineering","experience","hry","manifest.webmanifest","now","projekty","reference","robots.txt","rss.xml","sitemap.xml","soukromi","verification","videa","zivotopis"]},"h":64,"c":"$Q2"}]]
-0:{"b":"J6azYvxYwxpAyS70vRFjg","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"pwYrvDTXlFB4G9KwxSHgW","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
