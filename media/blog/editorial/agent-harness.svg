@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#18263b"/>
+  <g fill="none" stroke="#32435b" stroke-width="1"><path d="M0 150H1600M0 300H1600M0 450H1600M0 600H1600M0 750H1600M200 0V900M400 0V900M600 0V900M800 0V900M1000 0V900M1200 0V900M1400 0V900"/></g>
+  <text x="100" y="115" fill="#ceaa8e" font-family="Arial,sans-serif" font-size="23" letter-spacing="5">PRAUT / AGENT HARNESS ENGINEERING</text>
+  <text x="100" y="255" fill="#f8f7f4" font-family="Arial,sans-serif" font-size="88" font-weight="600">Model je jedna část.</text>
+  <text x="100" y="365" fill="#ceaa8e" font-family="Arial,sans-serif" font-size="88" font-weight="600">Rozhoduje celý systém.</text>
+  <g font-family="Arial,sans-serif" font-size="23" text-anchor="middle">
+    <g fill="#22354f" stroke="#5c6e87" stroke-width="2"><rect x="100" y="500" width="260" height="120" rx="12"/><rect x="450" y="500" width="260" height="120" rx="12"/><rect x="800" y="500" width="290" height="120" rx="12"/><rect x="1180" y="500" width="320" height="120" rx="12"/></g>
+    <g fill="#f8f7f4"><text x="230" y="553">Kontext + stav</text><text x="580" y="553">Model + plán</text><text x="945" y="553">Pravidla + oprávnění</text><text x="1340" y="553">Nástroje + exekuce</text></g>
+    <g fill="#afbdd0" font-size="17"><text x="230" y="590">PŮVOD INFORMACÍ</text><text x="580" y="590">NÁVRH DALŠÍHO KROKU</text><text x="945" y="590">KONTROLA PŘED AKCÍ</text><text x="1340" y="590">OVĚŘITELNÝ VÝSLEDEK</text></g>
+  </g>
+  <g stroke="#ceaa8e" stroke-width="3" fill="none"><path d="M375 560H430l-10-8m10 8-10 8M725 560H780l-10-8m10 8-10 8M1105 560H1160l-10-8m10 8-10 8"/><path d="M230 640V695H1340V640"/></g>
+  <text x="800" y="750" fill="#bbc7d6" text-anchor="middle" font-family="Arial,sans-serif" font-size="24">TRACE · EVALUACE · OBNOVA · MĚŘITELNÉ ZLEPŠOVÁNÍ</text>
+  <text x="100" y="840" fill="#8397b1" font-family="Arial,sans-serif" font-size="19">Martin Švanda / říjen 2026</text>
+</svg>

@@ -1,0 +1,17 @@
+# Martin Švanda — AI engineering and software architecture
+
+> Professional portfolio of Martin Švanda, AI engineer, software architect, and CEO/CTO of Praut s.r.o. This site describes documented projects, professional experience, and technical writing. Project maturity and evidence are stated on their pages.
+
+- [AI expertise hub](https://svanda.tech/ai): Agentic systems, RAG, local language models, voice AI, integrations, and collaboration.
+- [Professional resume in Czech](https://svanda.tech/zivotopis)
+- [Professional resume in English](https://svanda.tech/en/resume)
+- [Project portfolio](https://svanda.tech/projekty)
+- [Technical articles](https://svanda.tech/blog)
+- [Collaboration](https://svanda.tech/spoluprace)
+- [Public professional references and press](https://svanda.tech/reference)
+- [XML sitemap](https://svanda.tech/sitemap.xml)
+- [Privacy information](https://svanda.tech/soukromi)
+
+Public case studies include [AgenticDev](https://svanda.tech/projekty/agenticdev), [PostHub](https://svanda.tech/projekty/posthub), [M.I.K.E.](https://svanda.tech/projekty/mike), [Záznamník.pro](https://svanda.tech/projekty/zaznamnik-pro), [EPT Connectors](https://svanda.tech/projekty/ept-connectors-recepce), and [Učebnice AI](https://svanda.tech/projekty/ucebnice-ai). Each page explains its evidence and limits.
+
+The site is a source of information, not a guarantee of recommendation, ranking, production readiness, or availability.

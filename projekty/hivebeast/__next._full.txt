@@ -1,0 +1,69 @@
+1:"$Sreact.fragment"
+d:I[7123,[],"default",1]
+:HL["/_next/static/css/6a894af17091110a.css","style"]
+:HL["/_next/static/css/b9eb0872f25b55fd.css","style"]
+:HL["/_next/static/css/f0338c94d559e9df.css","style"]
+2:T559,[{"@context":"https://schema.org","@type":"WebSite","@id":"https://svanda.tech/#website","name":"Martin Švanda — AI/LLM systémy a softwarová architektura","url":"https://svanda.tech","description":"Martin Švanda, seniorní AI engineer a softwarový architekt. Navrhuji agentní a LLM systémy od kontextu a nástrojů po stav, integrace a ověření. Projekty a zkušenosti.","inLanguage":"cs","author":{"@id":"https://svanda.tech/#person"}},{"@context":"https://schema.org","@type":"Person","@id":"https://svanda.tech/#person","name":"Martin Švanda","url":"https://svanda.tech","email":"mailto:svanda@praut.cz","jobTitle":"Chief Technology Officer","worksFor":{"@id":"https://svanda.tech/#organization"},"sameAs":["https://github.com/EmperorKunDis","https://www.linkedin.com/in/martin-%C5%A1vanda-b8491a264/","https://www.youtube.com/@MartinSvandaDeveloper"]},{"@context":"https://schema.org","@type":"Organization","@id":"https://svanda.tech/#organization","name":"Praut s.r.o.","url":"https://www.praut.cz","description":"Praut s.r.o. pomáhá firmám digitalizovat, automatizovat a zefektivňovat procesy pomocí umělé inteligence a moderních informačních systémů. Propojujeme firemní data, komunikaci, administrativu a každodenní pracovní postupy s důrazem na bezpečnost, ochranu dat a možnost provozu přímo v infrastruktuře zákazníka."}]3:T47e,
+              (function() {
+                const removeAttr = (el) => {
+                  if (el.removeAttribute) {
+                    el.removeAttribute('bis_skin_checked');
+                  }
+                };
+                const observer = new MutationObserver((mutations) => {
+                  mutations.forEach((m) => {
+                    if (m.type === 'attributes' && m.attributeName === 'bis_skin_checked') {
+                      removeAttr(m.target);
+                    }
+                    if (m.addedNodes) {
+                      m.addedNodes.forEach((n) => {
+                        if (n.nodeType === 1) {
+                          removeAttr(n);
+                          n.querySelectorAll('[bis_skin_checked]').forEach(removeAttr);
+                        }
+                      });
+                    }
+                  });
+                });
+                observer.observe(document.documentElement, {
+                  childList: true,
+                  subtree: true,
+                  attributes: true,
+                  attributeFilter: ['bis_skin_checked']
+                });
+              })();
+            7:X
+a:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$Lb","p":false,"v":null}}]]
+8:[["children",{"s":{"n":"slug","t":"d","k":"hivebeast","s":[]},"h":66048,"d":{"r":"$L9","p":false,"v":"$7"},"c":"$Qa"}]]
+5:[["children",{"s":"projekty","h":131584,"d":{"r":"$L6","p":false,"v":"$7"},"c":"$Q8"}]]
+0:{"P":null,"c":["","projekty","hivebeast",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6a894af17091110a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"cs","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon-ms.svg"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function () {\n                try {\n                  var mode = localStorage.getItem('portfolio-appearance-mode') || 'auto';\n                  if (!['light', 'dark', 'auto'].includes(mode)) mode = 'auto';\n                  var resolved = mode === 'auto'\n                    ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')\n                    : mode;\n                  document.documentElement.dataset.appearance = mode;\n                  document.documentElement.dataset.theme = resolved;\n                  document.documentElement.style.colorScheme = resolved;\n                } catch (_) {\n                  document.documentElement.dataset.appearance = 'auto';\n                }\n              })();\n            "}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]]}],"$L4"]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":"$Lc","p":false,"v":null}},"m":"$undefined","G":["$d",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"J6azYvxYwxpAyS70vRFjg"}
+e:"static/chunks/3510-f621103dba65ac18.js"
+f:"static/chunks/5009-ea666e3394e113fd.js"
+10:"static/chunks/app/layout-299d862c436ce831.js"
+11:I[805,["3510","$e","5009","$f","7177","$10"],"default"]
+12:I[7121,[],""]
+13:I[4581,[],""]
+15:I[484,[],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:"ViewportBoundary"
+19:I[484,[],"$18"]
+1b:"MetadataBoundary"
+1c:I[484,[],"$1b"]
+4:["$","body",null,{"suppressHydrationWarning":true,"children":[["$","$L11",null,{}],["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+6:["$","$1","c",{"children":[null,["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":[null,["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":["$L14",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b9eb0872f25b55fd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/f0338c94d559e9df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]]}]
+c:["$","$1","h",{"children":[null,["$","$L19",null,{"children":"$L1a"}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":"$L1d"}]}],null]}],null]}]
+1e:"static/chunks/8500-107859ed31978aa3.js"
+1f:"static/chunks/7848-46e5f6ccb358864a.js"
+20:"static/chunks/app/projekty/%5Bslug%5D/page-eccb23125e229845.js"
+21:I[3300,["8500","$1e","7848","$1f","6949","$20"],"default"]
+7:C
+14:["$","$L21",null,{"href":"/projekty/hivebeast-control-center/"}]
+1a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#000000","media":"(prefers-color-scheme: dark)"}],["$","meta","3",{"name":"theme-color","content":"#f5f5f7","media":"(prefers-color-scheme: light)"}]]
+17:null
+1d:[["$","title","0",{"children":"HiveBeast Control Center — případová studie | Martin Švanda"}],["$","meta","1",{"name":"description","content":"HiveBeast Control Center je desktopová aplikace postavená na Electronu, sloužící jako ovládací centrum pro projekt Tatooine. Poskytuje přehledové rozhraní s vlastním design systémem pro správu a monitoring komponent celého ekosystému. Je stavěná jako samostatný modul, který se dá napojit na zbytek Tatooine infrastruktury."}],["$","meta","2",{"name":"application-name","content":"Martin Švanda — AI/LLM systémy a softwarová architektura"}],["$","link","3",{"rel":"author","href":"https://svanda.tech"}],["$","meta","4",{"name":"author","content":"Martin Švanda"}],["$","link","5",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","6",{"name":"generator","content":"Next.js"}],["$","meta","7",{"name":"keywords","content":"Martin Švanda,portfolio,AgenticDev,LLM systémy,agentní systémy,Martin Švanda,Praut,umělá inteligence,AI automatizace,AI agenti,lokální LLM,softwarová architektura,CTO"}],["$","meta","8",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","9",{"name":"creator","content":"Martin Švanda"}],["$","meta","10",{"name":"publisher","content":"Martin Švanda"}],["$","meta","11",{"name":"robots","content":"index, follow"}],["$","meta","12",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","13",{"name":"category","content":"technologie"}],["$","meta","14",{"name":"classification","content":"Profesní portfolio"}],["$","link","15",{"rel":"canonical","href":"https://svanda.tech/projekty/hivebeast-control-center/"}],["$","link","16",{"rel":"alternate","hrefLang":"cs","href":"https://svanda.tech/projekty/hivebeast-control-center/"}],["$","link","17",{"rel":"alternate","hrefLang":"en","href":"https://svanda.tech/en/projects/hivebeast-control-center/"}],["$","meta","18",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","19",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","20",{"name":"apple-mobile-web-app-title","content":"Martin Švanda — AI/LLM systémy a softwarová architektura"}],["$","meta","21",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["$","meta","22",{"property":"og:title","content":"HiveBeast Control Center · Martin Švanda"}],["$","meta","23",{"property":"og:description","content":"HiveBeast Control Center je desktopová aplikace postavená na Electronu, sloužící jako ovládací centrum pro projekt Tatooine. Poskytuje přehledové rozhraní s vlastním design systémem pro správu a monitoring komponent celého ekosystému. Je stavěná jako samostatný modul, který se dá napojit na zbytek Tatooine infrastruktury."}],["$","meta","24",{"property":"og:url","content":"https://svanda.tech/projekty/hivebeast-control-center/"}],["$","meta","25",{"property":"og:image","content":"https://svanda.tech/projekty/hivebeast-control-center/og.png"}],["$","meta","26",{"property":"og:image:width","content":"1200"}],["$","meta","27",{"property":"og:image:height","content":"630"}],["$","meta","28",{"property":"og:type","content":"website"}],["$","meta","29",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","30",{"name":"twitter:title","content":"HiveBeast Control Center — případová studie"}],["$","meta","31",{"name":"twitter:description","content":"HiveBeast Control Center je desktopová aplikace postavená na Electronu, sloužící jako ovládací centrum pro projekt Tatooine. Poskytuje přehledové rozhraní s vlastním design systémem pro správu a monitoring komponent celého ekosystému. Je stavěná jako samostatný modul, který se dá napojit na zbytek Tatooine infrastruktury."}],["$","meta","32",{"name":"twitter:image","content":"https://svanda.tech/projekty/hivebeast-control-center/og.png"}],"$L22","$L23","$L24"]
+25:I[6869,[],"IconMark"]
+22:["$","link","33",{"rel":"shortcut icon","href":"/favicon-ms.svg"}]
+23:["$","link","34",{"rel":"icon","href":"/favicon-ms.svg"}]
+24:["$","$L25","35",{}]

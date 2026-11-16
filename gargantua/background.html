@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>GARGANTUA — živé pozadí</title>
+    <link rel="stylesheet" href="./css/background.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three.module.js",
+          "three/addons/": "./vendor/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <img class="fallback" src="./poster.png" alt="" />
+    <canvas id="gargantua" aria-hidden="true"></canvas>
+    <div class="readability" aria-hidden="true"></div>
+    <script type="module" src="./js/background.js"></script>
+  </body>
+</html>
+

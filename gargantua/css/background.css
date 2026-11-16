@@ -1,0 +1,76 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+body {
+  position: fixed;
+  inset: 0;
+}
+
+#gargantua,
+.fallback,
+.readability {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#gargantua {
+  z-index: 2;
+  display: block;
+  opacity: 0;
+  transition: opacity 1.8s ease;
+}
+
+body.ready #gargantua {
+  opacity: 1;
+}
+
+.fallback {
+  z-index: 1;
+  object-fit: cover;
+  filter: saturate(0.88) brightness(0.72);
+}
+
+.readability {
+  z-index: 3;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.42), transparent 28%, transparent 72%, rgba(0, 0, 0, 0.26)),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2), transparent 28%, rgba(0, 0, 0, 0.22));
+}
+
+body.failed #gargantua {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .fallback {
+    object-position: 48% center;
+  }
+
+  .readability {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.12), transparent 42%, rgba(0, 0, 0, 0.38));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #gargantua {
+    display: none;
+  }
+}

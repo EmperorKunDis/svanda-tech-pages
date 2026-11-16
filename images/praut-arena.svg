@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="PRAUT Arena">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10152a"/><stop offset="1" stop-color="#05060b"/></linearGradient><filter id="n"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#22f5d0" flood-opacity=".35"/></filter></defs>
+  <rect width="256" height="256" rx="58" fill="url(#g)"/>
+  <path d="M42 70h172v116H42z" fill="none" stroke="#4ecca3" stroke-width="8"/>
+  <path d="M78 104h100v48H78z" fill="#171d32" stroke="#ff4e84" stroke-width="7" filter="url(#n)"/>
+  <path d="M96 118h22v10H96zm42 0h22v10h-22z" fill="#fff"/>
+  <path d="M128 36v34M128 186v34M8 128h34m172 0h34" stroke="#ffd54a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="128" cy="128" r="12" fill="#4ecca3"/>
+</svg>

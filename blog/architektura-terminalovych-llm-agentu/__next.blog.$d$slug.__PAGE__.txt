@@ -1,0 +1,1271 @@
+2:"$Sreact.fragment"
+3:"static/chunks/8500-107859ed31978aa3.js"
+4:"static/chunks/app/blog/layout-12ef3ea2a44c37c4.js"
+5:I[1977,["8500","$3","9584","$4"],"default"]
+6:I[7121,[],""]
+7:I[4581,[],""]
+28:"ViewportBoundary"
+29:I[484,[],"$28"]
+2a:"MetadataBoundary"
+2b:I[484,[],"$2a"]
+2c:"$Sreact.suspense"
+:HL["/_next/static/css/f0338c94d559e9df.css","style"]
+9:X
+c:X
+c:C
+e:[null,["$","img",null,{"src":"/media/blog/editorial/agent-harness.svg","alt":"","className":"h-full w-full object-cover","style":{"objectPosition":"50% 50%"},"loading":"eager"}]]
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","main",null,{"className":"blog-page-frame blog-article-page","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Konfigurace, rozšiřování a zlepšování terminálových LLM agentů a agentních frameworků\",\"description\":\"Model je jedna komponenta. Ucelený agentní systém propojuje kontext, nástroje, stav, paměť, oprávnění, izolovanou exekuci a evaluace. Architektonický průvodce z pohledu Prautu a vlastní varianty Pi harnessu.\",\"datePublished\":\"2026-10-05T00:00:00.000Z\",\"dateModified\":\"2026-10-05T00:00:00.000Z\",\"author\":{\"@id\":\"https://svanda.tech/#person\"},\"image\":\"/media/blog/editorial/agent-harness.svg\",\"mainEntityOfPage\":\"https://svanda.tech/blog/architektura-terminalovych-llm-agentu\"}"}}],["$","div",null,{"className":"blog-page-heading","children":[["$","p",null,{"children":["Agentní systémy"," · ",29," min čtení",""]}],["$","h1",null,{"children":"Konfigurace, rozšiřování a zlepšování terminálových LLM agentů a agentních frameworků"}]]}],["$","figure",null,{"className":"blog-article-hero","children":["$","picture",null,{"className":"","children":"$e"}]}],["$","div",null,{"className":"grid grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,840px)_240px]","children":[["$","div",null,{"className":"min-w-0","children":[false,["$","details",null,{"className":"blog-toc-mobile","children":[["$","summary",null,{"children":"Obsah článku"}],["$","ol",null,{"children":[["$","li","exekutivni-shrnuti",{"className":"","children":["$","a",null,{"href":"#exekutivni-shrnuti","children":"Exekutivní shrnutí"}]}],["$","li","referencni-architektura-a-odpovednosti-vrstev",{"className":"","children":["$","a",null,{"href":"#referencni-architektura-a-odpovednosti-vrstev","children":"Referenční architektura a odpovědnosti vrstev"}]}],["$","li","prioritni-implementacni-checklist",{"className":"pl-3","children":["$","a",null,{"href":"#prioritni-implementacni-checklist","children":"Prioritní implementační checklist"}]}],["$","li","pi-harness-v-prautu-a-srovnani-pristupu",{"className":"","children":["$","a",null,{"href":"#pi-harness-v-prautu-a-srovnani-pristupu","children":"Pi harness v Prautu a srovnání přístupů"}]}],["$","li","konfiguracni-a-rozsirovaci-vrstvy",{"className":"","children":["$","a",null,{"href":"#konfiguracni-a-rozsirovaci-vrstvy","children":"Konfigurační a rozšiřovací vrstvy"}]}],["$","li","hooky-middleware-adaptery-a-nastroje",{"className":"pl-3","children":["$","a",null,{"href":"#hooky-middleware-adaptery-a-nastroje","children":"Hooky, middleware, adaptéry a nástroje"}]}],["$","li","streaming-potrebuje-vlastni-datovy-model",{"className":"pl-3","children":["$","a",null,{"href":"#streaming-potrebuje-vlastni-datovy-model","children":"Streaming potřebuje vlastní datový model"}]}],["$","li","mcp-a-lokalni-function-calling",{"className":"pl-3","children":["$","a",null,{"href":"#mcp-a-lokalni-function-calling","children":"MCP a lokální function calling"}]}],["$","li","orchestrace-jednoduchy-zaklad-meritelna-slozitost",{"className":"","children":["$","a",null,{"href":"#orchestrace-jednoduchy-zaklad-meritelna-slozitost","children":"Orchestrace: jednoduchý základ, měřitelná složitost"}]}],["$","li","stav-checkpointy-a-bezpecne-pokracovani",{"className":"","children":["$","a",null,{"href":"#stav-checkpointy-a-bezpecne-pokracovani","children":"Stav, checkpointy a bezpečné pokračování"}]}],"$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f"]}]]}],"$L20","$L21","$L22",null,"$L23","$L24"]}],"$L25"]}]]}],null,"$L26"]}],"p":"$@27","v":null,"s":"$9"}}]]
+a:[["children",{"s":{"n":"slug","t":"d","k":"architektura-terminalovych-llm-agentu","s":[]},"h":65632,"d":{"r":["$","$2","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@b","v":"$c","s":"$9"},"c":"$Qd"}]]
+1:[["children",{"s":"blog","h":131136,"d":{"r":["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/f0338c94d559e9df.css","precedence":"next"}]],["$","div",null,{"className":"blog-shell","children":[["$","$L5",null,{}],["$","div",null,{"className":"blog-shell-content","children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]}],["$","footer",null,{"className":"blog-footer","children":"Portfolio a obsah © 2026 Martin Švanda / Praut s.r.o."}]]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L29",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#000000","media":"(prefers-color-scheme: dark)"}],["$","meta","3",{"name":"theme-color","content":"#f5f5f7","media":"(prefers-color-scheme: light)"}]]}],["$","$L2b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Konfigurace, rozšiřování a zlepšování terminálových LLM agentů a agentních frameworků | Martin Švanda"}],["$","meta","1",{"name":"description","content":"Model je jedna komponenta. Ucelený agentní systém propojuje kontext, nástroje, stav, paměť, oprávnění, izolovanou exekuci a evaluace. Architektonický průvodce z pohledu Prautu a vlastní varianty Pi harnessu."}],["$","meta","2",{"name":"application-name","content":"Martin Švanda — AI/LLM systémy a softwarová architektura"}],["$","link","3",{"rel":"author","href":"https://svanda.tech"}],["$","meta","4",{"name":"author","content":"Martin Švanda"}],["$","link","5",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","6",{"name":"generator","content":"Next.js"}],["$","meta","7",{"name":"keywords","content":"Martin Švanda,portfolio,AgenticDev,LLM systémy,agentní systémy,Martin Švanda,Praut,umělá inteligence,AI automatizace,AI agenti,lokální LLM,softwarová architektura,CTO"}],["$","meta","8",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","9",{"name":"creator","content":"Martin Švanda"}],["$","meta","10",{"name":"publisher","content":"Martin Švanda"}],["$","meta","11",{"name":"category","content":"technologie"}],["$","meta","12",{"name":"classification","content":"Profesní portfolio"}],["$","link","13",{"rel":"canonical","href":"https://svanda.tech/blog/architektura-terminalovych-llm-agentu/"}],["$","meta","14",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","15",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","16",{"name":"apple-mobile-web-app-title","content":"Martin Švanda — AI/LLM systémy a softwarová architektura"}],["$","meta","17",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["$","meta","18",{"property":"og:title","content":"Konfigurace, rozšiřování a zlepšování terminálových LLM agentů a agentních frameworků"}],["$","meta","19",{"property":"og:description","content":"Model je jedna komponenta. Ucelený agentní systém propojuje kontext, nástroje, stav, paměť, oprávnění, izolovanou exekuci a evaluace. Architektonický průvodce z pohledu Prautu a vlastní varianty Pi harnessu."}],["$","meta","20",{"property":"og:image","content":"https://svanda.tech/blog/architektura-terminalovych-llm-agentu/og.png"}],["$","meta","21",{"property":"og:image:width","content":"1200"}],["$","meta","22",{"property":"og:image:height","content":"630"}],["$","meta","23",{"property":"og:type","content":"article"}],["$","meta","24",{"property":"article:published_time","content":"2026-10-05T00:00:00.000Z"}],["$","meta","25",{"property":"article:author","content":"Martin Švanda"}],["$","meta","26",{"property":"article:tag","content":"LLM"}],["$","meta","27",{"property":"article:tag","content":"Pi harness"}],["$","meta","28",{"property":"article:tag","content":"AgenticDev"}],["$","meta","29",{"property":"article:tag","content":"MCP"}],["$","meta","30",{"property":"article:tag","content":"architektura"}],["$","meta","31",{"property":"article:tag","content":"evaluace"}],["$","meta","32",{"property":"article:tag","content":"bezpečnost"}],["$","meta","33",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","34",{"name":"twitter:title","content":"Konfigurace, rozšiřování a zlepšování terminálových LLM agentů a agentních frameworků"}],["$","meta","35",{"name":"twitter:description","content":"Model je jedna komponenta. Ucelený agentní systém propojuje kontext, nástroje, stav, paměť, oprávnění, izolovanou exekuci a evaluace. Architektonický průvodce z pohledu Prautu a vlastní varianty Pi harnessu."}],"$L2d","$L2e","$L2f","$L30"]}]}],null]}],null]}],"p":"$@31","v":null,"s":"$9"}},"a":"$@32","u":"$@33","b":"J6azYvxYwxpAyS70vRFjg"}
+35:"static/chunks/app/blog/%5Bslug%5D/page-9f60245305909306.js"
+36:I[936,["8500","$3","5953","$35"],"default"]
+37:I[4408,["8500","$3","5953","$35"],"default"]
+38:I[8500,["8500","$3","5953","$35"],""]
+43:I[484,[],"OutletBoundary"]
+45:I[6869,[],"IconMark"]
+f:["$","li","pamet-s-puvodem-platnosti-a-hranicemi-duvery",{"className":"","children":["$","a",null,{"href":"#pamet-s-puvodem-platnosti-a-hranicemi-duvery","children":"Paměť s původem, platností a hranicemi důvěry"}]}]
+10:["$","li","ctyri-ruzne-vyznamy-cache",{"className":"","children":["$","a",null,{"href":"#ctyri-ruzne-vyznamy-cache","children":"Čtyři různé významy cache"}]}]
+11:["$","li","prompt-engineering-a-context-engineering",{"className":"","children":["$","a",null,{"href":"#prompt-engineering-a-context-engineering","children":"Prompt engineering a context engineering"}]}]
+12:["$","li","observabilita-testovani-a-evaluace",{"className":"","children":["$","a",null,{"href":"#observabilita-testovani-a-evaluace","children":"Observabilita, testování a evaluace"}]}]
+13:["$","li","co-skutecne-merit",{"className":"pl-3","children":["$","a",null,{"href":"#co-skutecne-merit","children":"Co skutečně měřit"}]}]
+14:["$","li","doporuceny-event-model",{"className":"pl-3","children":["$","a",null,{"href":"#doporuceny-event-model","children":"Doporučený event model"}]}]
+15:["$","li","sandboxing-a-bezpecnost-nastrojoveho-runtime",{"className":"","children":["$","a",null,{"href":"#sandboxing-a-bezpecnost-nastrojoveho-runtime","children":"Sandboxing a bezpečnost nástrojového runtime"}]}]
+16:["$","li","minimalni-threat-model",{"className":"pl-3","children":["$","a",null,{"href":"#minimalni-threat-model","children":"Minimální threat model"}]}]
+17:["$","li","ci-cd-a-verzovani-celeho-agentniho-systemu",{"className":"","children":["$","a",null,{"href":"#ci-cd-a-verzovani-celeho-agentniho-systemu","children":"CI/CD a verzování celého agentního systému"}]}]
+18:["$","li","performance-tuning-podle-navratnosti",{"className":"","children":["$","a",null,{"href":"#performance-tuning-podle-navratnosti","children":"Performance tuning podle návratnosti"}]}]
+19:["$","li","historicky-vyvoj-a-poznatky-z-praxe",{"className":"","children":["$","a",null,{"href":"#historicky-vyvoj-a-poznatky-z-praxe","children":"Historický vývoj a poznatky z praxe"}]}]
+1a:["$","li","jak-se-tento-pristup-promita-do-me-prace",{"className":"","children":["$","a",null,{"href":"#jak-se-tento-pristup-promita-do-me-prace","children":"Jak se tento přístup promítá do mé práce"}]}]
+1b:["$","li","katalog-primarnich-zdroju",{"className":"","children":["$","a",null,{"href":"#katalog-primarnich-zdroju","children":"Katalog primárních zdrojů"}]}]
+1c:["$","li","harnessy-a-jejich-rozsirovani",{"className":"pl-3","children":["$","a",null,{"href":"#harnessy-a-jejich-rozsirovani","children":"Harnessy a jejich rozšiřování"}]}]
+1d:["$","li","frameworky-stav-a-integrace",{"className":"pl-3","children":["$","a",null,{"href":"#frameworky-stav-a-integrace","children":"Frameworky, stav a integrace"}]}]
+1e:["$","li","evaluace-provoz-a-bezpecnost",{"className":"pl-3","children":["$","a",null,{"href":"#evaluace-provoz-a-bezpecnost","children":"Evaluace, provoz a bezpečnost"}]}]
+1f:["$","li","puvodni-vyzkumne-prace",{"className":"pl-3","children":["$","a",null,{"href":"#puvodni-vyzkumne-prace","children":"Původní výzkumné práce"}]}]
+34:Tdc88,<p><strong>Samotný model je jen jedna komponenta. Spolehlivost vzniká v systému kolem něj.</strong></p>
+<p>V Prautu používáme vlastní variantu <strong>Pi harnessu</strong>. Harness chápu jako prostředí, které propojuje model s kontextem, nástroji, životním cyklem úkolu a pravidly skutečné exekuce. Právě návrh tohoto celku rozhoduje, zda se z působivé odpovědi stane použitelný výsledek.</p>
+<p>Tento text popisuje moje architektonické východisko pro agentní systémy a aplikace s integrovanými LLM. Pi je náš pracovní základ; Claude Code, Codex CLI, Gemini CLI a další nástroje jsou užitečné srovnávací implementace. Jejich funkce ani níže uvedená referenční architektura nejsou automaticky seznamem vlastností každého projektu v portfoliu. U konkrétních studií uvádím, co je implementované, co je prototyp a co ještě čeká na ověření.</p>
+<p><em>Technický přehled k 5. říjnu 2026. Ukázky označené jako pseudokód popisují návrhový kontrakt, nikoli hotovou bezpečnostní implementaci nebo přenositelné API všech frameworků.</em></p>
+<h2 id="exekutivni-shrnuti">Exekutivní shrnutí</h2>
+<p>Kvalitní terminálový agent propojuje několik vrstev: sestavení kontextu, model, řízení úkolu, typované nástroje, politiku oprávnění, stav a paměť, izolované prostředí, průběžné události a měření výsledků. Kolem těchto vrstev se sbližují různé implementace, přestože používají odlišné názvy a API.</p>
+<p><strong>První princip: model navrhuje, runtime rozhoduje o provedení.</strong> Lifecycle hooky a middleware umožňují vstup upravit, tool call ověřit, výsledek normalizovat a průběh zaznamenat. Skutečné oprávnění musí vycházet z důvěryhodné konfigurace a být vynucené i mimo generativní model.</p>
+<p><strong>Druhý princip: přenositelnost potřebuje jasnou nástrojovou hranici.</strong> MCP standardizuje propojení hosta, klientů a serverů, včetně nástrojů, zdrojů a promptů nad JSON-RPC. Referencí tohoto přehledu je specifikace 2026-07-28. Vedle MCP zůstávají relevantní lokální funkce a nativní tool-calling API. Protokol sám nevynucuje bezpečnostní politiku aplikace. <a href="https://modelcontextprotocol.io/specification/2026-07-28">Specifikace MCP</a></p>
+<p><strong>Třetí princip: složitost si musí zasloužit místo.</strong> Začínám jedním agentem a dobře navrženými nástroji. Router, plánovač nebo tým specialistů přidává smysl tehdy, když prokazatelně zlepší výsledek nebo čas dokončení. Další agent současně znamená další kontext, rozhodnutí a možnost chyby. Stejné východisko doporučuje dokumentace <a href="https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/tutorial/teams.html">AutoGen Teams</a>.</p>
+<p><strong>Čtvrtý princip: stav a paměť mají rozdílné odpovědnosti.</strong> Stav určuje, kde běh skončil a co už provedl. Paměť uchovává znalosti použitelné později. Checkpoint není náhrada dlouhodobé paměti a uložená konverzace sama nezaručuje bezpečné pokračování po pádu. <a href="https://docs.langchain.com/oss/python/langgraph/persistence">LangGraph Persistence</a></p>
+<p><strong>Pátý princip: prompt není bezpečnostní hranice.</strong> Model může chybně interpretovat web, README i odpověď nástroje. Oprávnění, izolace, kontrola síťových spojení a schválení významných akcí patří do exekuční vrstvy. Bezpečnostní rozbor musí pokrýt také paměť, dodavatelský řetězec rozšíření a opakované vedlejší účinky. <a href="https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/">OWASP Agentic Top 10</a></p>
+<p><strong>Šestý princip: zlepšování se měří.</strong> Změna modelu, promptu, nástroje nebo orchestrace se porovnává s regresním datasetem a explicitními kritérii úspěchu. Tracing vysvětluje průběh; evaluace hodnotí výsledek. Potřebujeme obojí.</p>
+<h2 id="referencni-architektura-a-odpovednosti-vrstev">Referenční architektura a odpovědnosti vrstev</h2>
+<p><img src="/media/blog/editorial/agent-runtime.svg" alt="Referenční agentní runtime: kontext a model navrhují akci, policy gateway ji ověří před izolovaným nástrojem; stav, paměť a telemetrie mají vlastní odpovědnosti." /></p>
+<p>Uživatel zadá úkol. Pre-input hook provede kontrolu vstupu a context builder načte relevantní projektová pravidla, stav a doloženou paměť. Agent nebo orchestrátor přes modelový adaptér získá odpověď či návrh nástroje. Před každou skutečnou akcí následuje validace argumentů a kontrola oprávnění. Teprve schválený požadavek smí přejít do nástrojového adaptéru a izolovaného prostředí.</p>
+<p>Výsledek nástroje se vrací přes post-tool zpracování do agentního cyklu. Stav se ukládá po významných přechodech. Výstup pro uživatele prochází vlastní validací. Streaming událostí průběžně informuje terminál a korelovaná telemetrie umožňuje celý běh rekonstruovat. Zamítnutá akce se zaznamená a vrátí jako řízený výsledek, nikoli jako pokyn obejít kontrolu jinou cestou.</p>
+<table>
+<thead>
+<tr>
+<th>Vrstva</th>
+<th>Odpovědnost</th>
+<th>Co jí nesvěřovat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Context builder</td>
+<td>Relevantní instrukce, zdroje a jejich původ</td>
+<td>Rozhodování o systémových oprávněních</td>
+</tr>
+<tr>
+<td>Model a orchestrátor</td>
+<td>Návrh kroků, výběr schopností, syntéza</td>
+<td>Přímý privilegovaný přístup k hostiteli</td>
+</tr>
+<tr>
+<td>Policy gateway</td>
+<td>Ověření identity, scope, argumentů a schválení</td>
+<td>Přijímání modelového tvrzení jako důkazu souhlasu</td>
+</tr>
+<tr>
+<td>Tool adapter / MCP</td>
+<td>Jednoznačný kontrakt požadavku a výsledku</td>
+<td>Skryté vedlejší účinky mimo deklarovaný účel</td>
+</tr>
+<tr>
+<td>Sandbox / runner</td>
+<td>Omezení souborů, sítě, procesů a zdrojů</td>
+<td>Předpoklad, že kontejner sám vyřeší veškerá rizika</td>
+</tr>
+<tr>
+<td>Stav a checkpointy</td>
+<td>Postup běhu, operace, rozpracované schválení</td>
+<td>Neověřené dlouhodobé znalosti</td>
+</tr>
+<tr>
+<td>Paměť</td>
+<td>Znalosti s původem, platností a pravidly přístupu</td>
+<td>Automatické povýšení nalezeného textu na instrukci</td>
+</tr>
+<tr>
+<td>Telemetrie a evaluace</td>
+<td>Průběh, výsledky, regresní srovnání</td>
+<td>Nekontrolované ukládání tajemství a osobních dat</td>
+</tr>
+</tbody>
+</table>
+<h3 id="prioritni-implementacni-checklist">Prioritní implementační checklist</h3>
+<table>
+<thead>
+<tr>
+<th>Priorita</th>
+<th>Co zavést</th>
+<th>Praktický výsledek</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P0</td>
+<td>Všechny shell, file a network akce vést přes společné deterministické rozhodování</td>
+<td>Privilegovaná akce neobchází kontrolu jen změnou nástroje</td>
+</tr>
+<tr>
+<td>P0</td>
+<td>Pre-tool kontrola, validace argumentů, minimální scope a pravidla schvalování</td>
+<td>Zastavení nepovolené operace před jejím provedením</td>
+</tr>
+<tr>
+<td>P0</td>
+<td>Izolovaný běh kódu a minimální mounty</td>
+<td>Omezení dosahu chyby nebo prompt injection</td>
+</tr>
+<tr>
+<td>P0</td>
+<td>Oddělení secrets od modelového kontextu, dočasné a omezené credentials</td>
+<td>Menší rozsah přístupu i případného úniku</td>
+</tr>
+<tr>
+<td>P0</td>
+<td>Trace ID pro běh, modelová volání a nástroje</td>
+<td>Dohledatelnost latence, retry i policy rozhodnutí</td>
+</tr>
+<tr>
+<td>P0</td>
+<td>Regresní úlohy, failure cases a bezpečnostní evaluace v CI</td>
+<td>Srovnatelný baseline před změnou konfigurace</td>
+</tr>
+<tr>
+<td>P1</td>
+<td>Persistentní stav, ledger operací a idempotency klíče</td>
+<td>Řízené zotavení bez slepého opakování akcí</td>
+</tr>
+<tr>
+<td>P1</td>
+<td>Oddělený pracovní kontext, trvalá fakta a epizodické záznamy</td>
+<td>Samostatná retence, retrieval a důvěryhodnost</td>
+</tr>
+<tr>
+<td>P1</td>
+<td>Single-agent baseline před multi-agent variantou</td>
+<td>Měřitelný přínos každé přidané vrstvy</td>
+</tr>
+<tr>
+<td>P1</td>
+<td>Stabilní prefix promptu, kontextové rozpočty a progressive disclosure</td>
+<td>Méně zbytečně zpracovaných tokenů</td>
+</tr>
+<tr>
+<td>P1</td>
+<td>Oddělené textové a lifecycle události; paralelní nezávislá čtení</td>
+<td>Přehlednější UI a kratší čekání</td>
+</tr>
+<tr>
+<td>P2</td>
+<td>Model routing, semantic cache a reflexní smyčky</td>
+<td>Optimalizace pouze po ověření kvality a správnosti</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pi-harness-v-prautu-a-srovnani-pristupu">Pi harness v Prautu a srovnání přístupů</h2>
+<p>Naše vlastní varianta Pi harnessu je součástí toho, jak v Prautu přistupujeme k agentnímu vývoji. Základní otázky zůstávají stejné bez ohledu na model: odkud agent bere kontext, jaké nástroje dostane, kdo schvaluje změnu, jak poznáme hotovou práci a jak navážeme po přerušení.</p>
+<p>Upstream Pi poskytuje rozšiřitelné terminálové prostředí. Extensions, skills, šablony promptů a programové napojení umožňují přizpůsobit workflow. Vlastní rozšíření ale přebíráme také jako kód s oprávněními a provozní odpovědností. Existence extension API sama nezaručuje sandbox, bezpečné schvalování nebo kvalitu evaluací. <a href="https://github.com/earendil-works/pi/blob/main/packages/coding-agent/README.md">Pi Coding Agent</a>, <a href="https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/extensions.md">Pi Extensions</a></p>
+<p>Rozlišuji tři samostatné volby: <strong>modelový provider</strong>, <strong>agentní harness</strong> a <strong>produktovou orchestraci</strong>. Výměna jedné z nich nemusí znamenat výměnu celého systému. Zároveň obecná informace o tom, jak pracujeme v Prautu, neurčuje automaticky runtime každého historického či samostatného projektu.</p>
+<table>
+<thead>
+<tr>
+<th>Prostředí</th>
+<th>Typické místo rozšíření</th>
+<th>Architektonický význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pi</td>
+<td>Extensions, skills, prompt templates, RPC a SDK</td>
+<td>Přizpůsobitelný základ vlastní varianty harnessu</td>
+</tr>
+<tr>
+<td>Claude Code</td>
+<td>Projektové instrukce, lifecycle hooks, skills, MCP, pluginy</td>
+<td>Konkrétní implementace událostí a oprávnění</td>
+</tr>
+<tr>
+<td>Codex CLI</td>
+<td>AGENTS.md, hooky, MCP, skills a pluginy</td>
+<td>Jedna z implementací coding harnessu; přesný kontrakt závisí na verzi</td>
+</tr>
+<tr>
+<td>Gemini CLI</td>
+<td>GEMINI.md, Before/After hooky, extensions, MCP</td>
+<td>Kontext a integrace společně s runtime konfigurací</td>
+</tr>
+<tr>
+<td>GitHub Copilot CLI</td>
+<td>Repo/osobní nastavení, hooky a nástroje</td>
+<td>Události kolem session, vstupu a tool callů</td>
+</tr>
+<tr>
+<td>Aider</td>
+<td>Konvence, repo map, Git, lint/test loop</td>
+<td>Silné propojení editace s existujícím vývojovým workflow</td>
+</tr>
+<tr>
+<td>Goose</td>
+<td>Rozšíření, MCP a recipes</td>
+<td>Skládání doménových schopností a opakovatelných postupů</td>
+</tr>
+<tr>
+<td>Continue CLI</td>
+<td>Agentní konfigurace a interaktivní/headless běh</td>
+<td>Automatizovatelné úlohy v lokálním vývoji i CI</td>
+</tr>
+<tr>
+<td>OpenHands</td>
+<td>Agent a oddělený execution runtime</td>
+<td>Explicitní hranice mezi řízením a prostředím exekuce</td>
+</tr>
+</tbody>
+</table>
+<p>Jde o mapu integračních bodů, nikoli žebříček produktů ani záruku identického chování. Konkrétní konfiguraci je nutné kontrolovat vůči instalované verzi. Odkazy na dokumentaci jednotlivých nástrojů jsou v katalogu na konci článku.</p>
+<h2 id="konfiguracni-a-rozsirovaci-vrstvy">Konfigurační a rozšiřovací vrstvy</h2>
+<h3 id="hooky-middleware-adaptery-a-nastroje">Hooky, middleware, adaptéry a nástroje</h3>
+<table>
+<thead>
+<tr>
+<th>Prvek</th>
+<th>Účel</th>
+<th>Typický kontrakt</th>
+<th>Hlavní kompromis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pre-input hook</td>
+<td>Ověřit vstup a doplnit kontext před plánováním</td>
+<td><code>on_input(context)</code></td>
+<td>Mutace nesmí nepozorovaně změnit uživatelův záměr</td>
+</tr>
+<tr>
+<td>Pre-model hook</td>
+<td>Upravit prompt, toolset nebo routing před inferencí</td>
+<td><code>before_model(state)</code></td>
+<td>Dynamická změna musí zůstat dohledatelná</td>
+</tr>
+<tr>
+<td>Pre-tool hook</td>
+<td>Vyhodnotit návrh akce před vedlejším účinkem</td>
+<td><code>policy(tool, arguments, identity)</code></td>
+<td>Selhání hooku a režim fail-open/fail-closed musí být explicitní</td>
+</tr>
+<tr>
+<td>Post-tool hook</td>
+<td>Normalizovat výsledek, auditovat chybu, rozhodnout o dalším kroku</td>
+<td><code>after_tool(call, result)</code></td>
+<td>Automatický retry může zopakovat zápis či odeslání</td>
+</tr>
+<tr>
+<td>Post-output hook</td>
+<td>Ověřit strukturu a redigovat odpověď</td>
+<td><code>validate_output(output)</code></td>
+<td>Nevrátí zpět již provedenou akci</td>
+</tr>
+<tr>
+<td>Middleware</td>
+<td>Obalit modelovou či nástrojovou exekuci</td>
+<td><code>wrap_call(next, context)</code></td>
+<td>Mnoho vrstev komplikuje diagnostiku a pořadí pravidel</td>
+</tr>
+<tr>
+<td>Streaming event</td>
+<td>Přenést text, argumenty, stav, chyby a usage</td>
+<td><code>dispatch(event.type, event)</code></td>
+<td>Fragment není kompletní validovaný požadavek</td>
+</tr>
+<tr>
+<td>Adapter</td>
+<td>Převést externí API na společný kontrakt</td>
+<td><code>invoke(messages, tools)</code></td>
+<td>Abstrakce může skrýt specifické schopnosti providera</td>
+</tr>
+<tr>
+<td>Plugin / extension</td>
+<td>Distribuovat související schopnosti a konfiguraci</td>
+<td>Manifest + kód + zdroje</td>
+<td>Dodavatelský řetězec a nové pravomoci</td>
+</tr>
+<tr>
+<td>Tool interface</td>
+<td>Popsat schopnost, typy vstupů a výstupů</td>
+<td>Název + schema + výsledek</td>
+<td>Nejasný popis vede ke špatnému výběru nástroje</td>
+</tr>
+<tr>
+<td>Toolkit</td>
+<td>Sdružit nástroje pro konkrétní doménu</td>
+<td>Například čtení repozitáře a práce s diffem</td>
+<td>Příliš široká sada zvětšuje kontext i útočnou plochu</td>
+</tr>
+</tbody>
+</table>
+<p>Hook je obvykle callback konkrétní události. Middleware obaluje další výpočet a může řídit pokračování. LangChain nabízí oba styly; Semantic Kernel používá také pojem filter a pokračovací callback. Rozhodující je smlouva: kdy se kód volá, jaké informace obdrží, co smí změnit a co se stane při chybě. <a href="https://docs.langchain.com/oss/python/langchain/middleware/custom">LangChain Custom Middleware</a>, <a href="https://learn.microsoft.com/en-us/semantic-kernel/concepts/enterprise-readiness/filters">Semantic Kernel Filters</a></p>
+<p>Následující pseudokód odděluje kontrolní body:</p>
+<pre><code class="language-python">async def run_tool(call, identity, runtime):
+    validated = runtime.schemas.validate(call)
+    decision = runtime.policy.evaluate(identity, validated)
+    runtime.audit.record_decision(call.id, decision)
+
+    if not decision.allowed:
+        raise ToolDenied(decision.reason)
+
+    if decision.requires_approval:
+        approval = await runtime.approvals.request(validated)
+        runtime.approvals.verify_exact_action(approval, validated)
+
+    # Runner znovu vynutí scope i při přímém volání adaptéru.
+    result = await runtime.runner.execute(validated, decision.capabilities)
+    runtime.audit.record_result(call.id, result.status)
+    return runtime.outputs.normalize_untrusted(result)
+</code></pre>
+<p>Samotná normalizace textu neodstraňuje prompt injection. Vrácený obsah stále nese původ a důvěryhodnost; nesmí se proměnit v autoritativní instrukci. Stejně tak nepředpokládám, že všechny hosty při chybě hooku zastaví akci. Například dokumentace Codexu rozlišuje podporované blokovací výstupy a nepodporovaná pole, u nichž může volání pokračovat. <a href="https://learn.chatgpt.com/docs/hooks">Codex Hooks</a></p>
+<h3 id="streaming-potrebuje-vlastni-datovy-model">Streaming potřebuje vlastní datový model</h3>
+<p>Terminál potřebuje vědět nejen to, jaký text právě vzniká, ale i to, zda se načítá kontext, čeká na schválení nebo běží nástroj. Textové delty a lifecycle události proto odděluji.</p>
+<pre><code class="language-python"># Ilustrační event loop; názvy událostí jsou interní kontrakt aplikace.
+async for event in agent.stream():
+    match event.type:
+        case "text.delta":
+            terminal.write(event.delta)
+        case "tool.args.delta":
+            buffers[event.call_id].append(event.delta)
+        case "tool.ready":
+            call = parse_complete_call(buffers.pop(event.call_id))
+            await run_tool(call, identity, runtime)
+        case "tool.started":
+            terminal.show_running(event.call_id)
+        case "tool.finished":
+            terminal.show_result(event.call_id, event.status)
+        case "usage":
+            metrics.record_usage(event)
+        case "error":
+            terminal.show_error(event.safe_message)
+</code></pre>
+<p>Argumenty mohou přijít po neúplných částech. Nástroj se nespouští na prvním fragmentu: čeká se na dokončení, schema validation a policy rozhodnutí. Implementace potřebuje také limity bufferů, backpressure, zrušení a korelaci událostí po reconnectu. Fine-grained tool streaming výslovně upozorňuje na neúplný JSON. <a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming">Anthropic: tool streaming</a></p>
+<h3 id="mcp-a-lokalni-function-calling">MCP a lokální function calling</h3>
+<p>Lokální tool je vhodný pro schopnost úzce spojenou s aplikací. MCP dává smysl tam, kde stejnou schopnost potřebuje více hostů nebo je vhodné oddělit její správu. V obou případech potřebuji identitu volajícího, validované argumenty, pravidla přístupu a strukturovaný výsledek.</p>
+<pre><code class="language-json">{
+  "name": "workspace.read_text",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "path": { "type": "string" },
+      "max_bytes": { "type": "integer", "minimum": 1, "maximum": 100000 }
+    },
+    "required": ["path"],
+    "additionalProperties": false
+  }
+}
+</code></pre>
+<p>Toto je příklad interního schématu, nikoli univerzální registrační payload. Runner musí navíc vyřešit kořen workspace, symlinky, souběžné změny cest a oprávnění skutečně otevřeného souboru. Validní JSON ještě neznamená povolenou operaci.</p>
+<p>Ukázka běžného hostitelského konfiguračního tvaru pro lokální MCP server:</p>
+<pre><code class="language-json">{
+  "mcpServers": {
+    "project-tools": {
+      "command": "python",
+      "args": ["-m", "project_mcp"],
+      "env": { "PROJECT_ROOT": "/workspace" }
+    }
+  }
+}
+</code></pre>
+<p>Název konfiguračního klíče a způsob spuštění určuje host, ne samotný protokol. <code>PROJECT_ROOT</code> je konvence této ukázky. Tajné klíče do sdílené konfigurace nepatří. MCP zlepšuje interoperabilitu; autorizace a izolace zůstávají odpovědností konkrétní implementace.</p>
+<h2 id="orchestrace-jednoduchy-zaklad-meritelna-slozitost">Orchestrace: jednoduchý základ, měřitelná složitost</h2>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Kdy pomáhá</th>
+<th>Cena a riziko</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single-agent / ReAct</td>
+<td>Jeden agent průběžně vybírá nástroj a reaguje na výsledek</td>
+<td>Smyčky a zbytečná volání bez rozpočtu</td>
+</tr>
+<tr>
+<td>Router / MRKL</td>
+<td>Úlohy potřebují různé modely nebo specialisty</td>
+<td>Špatný routing poškodí i kvalitního specialistu</td>
+</tr>
+<tr>
+<td>Manager–worker</td>
+<td>Složitý úkol lze rozdělit na jasné odpovědnosti</td>
+<td>Koordinační režie a nejasné vlastnictví výsledku</td>
+</tr>
+<tr>
+<td>Agent-as-tool</td>
+<td>Hlavní agent potřebuje ohraničenou expertizu</td>
+<td>Příliš hluboké vnoření zhoršuje tracing</td>
+</tr>
+<tr>
+<td>Handoff / swarm</td>
+<td>Řízení má převzít jiný specialista</td>
+<td>Obtížnější globální kontrola a ukončení</td>
+</tr>
+<tr>
+<td>Sekvenční pipeline</td>
+<td>Postup je známý a opakovatelný</td>
+<td>Menší adaptivita při neočekávaném vstupu</td>
+</tr>
+<tr>
+<td>Grafový workflow</td>
+<td>Větvení, smyčky a návraty potřebují explicitní stav</td>
+<td>Více návrhu a testování přechodů</td>
+</tr>
+<tr>
+<td>Selector / group chat</td>
+<td>Dalšího řešitele je potřeba volit dynamicky</td>
+<td>Další inference a možnost ping-pongu</td>
+</tr>
+<tr>
+<td>Plan-and-execute</td>
+<td>Dlouhou úlohu je užitečné rozložit před realizací</td>
+<td>Plán zastarává a musí se revidovat</td>
+</tr>
+<tr>
+<td>Fan-out / fan-in</td>
+<td>Podúlohy jsou nezávislé a lze je spojit</td>
+<td>Konflikty zápisů, agregace chyb a částečné výsledky</td>
+</tr>
+<tr>
+<td>Critic / reviewer</td>
+<td>Výstup má projít další kritickou kontrolou</td>
+<td>Další cena; shodný model může opakovat stejný omyl</td>
+</tr>
+<tr>
+<td>Tree of Thoughts</td>
+<td>Problém vyžaduje prohledávání více kandidátů</td>
+<td>Rychle rostoucí výpočetní náklady</td>
+</tr>
+<tr>
+<td>Human-in-the-loop</td>
+<td>Akce vyžaduje rozhodnutí odpovědné osoby</td>
+<td>Čekání a nutnost přesně svázat souhlas s akcí</td>
+</tr>
+</tbody>
+</table>
+<p>Pro coding agenta je často dostačující hlavní agent, výzkumný nástroj a deterministická smyčka kontroly změn. Náročnější úkol přejde k plánovači; nezávislé části se rozdělí, výsledky se sloučí a následují testy, kontrola diffu a případná lidská brána.</p>
+<pre><code class="language-text">Úkol → hlavní agent → změna → testy a lint → kontrola diffu → výsledek
+          │                       │                │
+          ├─ výzkum jako tool      └─ chyba → oprava └─ riziková akce → souhlas
+          └─ plán → nezávislé podúlohy → spojení výsledků
+</code></pre>
+<p>Handoff předává řízení; agent-as-tool vrací dílčí výsledek původnímu volajícímu. Volba ovlivňuje historii, autoritu, rozpočty i to, kdo má rozhodnout o ukončení. Rozdíl je popsaný také v <a href="https://developers.openai.com/api/docs/guides/agents/orchestration">OpenAI Agents SDK: orchestration</a>.</p>
+<p>Přínos multi-agent řešení posuzuji proti stejným úlohám a stejným kritériím jako jednoduchý baseline. Měřím úspěšnost, čas, cenu za dokončený úkol a počet nových failure modes. Počet agentů sám o sobě není ukazatel kvality.</p>
+<h2 id="stav-checkpointy-a-bezpecne-pokracovani">Stav, checkpointy a bezpečné pokračování</h2>
+<p>Stav běhu potřebuje více než historii zpráv:</p>
+<pre><code class="language-python">from dataclasses import dataclass, field
+from typing import Literal
+
+@dataclass
+class RunState:
+    task_id: str
+    phase: Literal["plan", "edit", "test", "review", "blocked", "done"]
+    workspace_revision: str
+    completed_steps: list[str] = field(default_factory=list)
+    operation_ids: list[str] = field(default_factory=list)
+    pending_approval_id: str | None = None
+</code></pre>
+<p>Checkpoint se ukládá po významném přechodu spolu s verzí kontextu a konfigurace. Při obnově se nejdříve ověří skutečný stav prostředí. Změnil se repozitář? Vypršelo oprávnění? Dokončil externí systém operaci, jejíž odpověď se ztratila?</p>
+<p>Nejnebezpečnější okno je mezi provedením vedlejšího účinku a uložením jeho výsledku. Pouhé <code>checkpoint.commit()</code> po volání API toto okno neřeší. Potřebujeme idempotency klíč, transakční outbox nebo reconciliaci s cílovým systémem podle jeho možností.</p>
+<pre><code class="language-text">Zapsat záměr a operation_id
+→ ověřit oprávnění a případný souhlas
+→ provést operaci s idempotency klíčem
+→ uložit potvrzený výsledek
+→ posunout checkpoint
+
+Po pádu: nejdřív zjistit stav operation_id, potom rozhodnout o opakování.
+</code></pre>
+<p>Pro čtení může být retry levný a bezpečný. U odeslání e-mailu, vytvoření objednávky nebo publikace změny by slepé opakování mohlo znamenat druhou skutečnou akci. Ani obnovení lokálního filesystemu nevrací automaticky zpět změny v externím systému.</p>
+<h2 id="pamet-s-puvodem-platnosti-a-hranicemi-duvery">Paměť s původem, platností a hranicemi důvěry</h2>
+<p>Paměť má vlastní životní cyklus: vznik, zdroj, ověření, zpřístupnění, aktualizaci a smazání. Uložený text není automaticky pravdivý ani autoritativní.</p>
+<table>
+<thead>
+<tr>
+<th>Vrstva</th>
+<th>Obsah</th>
+<th>Doporučená politika</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Working context</td>
+<td>Aktuální zprávy a výsledky nástrojů</td>
+<td>Krátká životnost, rozpočty, řízená compaction</td>
+</tr>
+<tr>
+<td>Project memory</td>
+<td>Konvence repozitáře a provozní pravidla</td>
+<td>Verzované AGENTS.md, CLAUDE.md nebo GEMINI.md</td>
+</tr>
+<tr>
+<td>Episodic memory</td>
+<td>Dřívější incidenty a průběhy úloh</td>
+<td>Retrieval podle relevance, stáří a zdroje</td>
+</tr>
+<tr>
+<td>Semantic / user memory</td>
+<td>Stabilní fakta a preference</td>
+<td>Provenance, oprávnění, editace a smazání</td>
+</tr>
+<tr>
+<td>Procedural memory</td>
+<td>Skills, runbooky a opakovatelné postupy</td>
+<td>Verze, revize a konkrétní podmínky použití</td>
+</tr>
+<tr>
+<td>Reflection memory</td>
+<td>Poučení odvozené z předchozího pokusu</td>
+<td>Ověřit před dlouhodobým uložením</td>
+</tr>
+</tbody>
+</table>
+<p>Pseudokód odděleného paměťového kontraktu:</p>
+<pre><code class="language-python">memory.remember(
+    namespace=("project", repo_id),
+    fact="Testy projektu se spouštějí pomocí pnpm test.",
+    source="AGENTS.md@commit-sha",
+    trust="versioned_project_rule",
+    expires_at=None,
+)
+facts = memory.retrieve(
+    namespace=("project", repo_id),
+    query=current_task,
+    limit=8,
+    access_scope=current_identity.scope,
+)
+</code></pre>
+<p>Retrieval musí respektovat přístupová práva ještě před předáním dat modelu. Důvěryhodnost zdroje se nesmí ztratit při sumarizaci. Zápis vytvořený agentem potřebuje odlišné zacházení než explicitní pravidlo uživatele.</p>
+<p>MemGPT pracuje s analogií hierarchie paměti a přesouvání informací mezi omezeným kontextem a externím úložištěm. Generative Agents propojují vybavování, reflexi a plánování. Z těchto prací vychází užitečný návrhový jazyk; jejich experimentální výsledky nejsou automatickou garancí firemního nasazení. <a href="https://arxiv.org/abs/2310.08560">MemGPT</a>, <a href="https://arxiv.org/abs/2304.03442">Generative Agents</a></p>
+<h2 id="ctyri-ruzne-vyznamy-cache">Čtyři různé významy cache</h2>
+<table>
+<thead>
+<tr>
+<th>Cache</th>
+<th>Co opakuje</th>
+<th>Kdy dává smysl</th>
+<th>Na co dát pozor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provider prompt-prefix</td>
+<td>Zpracování shodné počáteční části vstupu</td>
+<td>Stabilní instrukce a nástroje</td>
+<td>Pravidla providera a invalidace prefixu</td>
+</tr>
+<tr>
+<td>Exact response</td>
+<td>Výsledek stejného požadavku</td>
+<td>Čisté kroky nad stejnou verzí dat</td>
+<td>Identita, oprávnění, model, schema a datová revize v klíči</td>
+</tr>
+<tr>
+<td>Semantic response</td>
+<td>Výsledek podobného požadavku</td>
+<td>Omezené scénáře s ověřenou ekvivalencí</td>
+<td>Podobný význam neznamená stejnou povolenou akci</td>
+</tr>
+<tr>
+<td>Tool / retrieval</td>
+<td>Výsledek nástroje nebo vyhledávání</td>
+<td>Čtení s definovanou platností</td>
+<td>TTL, změna zdroje a oddělení tenantů</td>
+</tr>
+</tbody>
+</table>
+<p>U prefix cache skládám stabilní pravidla a definice nástrojů před proměnlivý kontext. Čas, náhodná ID a aktuální úkol patří až za části, které se skutečně opakují. Tím se nemění logika odpovědi; znovu se využívá zpracování společného prefixu. <a href="https://developers.openai.com/api/docs/guides/prompt-caching">OpenAI Prompt Caching</a>, <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching">Anthropic Prompt Caching</a></p>
+<pre><code class="language-python"># Pseudokód klíče pro exact cache čisté operace.
+key = sha256(canonical_json({
+    "tenant": tenant_id,
+    "access_scope": access_scope_hash,
+    "model": model_version,
+    "prompt": prompt,
+    "tool_schemas": schema_version,
+    "data_revision": source_revision,
+    "settings": generation_settings,
+}))
+</code></pre>
+<p>Semantic cache vyžaduje samostatné evaly. „Pošli fakturu zákazníkovi A“ a „pošli fakturu zákazníkovi B“ mohou být blízko v embedding prostoru a přitom představují rozdílné akce. Sémantická podobnost také nedokazuje platnost dat nebo oprávnění. LiteLLM nabízí různé cache backendy; volba technologie nezbavuje aplikaci odpovědnosti za správný klíč a invalidaci. <a href="https://docs.litellm.ai/docs/proxy/caching">LiteLLM Caching</a></p>
+<p>Výsledek <code>send_email</code>, <code>git_push</code>, <code>delete_record</code> nebo <code>charge_card</code> nenahrazuji běžnou response cache. Pro opakovaný pokus používám protokol idempotence a potvrzený stav operace.</p>
+<h2 id="prompt-engineering-a-context-engineering">Prompt engineering a context engineering</h2>
+<p>Dobrý prompt zasazuji do životního cyklu systému. Důležité je, kdo instrukci vydal, jak dlouho platí, kolik kontextu spotřebuje a zda přináší měřitelný přínos.</p>
+<table>
+<thead>
+<tr>
+<th>Vzor</th>
+<th>Účel</th>
+<th>Praktický kompromis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Persistentní projektová pravidla</td>
+<td>Stabilní konvence a acceptance kritéria</td>
+<td>Nahromaděné instrukce mohou být zastaralé či v konfliktu</td>
+</tr>
+<tr>
+<td>Few-shot</td>
+<td>Ukázat žádoucí formát a rozhodnutí</td>
+<td>Dobré příklady mají cenu v tokenech</td>
+</tr>
+<tr>
+<td>Chain-of-Thought prompting</td>
+<td>Historický vzor podpory vícekrokového řešení</td>
+<td>Pro audit nepotřebujeme zveřejňovat interní reasoning</td>
+</tr>
+<tr>
+<td>ReAct</td>
+<td>Prokládat rozhodování a pozorování z nástrojů</td>
+<td>Potřebuje limity a stop podmínky</td>
+</tr>
+<tr>
+<td>Plan-and-Solve</td>
+<td>Připravit plán před dlouhou realizací</td>
+<td>Plán musí reagovat na nová zjištění</td>
+</tr>
+<tr>
+<td>Self-Refine / Reflexion</td>
+<td>Využít zpětnou vazbu v dalším pokusu</td>
+<td>Reflexe sama neověřuje pravdivost</td>
+</tr>
+<tr>
+<td>Tree of Thoughts</td>
+<td>Prohledávat více kandidátních cest</td>
+<td>Výpočetní rozpočet roste s větvením</td>
+</tr>
+<tr>
+<td>RAG</td>
+<td>Doplnit aktuální nebo doménové podklady</td>
+<td>Kvalita retrieval a důvěryhodnost zdroje jsou další problém</td>
+</tr>
+<tr>
+<td>Router / MRKL</td>
+<td>Vybrat specializovanou schopnost</td>
+<td>Chybný routing je samostatná regrese</td>
+</tr>
+<tr>
+<td>Skills / procedures</td>
+<td>Načíst specializovaný postup až podle potřeby</td>
+<td>Skill potřebuje verzi a jasný rozsah</td>
+</tr>
+<tr>
+<td>Structured output</td>
+<td>Nahradit volné parsování typovaným výstupem</td>
+<td>Schema kontroluje tvar, ne věcnou správnost</td>
+</tr>
+</tbody>
+</table>
+<p>Context engineering zahrnuje výběr, pořadí, rozpočty, provenance a obnovování informací. Do každého kroku neposílám celý archiv ani všechny dostupné nástroje. Zpřístupňuji relevantní schopnosti postupně a při compaction zachovávám zadání, omezení, stav operací a nevyřešené otázky.</p>
+<p>Historické instrukce mají projít stejným měřením jako nový prompt. Pokud odstranění části scaffoldu nezhorší výsledek a zlepší latenci, je to užitečná změna. Pokud jej zhorší, potřebujeme vědět na jakých úlohách. Rozhoduje regresní srovnání, nikoli délka system promptu.</p>
+<h2 id="observabilita-testovani-a-evaluace">Observabilita, testování a evaluace</h2>
+<p>Produkční systém musí umět vysvětlit, co se stalo, a zároveň vyhodnotit, zda to bylo správně. Úplný trace neznamená správný výsledek; vysoké skóre na malé sadě úloh zase neznamená dohledatelný provoz.</p>
+<table>
+<thead>
+<tr>
+<th>Oblast</th>
+<th>Co ověřuje</th>
+<th>Typické prostředky</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unit a contract testy</td>
+<td>Schémata, nástroje, hooky a chyby bez modelu</td>
+<td>Deterministické fixtures, fake model, pytest/Jest</td>
+</tr>
+<tr>
+<td>End-to-end agent evals</td>
+<td>Splnění úkolu v konkrétním prostředí</td>
+<td>Dataset, agent, scorer; Inspect, Phoenix, Pydantic Evals</td>
+</tr>
+<tr>
+<td>Prompt regression</td>
+<td>Změnu chování mezi verzemi</td>
+<td>Srovnávací experiment a verze datasetu</td>
+</tr>
+<tr>
+<td>Red teaming</td>
+<td>Zneužití nástrojů, kontextu, paměti a oprávnění</td>
+<td>Adversariální úlohy v izolovaném prostředí</td>
+</tr>
+<tr>
+<td>Observabilita</td>
+<td>Trajektorii, latenci, retry a spotřebu</td>
+<td>Korelované traces, metrics a strukturované logy</td>
+</tr>
+<tr>
+<td>Release gates</td>
+<td>Přijatelnost změny před nasazením</td>
+<td>CI, stanovené prahy, canary a rollback</td>
+</tr>
+</tbody>
+</table>
+<p>Inspect skládá evaluaci z datasetu, řešitele nebo agenta a scoreru. Promptfoo umožňuje začlenit evaly a bezpečnostní kontroly do CI. Phoenix přidává práci s traces a experimenty. Jednotlivé nástroje plní různé role; samotná jejich instalace není eval strategie. <a href="https://inspect.aisi.org.uk/">Inspect</a>, <a href="https://www.promptfoo.dev/docs/integrations/ci-cd/">Promptfoo CI/CD</a>, <a href="https://arize.com/docs/phoenix">Phoenix</a></p>
+<h3 id="co-skutecne-merit">Co skutečně měřit</h3>
+<table>
+<thead>
+<tr>
+<th>Skupina</th>
+<th>Metrika</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outcome</td>
+<td>Task success rate</td>
+<td>Podíl úloh splňujících explicitní acceptance test</td>
+</tr>
+<tr>
+<td>Outcome</td>
+<td>Pass@k</td>
+<td>Alespoň jeden úspěch v k pokusech; uvádět také rozpočet</td>
+</tr>
+<tr>
+<td>Outcome</td>
+<td>Tests passed / build success</td>
+<td>Deterministická kontrola výsledku coding úlohy</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Tool-selection accuracy</td>
+<td>Správnost volby schopnosti vůči anotaci úlohy</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Argument validity rate</td>
+<td>Podíl požadavků procházejících schema validací</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Duplicate side effects</td>
+<td>Opakované skutečné zápisy či odeslání</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Unnecessary calls</td>
+<td>Volání nad potřebnou nebo referenční trajektorii</td>
+</tr>
+<tr>
+<td>Trajectory</td>
+<td>Turns-to-success, retry a loop rate</td>
+<td>Kolik kroků a opakování vede k dokončení</td>
+</tr>
+<tr>
+<td>Trajectory</td>
+<td>Plan adherence</td>
+<td>Soulad s povoleným rozsahem a aktuálním plánem</td>
+</tr>
+<tr>
+<td>Memory / RAG</td>
+<td>Retrieval precision a recall</td>
+<td>Relevantnost a úplnost nalezených podkladů</td>
+</tr>
+<tr>
+<td>Memory / RAG</td>
+<td>Stale-memory rate, groundedness</td>
+<td>Platnost informací a opora závěru ve zdrojích</td>
+</tr>
+<tr>
+<td>Safety</td>
+<td>Policy denials</td>
+<td>Odmítnuté návrhy; interpretovat podle typu úloh</td>
+</tr>
+<tr>
+<td>Safety</td>
+<td>Unsafe-execution rate</td>
+<td>Skutečně provedené nepovolené akce; cílově nula</td>
+</tr>
+<tr>
+<td>Safety</td>
+<td>Injection success rate</td>
+<td>Útoky vedoucí k porušení stanovené policy</td>
+</tr>
+<tr>
+<td>Performance</td>
+<td>TTFT / první užitečná událost</td>
+<td>Jak rychle uživatel dostane smysluplnou odezvu</td>
+</tr>
+<tr>
+<td>Performance</td>
+<td>Wall-clock, model/tool p50/p95/p99</td>
+<td>Celková doba i rozdělení zpoždění</td>
+</tr>
+<tr>
+<td>Efficiency</td>
+<td>Tokeny a cena za úspěšný úkol</td>
+<td>Náklady normalizované skutečným výsledkem</td>
+</tr>
+<tr>
+<td>Cache</td>
+<td>Hit ratio podle vrstvy</td>
+<td>Prefix, exact a tool cache měřit odděleně</td>
+</tr>
+<tr>
+<td>Reliability</td>
+<td>Completion a resume-success rate</td>
+<td>Dokončení a zotavení z přerušení</td>
+</tr>
+<tr>
+<td>Reliability</td>
+<td>Idempotency violations</td>
+<td>Vedlejší účinky zopakované při obnově</td>
+</tr>
+<tr>
+<td>Observability</td>
+<td>Trace completeness</td>
+<td>Podíl kroků s dohledatelnou korelací</td>
+</tr>
+</tbody>
+</table>
+<p>LLM judge je vhodný tam, kde výsledek vyžaduje posouzení nuance. Pokud existuje deterministická pravda — exit code, schema, test, diff policy, počet řádků nebo hash — použiji běžný program. Judge potřebuji kalibrovat proti lidskému hodnocení a sledovat jeho vlastní bias.</p>
+<p>Datasety rozděluji alespoň na vývojové a nezávislé validační úlohy. Jinak může optimalizace jen přizpůsobit prompt známému testu. U stochastických úloh sleduji opakované běhy a variabilitu, nikoli jediný šťastný výsledek.</p>
+<h3 id="doporuceny-event-model">Doporučený event model</h3>
+<pre><code class="language-python"># Pseudokód: interní názvy spanů, nikoli závazná OTel schema.
+with trace.span("agent.turn", task_id=task_id, session_id=session_id):
+    with trace.span("model.call", model=model_version):
+        response = await model.generate(context)
+
+    for call in response.tool_calls:
+        with trace.span("tool.call", tool=call.name, call_id=call.id):
+            result = await run_tool(call, identity, runtime)
+            metrics.record_status(call.name, result.status)
+</code></pre>
+<p>Prompty a výsledky nástrojů mohou obsahovat osobní údaje i secrets. Výchozí telemetrie proto zaznamenává bezpečné atributy, stav, čas a korelaci; obsah má vlastní pravidla redakce, přístupu a retence. Trace ID nepoužívám jako metriku s neomezenou kardinalitou.</p>
+<p>OpenTelemetry rozvíjí GenAI konvence a jejich dokumentace se přesunula do samostatného repozitáře. Stabilitu je nutné kontrolovat u konkrétních atributů a verzí. Interní event model proto odděluji od exportního adaptéru. <a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/">OpenTelemetry GenAI</a></p>
+<h2 id="sandboxing-a-bezpecnost-nastrojoveho-runtime">Sandboxing a bezpečnost nástrojového runtime</h2>
+<p>Runner má fungovat jako prostředník přidělující konkrétní schopnosti. Modelový návrh shell příkazu není sám o sobě oprávněním k jeho provedení.</p>
+<pre><code class="language-yaml"># Ilustrační politika; musí ji vynucovat runner a systémové mechanismy.
+workspace: /repo
+filesystem:
+  read_only: [/repo]
+  writable: [/repo/src, /repo/tests]
+  deny: [/repo/.env]
+network:
+  default: deny
+  allow_hosts: [registry.npmjs.org, pypi.org]
+limits:
+  runtime_seconds: 120
+  processes: 32
+approvals:
+  required_for: [deploy, git.push, database.delete, email.send]
+</code></pre>
+<p>Allowlist domén není úplná síťová ochrana. Záleží na DNS, proxy, přesměrování, dostupných protokolech i tom, jaká data může nástroj odeslat na povolenou službu. Mounty, credentials, CPU, paměť a procesy mají vlastní omezení. Citlivé soubory hostitele se do prostředí vůbec nemusí dostat.</p>
+<p>Schválení musí být navázané na konkrétní payload nebo diff, identitu a platnost. Změní-li se akce po schválení, původní souhlas nestačí. Agent také nemá mít možnost přepsat policy či testovací bránu, podle které se jeho práce posuzuje.</p>
+<h3 id="minimalni-threat-model">Minimální threat model</h3>
+<ol>
+<li><strong>Prompt injection:</strong> externí dokument, web, issue nebo výsledek nástroje se snaží přepsat zadání. Odděluji data od autority a kontroluji skutečné akce.</li>
+<li><strong>Excessive agency:</strong> nástroj má větší rozsah, než úloha vyžaduje. Omezuji schopnosti a dobu jejich platnosti.</li>
+<li><strong>Tool/MCP poisoning:</strong> změna popisu, implementace či odpovědi nástroje ovlivní rozhodování. Verzuji a prověřuji dodavatele i kontrakty.</li>
+<li><strong>Memory poisoning:</strong> nedůvěryhodný obsah přežije v paměti do další session. Uchovávám provenance a řídím zápis i retrieval.</li>
+<li><strong>Improper output handling:</strong> aplikace použije vygenerovaný shell, SQL, HTML nebo URL bez běžné validace. Výstup modelu zůstává nedůvěryhodným vstupem.</li>
+<li><strong>Supply-chain útoky:</strong> skill, plugin nebo extension přináší kód a nové možnosti exekuce. Připínám verze, kontroluji zdroj a oprávnění.</li>
+<li><strong>Selhání obnovy a souběhu:</strong> dva běhy provedou stejnou akci nebo pracují s jinou revizí. Používám operation IDs, zámky či transakce podle domény.</li>
+</ol>
+<p>Pro mapování rizik používám <a href="https://genai.owasp.org/llm-top-10/">OWASP LLM Top 10</a>, <a href="https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/">OWASP Agentic Top 10</a> a <a href="https://atlas.mitre.org/">MITRE ATLAS</a>. Tyto zdroje jsou rámec pro threat modeling, nikoli certifikát bezpečnosti konkrétní aplikace.</p>
+<p>Bezpečnostní test musí zkoušet i chybu policy služby, timeout hooku, podvržený tool result a pokus změnit konfiguraci během běhu. U bezpečnostně kritického rozhodnutí má nedostupná kontrola zabránit provedení, nikoli otevřít alternativní cestu.</p>
+<h2 id="ci-cd-a-verzovani-celeho-agentniho-systemu">CI/CD a verzování celého agentního systému</h2>
+<p>Nasazení agenta mění více než zdrojový kód aplikace. Model, instrukce, nástroje, paměť a runtime konfigurace společně určují chování.</p>
+<pre><code class="language-yaml"># Logická pipeline; není to přímo spustitelný GitHub Actions workflow.
+pull_request:
+  - lint_and_unit_tests
+  - tool_contract_tests
+  - deterministic_agent_smoke_evals
+  - prompt_regressions
+  - policy_and_sandbox_tests
+merge_to_main:
+  - full_agent_eval
+  - security_red_team
+  - build_versioned_bundle
+  - deploy_canary
+canary:
+  - compare_task_success
+  - compare_latency_and_cost
+  - inspect_policy_denials
+  - rollback_on_regression
+nightly:
+  - larger_eval_suite
+  - dependency_and_plugin_scan
+  - adversarial_cases
+  - redacted_production_trace_sampling
+</code></pre>
+<p>Do verze artefaktu zahrnuji identifikátor modelu a routing, system prompty, projektová pravidla, skills, tool schemas, MCP servery, policy, eval dataset, paměťové schema a digest sandbox image. Když se po releasu změní chování, potřebujeme najít konkrétní rozdíl.</p>
+<p>Canary porovnává kvalitu i provozní náklady. Vyšší počet policy denials může znamenat lepší ochranu, ale také chybné blokování běžné práce. Metriky vyhodnocuji společně a v kontextu typu úlohy. Rollback musí počítat s kompatibilitou uloženého stavu; návrat starého kódu nemusí automaticky vrátit schema paměti nebo změny provedené venku.</p>
+<h2 id="performance-tuning-podle-navratnosti">Performance tuning podle návratnosti</h2>
+<p>Nejdříve změřím, kde vzniká čekání a kolik stojí úspěšné dokončení. Pak volím konkrétní zásah:</p>
+<ol>
+<li><strong>Stabilní prompt prefix:</strong> využít opakované části kontextu tam, kde to provider podporuje.</li>
+<li><strong>Context pruning:</strong> nahradit přebytečný historický log strukturovaným stavem a relevantními podklady.</li>
+<li><strong>Progressive tool disclosure:</strong> zpřístupnit aktuálně potřebnou sadu schopností místo stovek schémat.</li>
+<li><strong>Paralelizace nezávislých čtení:</strong> repozitář, dokumentaci a issue lze často načíst souběžně. Zápisy do sdíleného stavu vyžadují jiný návrh.</li>
+<li><strong>Streaming:</strong> zkrátit čekání na první užitečnou informaci, i když se celkový compute nezmění.</li>
+<li><strong>Model routing:</strong> jednoduchou klasifikaci přenechat menšímu modelu, složitou syntézu silnějšímu; routing samostatně evaluovat.</li>
+<li><strong>Rozpočty a stop podmínky:</strong> zabránit nekonečným smyčkám a opakování stejné chyby.</li>
+</ol>
+<pre><code class="language-python"># Ilustrační limity pro jednu třídu úloh, nikoli univerzální doporučení.
+budgets = {
+    "max_turns": 40,
+    "max_tool_calls": 100,
+    "max_same_tool_retries": 3,
+    "max_tokens": 100_000,
+    "wall_clock_timeout_seconds": 900,
+    "max_cost_usd": 2.0,
+}
+</code></pre>
+<p>Po dosažení limitu systém uloží stav, sdělí dosažený výsledek a konkrétní překážku. Neoznačí úkol za hotový jen proto, že už nemá rozpočet.</p>
+<p>LLMCompiler ukazuje význam plánování závislostí a paralelního vykonávání nezávislých tool callů. Výsledky konkrétního benchmarku však nepřenáším na vlastní produkt bez měření. <a href="https://arxiv.org/abs/2312.04511">LLMCompiler</a></p>
+<h2 id="historicky-vyvoj-a-poznatky-z-praxe">Historický vývoj a poznatky z praxe</h2>
+<table>
+<thead>
+<tr>
+<th>Období</th>
+<th>Významné práce a posun</th>
+<th>Co zůstává prakticky užitečné</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2020</td>
+<td>Retrieval-Augmented Generation</td>
+<td>Externí znalosti vedle parametrů modelu</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>Chain-of-Thought, MRKL, ReAct</td>
+<td>Vícekrokové řešení, směrování a práce s nástroji</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>Toolformer, Reflexion, Self-Refine, Generative Agents</td>
+<td>Tool use, zpětná vazba, paměť a plánování</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>Plan-and-Solve, Tree of Thoughts, MemGPT, LLMCompiler</td>
+<td>Plány, prohledávání, paměťové vrstvy a závislosti</td>
+</tr>
+<tr>
+<td>2024–2026</td>
+<td>MCP, terminálové harnessy a agentní SDK</td>
+<td>Jasnější integrační kontrakty a řízení runtime</td>
+</tr>
+<tr>
+<td>Současná praxe</td>
+<td>Hooky, policy, evaluace, traces a izolované prostředí</td>
+<td>Přesun odpovědnosti z promptu do explicitního systému</td>
+</tr>
+</tbody>
+</table>
+<p>ReAct pomáhá popsat cyklus rozhodnutí, akce a pozorování. MRKL specializaci a routing. Self-Refine a Reflexion práci se zpětnou vazbou. Tree of Thoughts rozšiřuje hledání na více kandidátních cest. Každý pattern má cenu v inferencích, stavu a testování. Výzkumný přínos není důvod použít všechny vzory současně.</p>
+<p>Praktické diskuse přidávají opakující se problémy: stale state, runaway retry loops, duplicitní vedlejší účinky, rozpadající se streaming a chybějící tool ledger. Fórum může být podnětem k testu. Autoritativní kontrakt API hledám v dokumentaci a konkrétní chování ověřuji v připnuté verzi.</p>
+<p>Český kontext má stejnou technickou podstatu: firemní data, interní procesy, oprávnění a omezená kapacita na provoz. U databázového asistenta například často dává smysl úzce vymezený read-only nástroj bez předání dlouhodobého hesla modelu. U hlasové recepce je zásadní návaznost hovoru na stav úlohy a ověřitelný záznam. U vývojového agenta scope změny, testy a předání výsledku. Lokální jazyk ani lokální model tyto odpovědnosti neodstraňují.</p>
+<h2 id="jak-se-tento-pristup-promita-do-me-prace">Jak se tento přístup promítá do mé práce</h2>
+<p>V <a href="/projekty/agenticdev">AgenticDev</a> je těžištěm řízení kontextu, pracovního běhu a auditní stopy. <a href="/projekty/posthub">PostHub</a> spojuje kontext jednotlivých značek s asynchronním zpracováním a schvalováním. <a href="/projekty/zaznamnik-pro">Zaznamnik.pro</a> propojuje hlasovou interakci s navazujícím backendovým procesem. Každá studie popisuje konkrétní stav a jeho omezení.</p>
+<p>Stejný systémový pohled se uplatňuje i mimo LLM: u <a href="/projekty/sch-ekonom-klientsky-portal">SCH-EKONOM</a> na rolích a návaznosti pracovních toků, u <a href="/projekty/ept-connectors-recepce">EPT recepce</a> na cestě od OCR přes potvrzení údajů k evidenci návštěvy. Ne každý problém potřebuje generativní model. Každý potřebuje jasné odpovědnosti, správná data a kontrolovatelný výsledek.</p>
+<p><strong>LLM patří dovnitř explicitně stavového runtime s řízenými pravomocemi.</strong> Umí navrhnout další krok; systém kolem něj musí zajistit, že je krok přípustný, dohledatelný a vyhodnotitelný. To je pro mě podstata ucelené architektury agentních a LLM systémů.</p>
+<h2 id="katalog-primarnich-zdroju">Katalog primárních zdrojů</h2>
+<p>Odkazy slouží k ověření kontraktů a dalšímu studiu. Dokumentace se průběžně mění; produkční konfiguraci připínám k verzi implementace. Komunitní diskuse z původních podkladů nepoužívám jako důkaz konkrétního API.</p>
+<h3 id="harnessy-a-jejich-rozsirovani">Harnessy a jejich rozšiřování</h3>
+<table>
+<thead>
+<tr>
+<th>Zdroj</th>
+<th>Téma</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/blob/main/packages/coding-agent/README.md">Pi Coding Agent</a></td>
+<td>Terminálový harness, konfigurace a programové použití</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/extensions.md">Pi Extensions</a></td>
+<td>Události, nástroje a vlastní rozšíření</td>
+</tr>
+<tr>
+<td><a href="https://code.claude.com/docs/en/hooks">Claude Code Hooks</a></td>
+<td>Lifecycle kontrakty a rozhodování kolem nástrojů</td>
+</tr>
+<tr>
+<td><a href="https://learn.chatgpt.com/docs/hooks">Codex Hooks</a></td>
+<td>Hooky, podporované výstupy a jejich omezení</td>
+</tr>
+<tr>
+<td><a href="https://developers.openai.com/plugins/build/plugins">Codex Plugins</a></td>
+<td>Balení skills, MCP a hooků; důvěra v rozšíření</td>
+</tr>
+<tr>
+<td><a href="https://geminicli.com/docs/hooks/reference/">Gemini CLI Hooks</a></td>
+<td>Before/After události a JSON kontrakty</td>
+</tr>
+<tr>
+<td><a href="https://docs.github.com/en/copilot/concepts/agents/hooks">GitHub Copilot Hooks</a></td>
+<td>Události agentního workflow</td>
+</tr>
+<tr>
+<td><a href="https://aider.chat/docs/">Aider</a></td>
+<td>Repo map, Git a testovací smyčka</td>
+</tr>
+<tr>
+<td><a href="https://block.github.io/goose/docs/quickstart/">Goose</a></td>
+<td>Rozšíření a recipes</td>
+</tr>
+<tr>
+<td><a href="https://docs.continue.dev/cli/quickstart">Continue CLI</a></td>
+<td>Interaktivní a headless workflow</td>
+</tr>
+<tr>
+<td><a href="https://docs.openhands.dev/">OpenHands</a></td>
+<td>Agent a execution prostředí</td>
+</tr>
+</tbody>
+</table>
+<h3 id="frameworky-stav-a-integrace">Frameworky, stav a integrace</h3>
+<table>
+<thead>
+<tr>
+<th>Zdroj</th>
+<th>Téma</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://modelcontextprotocol.io/specification/2026-07-28">MCP 2026-07-28</a></td>
+<td>Protokol, role a bezpečnostní principy</td>
+</tr>
+<tr>
+<td><a href="https://docs.langchain.com/oss/python/langchain/middleware/custom">LangChain middleware</a></td>
+<td>Before, after a wrap body rozšíření</td>
+</tr>
+<tr>
+<td><a href="https://docs.langchain.com/oss/python/langgraph/persistence">LangGraph persistence</a></td>
+<td>Checkpointy, vlákna a dlouhodobý store</td>
+</tr>
+<tr>
+<td><a href="https://developers.openai.com/api/docs/guides/agents/sdk">OpenAI Agents SDK</a></td>
+<td>Nástroje, orchestrace, stav a guardrails</td>
+</tr>
+<tr>
+<td><a href="https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/index.html">AutoGen AgentChat</a></td>
+<td>Agenti, týmy a ukončování běhů</td>
+</tr>
+<tr>
+<td><a href="https://ai.pydantic.dev/">Pydantic AI</a></td>
+<td>Typované vstupy, nástroje a výstupy</td>
+</tr>
+<tr>
+<td><a href="https://developers.llamaindex.ai/python/framework/">LlamaIndex</a></td>
+<td>Agenti, retrieval a workflows</td>
+</tr>
+<tr>
+<td><a href="https://docs.crewai.com/">CrewAI</a></td>
+<td>Crews a flows</td>
+</tr>
+<tr>
+<td><a href="https://learn.microsoft.com/en-us/semantic-kernel/concepts/enterprise-readiness/filters">Semantic Kernel filters</a></td>
+<td>Filtry kolem funkcí a promptů</td>
+</tr>
+<tr>
+<td><a href="https://huggingface.co/docs/smolagents/index">smolagents</a></td>
+<td>Code a tool-calling agents</td>
+</tr>
+<tr>
+<td><a href="https://dspy.ai/">DSPy</a></td>
+<td>Programové skládání a optimalizace podle metrik</td>
+</tr>
+</tbody>
+</table>
+<h3 id="evaluace-provoz-a-bezpecnost">Evaluace, provoz a bezpečnost</h3>
+<table>
+<thead>
+<tr>
+<th>Zdroj</th>
+<th>Téma</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://inspect.aisi.org.uk/">Inspect AI</a></td>
+<td>Dataset, agent/solver, scorer a sandbox</td>
+</tr>
+<tr>
+<td><a href="https://www.promptfoo.dev/docs/integrations/ci-cd/">Promptfoo CI/CD</a></td>
+<td>Eval a bezpečnostní brány v pipeline</td>
+</tr>
+<tr>
+<td><a href="https://arize.com/docs/phoenix">Phoenix</a></td>
+<td>Tracing, datasety a experimenty</td>
+</tr>
+<tr>
+<td><a href="https://ai.pydantic.dev/evals/">Pydantic Evals</a></td>
+<td>Programové evaluace</td>
+</tr>
+<tr>
+<td><a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/">OpenTelemetry GenAI</a></td>
+<td>Odkaz na aktuální GenAI konvence</td>
+</tr>
+<tr>
+<td><a href="https://developers.openai.com/api/docs/guides/prompt-caching">OpenAI prompt caching</a></td>
+<td>Opakované prefixy</td>
+</tr>
+<tr>
+<td><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching">Anthropic prompt caching</a></td>
+<td>Cache prefixu a pravidla invalidace</td>
+</tr>
+<tr>
+<td><a href="https://docs.litellm.ai/docs/proxy/caching">LiteLLM caching</a></td>
+<td>Cache vrstvy a backendy</td>
+</tr>
+<tr>
+<td><a href="https://geminicli.com/docs/cli/sandbox/">Gemini sandbox</a></td>
+<td>Izolace agentní exekuce</td>
+</tr>
+<tr>
+<td><a href="https://geminicli.com/docs/cli/checkpointing/">Gemini checkpointing</a></td>
+<td>Obnova projektu a kontextu</td>
+</tr>
+<tr>
+<td><a href="https://genai.owasp.org/llm-top-10/">OWASP LLM Top 10</a></td>
+<td>Prompt injection, excessive agency a output handling</td>
+</tr>
+<tr>
+<td><a href="https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/">OWASP Agentic Top 10 2026</a></td>
+<td>Rizika agentních aplikací</td>
+</tr>
+<tr>
+<td><a href="https://atlas.mitre.org/">MITRE ATLAS</a></td>
+<td>Znalostní báze útoků na AI systémy</td>
+</tr>
+<tr>
+<td><a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">NIST AI 600-1</a></td>
+<td>Profil řízení rizik generativní AI</td>
+</tr>
+</tbody>
+</table>
+<h3 id="puvodni-vyzkumne-prace">Původní výzkumné práce</h3>
+<table>
+<thead>
+<tr>
+<th>Práce</th>
+<th>Rok</th>
+<th>Přínos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://arxiv.org/abs/2005.11401">RAG</a></td>
+<td>2020</td>
+<td>Retrieval a generování</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2201.11903">Chain-of-Thought</a></td>
+<td>2022</td>
+<td>Vícekrokové prompting vzory</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2205.00445">MRKL</a></td>
+<td>2022</td>
+<td>Router a specializované moduly</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2210.03629">ReAct</a></td>
+<td>2022</td>
+<td>Reasoning a interakce s prostředím</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2302.04761">Toolformer</a></td>
+<td>2023</td>
+<td>Učení použití externích nástrojů</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2303.11366">Reflexion</a></td>
+<td>2023</td>
+<td>Textová zpětná vazba mezi pokusy</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2303.17651">Self-Refine</a></td>
+<td>2023</td>
+<td>Iterativní kritika a zlepšování</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2304.03442">Generative Agents</a></td>
+<td>2023</td>
+<td>Paměť, reflexe a plánování</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2305.04091">Plan-and-Solve</a></td>
+<td>2023</td>
+<td>Plán před řešením</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2305.10601">Tree of Thoughts</a></td>
+<td>2023</td>
+<td>Prohledávání kandidátních stavů</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2310.08560">MemGPT</a></td>
+<td>2023</td>
+<td>Hierarchie kontextu a paměti</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2312.04511">LLMCompiler</a></td>
+<td>2023</td>
+<td>Závislosti a paralelní tool execution</td>
+</tr>
+</tbody>
+</table>
+20:["$","article",null,{"className":"blog-article-card overflow-hidden rounded-[32px] border border-white/10","children":["$","div",null,{"className":"p-7 md:p-12","children":[["$","div",null,{"className":"mb-7 flex flex-wrap gap-2 text-[10px] font-black uppercase tracking-wider text-[#74e7c1]","children":[["$","span",null,{"children":"Martin Švanda"}],["$","span",null,{"children":"·"}],["$","time",null,{"children":"5. října 2026"}],[["$","span",null,{"children":"·"}],["$","span",null,{"children":"Expert"}]]]}],["$","p",null,{"className":"mb-8 text-lg leading-8 text-zinc-300","children":"Model je jedna komponenta. Ucelený agentní systém propojuje kontext, nástroje, stav, paměť, oprávnění, izolovanou exekuci a evaluace. Architektonický průvodce z pohledu Prautu a vlastní varianty Pi harnessu."}],null,["$","div",null,{"className":"blog-prose","dangerouslySetInnerHTML":{"__html":"$34"}}],null,null]}]}]
+21:["$","$L36",null,{}]
+22:["$","$L37",null,{"slug":"architektura-terminalovych-llm-agentu"}]
+23:["$","nav",null,{"className":"mt-12 grid gap-3 sm:grid-cols-2","aria-label":"Předchozí a další článek","children":[["$","$L38",null,{"href":"/blog/prvni-krajsky-ai-hackathon-v-chebu","className":"rounded-2xl border border-white/10 bg-white/5 p-5 text-sm font-bold hover:border-[#4ecca3]/40","children":["← ","První krajský AI hackathon v Chebu: důkaz, že talent neroste jen ve velkých městech"]}],["$","$L38",null,{"href":"/blog/ai-agent-nebo-workflow","className":"rounded-2xl border border-white/10 bg-white/5 p-5 text-right text-sm font-bold hover:border-[#4ecca3]/40","children":["AI agent, nebo pevný workflow? Rozhodnutí podle práce"," →"]}]]}]
+24:["$","section",null,{"className":"mt-14","children":[["$","h2",null,{"className":"text-2xl font-black","children":"Doporučené články"}],["$","div",null,{"className":"mt-4 grid gap-3 md:grid-cols-3","children":[["$","$L38","ai-agent-nebo-workflow",{"href":"/blog/ai-agent-nebo-workflow","className":"rounded-2xl border border-white/10 bg-white/5 p-4 text-sm font-bold hover:border-[#4ecca3]/40","children":"AI agent, nebo pevný workflow? Rozhodnutí podle práce"}],["$","$L38","overovani-ai-systemu",{"href":"/blog/overovani-ai-systemu","className":"rounded-2xl border border-white/10 bg-white/5 p-4 text-sm font-bold hover:border-[#4ecca3]/40","children":"Jak ověřovat AI systém: testovací sada, hranice a opakování"}]]}]]}]
+25:["$","aside",null,{"className":"blog-toc-sidebar sticky top-16 hidden rounded-2xl border p-5 lg:block","children":[["$","p",null,{"className":"text-xs font-black uppercase tracking-wider text-[#74e7c1]","children":"Obsah"}],["$","ol",null,{"className":"mt-3 space-y-2 text-xs leading-5 text-zinc-400","children":[["$","li","exekutivni-shrnuti",{"className":"","children":["$","a",null,{"href":"#exekutivni-shrnuti","className":"hover:text-white","children":"Exekutivní shrnutí"}]}],["$","li","referencni-architektura-a-odpovednosti-vrstev",{"className":"","children":["$","a",null,{"href":"#referencni-architektura-a-odpovednosti-vrstev","className":"hover:text-white","children":"Referenční architektura a odpovědnosti vrstev"}]}],["$","li","prioritni-implementacni-checklist",{"className":"pl-3","children":["$","a",null,{"href":"#prioritni-implementacni-checklist","className":"hover:text-white","children":"Prioritní implementační checklist"}]}],["$","li","pi-harness-v-prautu-a-srovnani-pristupu",{"className":"","children":["$","a",null,{"href":"#pi-harness-v-prautu-a-srovnani-pristupu","className":"hover:text-white","children":"Pi harness v Prautu a srovnání přístupů"}]}],["$","li","konfiguracni-a-rozsirovaci-vrstvy",{"className":"","children":["$","a",null,{"href":"#konfiguracni-a-rozsirovaci-vrstvy","className":"hover:text-white","children":"Konfigurační a rozšiřovací vrstvy"}]}],["$","li","hooky-middleware-adaptery-a-nastroje",{"className":"pl-3","children":["$","a",null,{"href":"#hooky-middleware-adaptery-a-nastroje","className":"hover:text-white","children":"Hooky, middleware, adaptéry a nástroje"}]}],["$","li","streaming-potrebuje-vlastni-datovy-model",{"className":"pl-3","children":["$","a",null,{"href":"#streaming-potrebuje-vlastni-datovy-model","className":"hover:text-white","children":"Streaming potřebuje vlastní datový model"}]}],["$","li","mcp-a-lokalni-function-calling",{"className":"pl-3","children":["$","a",null,{"href":"#mcp-a-lokalni-function-calling","className":"hover:text-white","children":"MCP a lokální function calling"}]}],["$","li","orchestrace-jednoduchy-zaklad-meritelna-slozitost",{"className":"","children":["$","a",null,{"href":"#orchestrace-jednoduchy-zaklad-meritelna-slozitost","className":"hover:text-white","children":"Orchestrace: jednoduchý základ, měřitelná složitost"}]}],["$","li","stav-checkpointy-a-bezpecne-pokracovani",{"className":"","children":["$","a",null,{"href":"#stav-checkpointy-a-bezpecne-pokracovani","className":"hover:text-white","children":"Stav, checkpointy a bezpečné pokračování"}]}],["$","li","pamet-s-puvodem-platnosti-a-hranicemi-duvery",{"className":"","children":["$","a",null,{"href":"#pamet-s-puvodem-platnosti-a-hranicemi-duvery","className":"hover:text-white","children":"Paměť s původem, platností a hranicemi důvěry"}]}],["$","li","ctyri-ruzne-vyznamy-cache",{"className":"","children":["$","a",null,{"href":"#ctyri-ruzne-vyznamy-cache","className":"hover:text-white","children":"Čtyři různé významy cache"}]}],["$","li","prompt-engineering-a-context-engineering",{"className":"","children":["$","a",null,{"href":"#prompt-engineering-a-context-engineering","className":"hover:text-white","children":"Prompt engineering a context engineering"}]}],["$","li","observabilita-testovani-a-evaluace",{"className":"","children":["$","a",null,{"href":"#observabilita-testovani-a-evaluace","className":"hover:text-white","children":"Observabilita, testování a evaluace"}]}],["$","li","co-skutecne-merit",{"className":"pl-3","children":["$","a",null,{"href":"#co-skutecne-merit","className":"hover:text-white","children":"Co skutečně měřit"}]}],["$","li","doporuceny-event-model",{"className":"pl-3","children":["$","a",null,{"href":"#doporuceny-event-model","className":"hover:text-white","children":"Doporučený event model"}]}],["$","li","sandboxing-a-bezpecnost-nastrojoveho-runtime",{"className":"","children":["$","a",null,{"href":"#sandboxing-a-bezpecnost-nastrojoveho-runtime","className":"hover:text-white","children":"Sandboxing a bezpečnost nástrojového runtime"}]}],["$","li","minimalni-threat-model",{"className":"pl-3","children":"$L39"}],"$L3a","$L3b","$L3c","$L3d","$L3e","$L3f","$L40","$L41","$L42"]}]]}]
+26:["$","$L43",null,{"children":["$","$2c",null,{"name":"Next.MetadataOutlet","children":"$@44"}]}]
+2d:["$","meta","36",{"name":"twitter:image","content":"https://svanda.tech/blog/architektura-terminalovych-llm-agentu/og.png"}]
+2e:["$","link","37",{"rel":"shortcut icon","href":"/favicon-ms.svg"}]
+2f:["$","link","38",{"rel":"icon","href":"/favicon-ms.svg"}]
+30:["$","$L45","39",{}]
+33:true
+9:300
+39:["$","a",null,{"href":"#minimalni-threat-model","className":"hover:text-white","children":"Minimální threat model"}]
+3a:["$","li","ci-cd-a-verzovani-celeho-agentniho-systemu",{"className":"","children":["$","a",null,{"href":"#ci-cd-a-verzovani-celeho-agentniho-systemu","className":"hover:text-white","children":"CI/CD a verzování celého agentního systému"}]}]
+3b:["$","li","performance-tuning-podle-navratnosti",{"className":"","children":["$","a",null,{"href":"#performance-tuning-podle-navratnosti","className":"hover:text-white","children":"Performance tuning podle návratnosti"}]}]
+3c:["$","li","historicky-vyvoj-a-poznatky-z-praxe",{"className":"","children":["$","a",null,{"href":"#historicky-vyvoj-a-poznatky-z-praxe","className":"hover:text-white","children":"Historický vývoj a poznatky z praxe"}]}]
+3d:["$","li","jak-se-tento-pristup-promita-do-me-prace",{"className":"","children":["$","a",null,{"href":"#jak-se-tento-pristup-promita-do-me-prace","className":"hover:text-white","children":"Jak se tento přístup promítá do mé práce"}]}]
+3e:["$","li","katalog-primarnich-zdroju",{"className":"","children":["$","a",null,{"href":"#katalog-primarnich-zdroju","className":"hover:text-white","children":"Katalog primárních zdrojů"}]}]
+3f:["$","li","harnessy-a-jejich-rozsirovani",{"className":"pl-3","children":["$","a",null,{"href":"#harnessy-a-jejich-rozsirovani","className":"hover:text-white","children":"Harnessy a jejich rozšiřování"}]}]
+40:["$","li","frameworky-stav-a-integrace",{"className":"pl-3","children":["$","a",null,{"href":"#frameworky-stav-a-integrace","className":"hover:text-white","children":"Frameworky, stav a integrace"}]}]
+41:["$","li","evaluace-provoz-a-bezpecnost",{"className":"pl-3","children":["$","a",null,{"href":"#evaluace-provoz-a-bezpecnost","className":"hover:text-white","children":"Evaluace, provoz a bezpečnost"}]}]
+42:["$","li","puvodni-vyzkumne-prace",{"className":"pl-3","children":["$","a",null,{"href":"#puvodni-vyzkumne-prace","className":"hover:text-white","children":"Původní výzkumné práce"}]}]
+44:null
+9:C
+32:0
+b:"$undefined"
+8:"$undefined"
+31:"$undefined"
+27:"$undefined"

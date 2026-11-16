@@ -1,0 +1,16 @@
+{
+  "status": "measurement-not-performed",
+  "projectSlug": null,
+  "sourceCommit": null,
+  "observedAt": null,
+  "metric": null,
+  "value": null,
+  "unit": null,
+  "sampleSize": null,
+  "runtime": null,
+  "hardware": null,
+  "fixture": null,
+  "method": null,
+  "rawOutputSha256": null,
+  "limitations": null
+}

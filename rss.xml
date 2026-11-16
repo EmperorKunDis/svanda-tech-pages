@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <rss version="2.0">
+      <channel>
+        <title>Martin Švanda — Blog</title>
+        <link>https://svanda.tech/blog</link>
+        <description>AI, automatizace a softwarová architektura.</description>
+        <language>cs</language>
+        
+        <item>
+          <title>AI agent, nebo pevný workflow? Rozhodnutí podle práce</title>
+          <link>https://svanda.tech/blog/ai-agent-nebo-workflow</link>
+          <guid>https://svanda.tech/blog/ai-agent-nebo-workflow</guid>
+          <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Rozdíl mezi agentem a automatizací nezačíná u modelu. Rozhoduje nejistota dalšího kroku, cena chyby a možnost výsledek ověřit.</description>
+        </item>
+        <item>
+          <title>Firemní obsah s AI: kontext, persony a redakční verze</title>
+          <link>https://svanda.tech/blog/ai-obsah-firemni-kontext-persony</link>
+          <guid>https://svanda.tech/blog/ai-obsah-firemni-kontext-persony</guid>
+          <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Opakovatelný AI obsah potřebuje víc než dobrý prompt: značkový kontext, persony, stav návrhu, verze a lidské schválení před publikací.</description>
+        </item>
+        <item>
+          <title>Co tvoří cenu AI řešení: práce, data, provoz a kontrola</title>
+          <link>https://svanda.tech/blog/cena-ai-reseni</link>
+          <guid>https://svanda.tech/blog/cena-ai-reseni</guid>
+          <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Cena AI produktu nezávisí jen na modelovém API. Rozsah práce určují data, integrace, bezpečnost, testování, dohled a následná údržba.</description>
+        </item>
+        <item>
+          <title>Hlasový asistent v praxi: přepis, rozhodnutí a bezpečná akce</title>
+          <link>https://svanda.tech/blog/hlasovy-asistent-v-praxi</link>
+          <guid>https://svanda.tech/blog/hlasovy-asistent-v-praxi</guid>
+          <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Hlasové rozhraní je citlivé na chybný přepis, prodlevu, přerušení i příliš široké oprávnění. Navrhněte celý tok a testujte jej v reálném prostředí.</description>
+        </item>
+        <item>
+          <title>Lokální LLM, nebo cloudový model? Rozhodněte podle toku dat</title>
+          <link>https://svanda.tech/blog/lokalni-llm-nebo-cloud</link>
+          <guid>https://svanda.tech/blog/lokalni-llm-nebo-cloud</guid>
+          <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Srovnejte lokální a cloudové modely podle citlivosti dat, kvality, odezvy, hardwaru i práce potřebné k provozu.</description>
+        </item>
+        <item>
+          <title>Jak ověřovat AI systém: testovací sada, hranice a opakování</title>
+          <link>https://svanda.tech/blog/overovani-ai-systemu</link>
+          <guid>https://svanda.tech/blog/overovani-ai-systemu</guid>
+          <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Jedna povedená ukázka neříká, jestli AI systém obstojí. Připravte úlohy, měřítka, opakované běhy a testy chybových stavů.</description>
+        </item>
+        <item>
+          <title>Jak připravit firmu na AI: proces, data a odpovědnost</title>
+          <link>https://svanda.tech/blog/priprava-firmy-na-ai</link>
+          <guid>https://svanda.tech/blog/priprava-firmy-na-ai</guid>
+          <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Před zavedením AI určete vlastníka procesu, zdroj dat, cenu chyby, přístupová pravidla a měřítko pilotu. Technologie přijde až potom.</description>
+        </item>
+        <item>
+          <title>RAG nad firemními dokumenty: od souboru k dohledatelné odpovědi</title>
+          <link>https://svanda.tech/blog/rag-nad-firemnimi-dokumenty</link>
+          <guid>https://svanda.tech/blog/rag-nad-firemnimi-dokumenty</guid>
+          <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Kvalitu firemního RAG ovlivňuje správa dokumentů, dělení textu, oprávnění i způsob hodnocení citací. Samotné vektorové úložiště nestačí.</description>
+        </item>
+        <item>
+          <title>Konfigurace, rozšiřování a zlepšování terminálových LLM agentů a agentních frameworků</title>
+          <link>https://svanda.tech/blog/architektura-terminalovych-llm-agentu</link>
+          <guid>https://svanda.tech/blog/architektura-terminalovych-llm-agentu</guid>
+          <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+          <description>Model je jedna komponenta. Ucelený agentní systém propojuje kontext, nástroje, stav, paměť, oprávnění, izolovanou exekuci a evaluace. Architektonický průvodce z pohledu Prautu a vlastní varianty Pi harnessu.</description>
+        </item>
+        <item>
+          <title>První krajský AI hackathon v Chebu: důkaz, že talent neroste jen ve velkých městech</title>
+          <link>https://svanda.tech/blog/prvni-krajsky-ai-hackathon-v-chebu</link>
+          <guid>https://svanda.tech/blog/prvni-krajsky-ai-hackathon-v-chebu</guid>
+          <pubDate>Fri, 03 Jul 2026 08:00:00 GMT</pubDate>
+          <description>Šestnáct studentů, šest týmů a reálné firemní problémy. Co ukázal první krajský AI hackathon v Chebu o talentu, vzdělávání a budoucnosti práce.</description>
+        </item>
+        <item>
+          <title>74 releasů za 52 dní: co Anthropic vypustil a proč by nás to mělo zajímat</title>
+          <link>https://svanda.tech/blog/74-releasu-za-52-dni</link>
+          <guid>https://svanda.tech/blog/74-releasu-za-52-dni</guid>
+          <pubDate>Fri, 27 Mar 2026 08:00:00 GMT</pubDate>
+          <description>Claude tým vydal během 52 dní 74 produktových změn. Co tato rychlost znamená pro firmy a prohlubující se rozdíl mezi lidmi, kteří s AI pracují, a těmi, kteří čekají.</description>
+        </item>
+        <item>
+          <title>Dovednosti v Claude Code: Kompletní průvodce od živé ukázky po vlastní skills</title>
+          <link>https://svanda.tech/blog/dovednosti-v-claude-code</link>
+          <guid>https://svanda.tech/blog/dovednosti-v-claude-code</guid>
+          <pubDate>Mon, 16 Mar 2026 08:00:00 GMT</pubDate>
+          <description>Praktický průvodce opakovaně použitelnými AI pracovními postupy, paralelními agenty, optimalizací tokenů a tvorbou vlastních skills.</description>
+        </item>
+      </channel>
+    </rss>

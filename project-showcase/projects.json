@@ -1,0 +1,1927 @@
+[
+  {
+    "sourceId": "01",
+    "slug": "mike",
+    "title": "M.I.K.E.",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "M.I.K.E. je veřejná alpha českého hlasového asistenta pro Apple Silicon Mac s lokálním přepisem, jazykovým modelem, explicitní pamětí a systémovým TTS.",
+    "benefits": "Lokální architektura ponechává základní hlasový tok a paměť na zařízení. Volitelné research, voiceprint a read-only terminál mají vlastní zapínání a bezpečnostní hranice.",
+    "buildStory": "Postavil jsem hlasovou pipeline od PyAudio a segmentace přes Whisper/MLX a Ollamu až po systémový hlas macOS. SQLite FTS5 uchovává explicitně spravovanou paměť; loopback dashboard a diagnostické příkazy pomáhají odděleně kontrolovat její části. Voiceprint zůstává experimentálním pomocným signálem, ne ověřením identity pro citlivé akce.",
+    "technologies": [
+      "Python",
+      "Whisper",
+      "MLX",
+      "Ollama",
+      "SQLite FTS5",
+      "PyAudio",
+      "macOS"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "Python",
+          "Whisper",
+          "MLX",
+          "Ollama",
+          "SQLite FTS5",
+          "PyAudio",
+          "macOS"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Portfolio ukázka",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/mike",
+    "onePagerUrl": "https://svanda.tech/project-showcase/mike/",
+    "webUrl": null,
+    "githubUrl": "https://github.com/EmperorKunDis/M.I.K.E",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "fa4e9a7bf1d8",
+      "maturity": "Veřejná alpha v0.1.0",
+      "facts": [
+        "23 zdrojových Python modulů a 11 testovacích modulů.",
+        "137 testovacích funkcí a coverage gate 75 %.",
+        "CI, Gitleaks, ochrana hlavní větve a licence MIT."
+      ],
+      "limitations": [
+        "Vyžaduje macOS 13+, Apple Silicon, Python a lokální Ollama modely.",
+        "Nejde o podepsanou ani notarizovanou macOS aplikaci.",
+        "Voiceprint je volitelný signál, nikoli autentizační mechanismus."
+      ]
+    }
+  },
+  {
+    "sourceId": "02",
+    "slug": "posthub",
+    "title": "PostHub",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "PostHub je SaaS pro plánování a tvorbu firemního obsahu s kontextem značky, personami, redakčním workflow a správou předplatného.",
+    "benefits": "Tým může navázat návrhy na firemní DNA a cílové publikum, upravit obsah a před publikací jej lidsky schválit. Zakladatel popisuje historický provoz v řádu měsíců a stovek klientů; rozsah není nezávisle ověřenou provozní metrikou.",
+    "buildStory": "Zdrojový audit dokládá víceuživatelskou architekturu s Angular frontendem, Django API, PostgreSQL/pgvector a Redis/Celery workery. Datový model odděloval organizace, firmy, kontext značky a generovací úlohy; billing používal podepsané Stripe webhooky a evidenci zpracovaných událostí. Historický provoz popisuje zakladatel; aktuální dostupnost tím není doložena.",
+    "technologies": [
+      "Angular",
+      "Django",
+      "PostgreSQL",
+      "pgvector",
+      "Redis",
+      "Celery",
+      "Stripe"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "Angular",
+          "Django",
+          "PostgreSQL",
+          "pgvector",
+          "Redis",
+          "Celery",
+          "Stripe"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/posthub",
+    "onePagerUrl": "https://svanda.tech/project-showcase/posthub/",
+    "webUrl": "https://posthub.work/",
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-10-05",
+      "commit": "c871592844f1",
+      "maturity": "Historický SaaS; rozsah provozu podle zakladatele",
+      "facts": [
+        "PostHub běžel měsíce v plném veřejném provozu a měl stovky klientů; provozní zkušenost potvrzuje zakladatel a vývojář Martin Švanda.",
+        "Auditovaný zdroj na produkční větvi odděluje Angular frontend, Django API, PostgreSQL/pgvector, Redis, Celery workery, plánovač a Nginx.",
+        "Organizace a firmy vymezují klientská data; obsah navazuje na firemní DNA, persony, témata a generovací úlohy.",
+        "Billing ověřuje podpis Stripe webhooků a eviduje zpracované události pro idempotenci."
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "sourceId": "03",
+    "slug": "zaznamnik-pro",
+    "title": "Zaznamnik.pro",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Záznamník.pro přebírá firemní telefonní hovory a převádí jejich obsah na strukturovaný požadavek pro následnou práci týmu.",
+    "benefits": "Pracovník může přehledněji určit, kdo volal, co potřebuje a zda je nutné rychle reagovat. Soukromé telefonní čísla, přepisy a klientské záznamy se ve veřejné studii nezveřejňují.",
+    "buildStory": "Navrhl jsem službu s Django REST API, PostgreSQL, Celery/Redis a Angular rozhraním; telefonní vrstva propojuje Twilio a konverzačního agenta ElevenLabs. Auditovaný zdrojový checkout se lišil od nasazené revize, proto zdrojové testy ani implementaci nepovažuji za důkaz přesné parity s produkcí. SLA a úplná funkčnost všech notifikačních kanálů nejsou doložené.",
+    "technologies": [
+      "Django REST Framework",
+      "PostgreSQL",
+      "Celery",
+      "Redis",
+      "Angular",
+      "Twilio",
+      "ElevenLabs"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "Django REST Framework",
+          "PostgreSQL",
+          "Celery",
+          "Redis",
+          "Angular",
+          "Twilio",
+          "ElevenLabs"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/zaznamnik-pro",
+    "onePagerUrl": "https://svanda.tech/project-showcase/zaznamnik-pro/",
+    "webUrl": "https://zaznamnik.pro/",
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "d8f684ecaf6e",
+      "maturity": "Živý produkt s oddělenou produkční revizí",
+      "facts": [
+        "Česká AI telefonní sekretářka třídí zmeškané hovory, naléhavost a strukturované požadavky.",
+        "Architektura propojuje Django/DRF, PostgreSQL, Celery/Redis, Angular, Twilio a ElevenLabs.",
+        "Repozitář obsahuje 95 testovacích souborů a více než 1 200 backendových testovacích případů."
+      ],
+      "limitations": [
+        "Produkční build se při auditu lišil od HEAD a poslední deploy workflow nebylo zelené.",
+        "Telefonní čísla, přepisy, klientská data a identifikátory poskytovatelů zůstávají neveřejné.",
+        "SLA ani úplná produkční funkčnost všech notifikačních kanálů nejsou doložené."
+      ]
+    }
+  },
+  {
+    "sourceId": "04",
+    "slug": "ai-drg-auditor-medvision",
+    "title": "MedVision — produktový atlas zdravotnictví",
+    "category": "Prototyp",
+    "categoryKey": "Prototype",
+    "description": "MedVision je interaktivní frontendový prototyp digitální zdravotnické platformy. Rozsáhlý atlas obrazovek mapuje role a workflow ambulantní péče napříč desktopem, mobilem, tabletem a kioskem.",
+    "benefits": "Klikatelný produktový atlas umožňuje ověřovat informační architekturu, návaznost kroků a rozdíly mezi rolemi a zařízeními dřív, než vznikne nákladná backendová implementace.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive UI",
+      "UX Prototyping"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Responsive UI"
+        ]
+      },
+      {
+        "part": "Design",
+        "items": [
+          "UX Prototyping"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Soukromé nasazení",
+    "source": "Neveřejný zdrojový kód",
+    "profileUrl": "https://svanda.tech/projekty/ai-drg-auditor-medvision",
+    "onePagerUrl": "https://svanda.tech/project-showcase/ai-drg-auditor-medvision/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "c0575c6d3ccb",
+      "maturity": "Rozsáhlý frontendový UX prototyp",
+      "facts": [
+        "Repozitář obsahuje 135 samostatných HTML obrazovek zdravotnické platformy.",
+        "Prototyp mapuje devět rolí, šest typů zařízení a osm hlavních uživatelských toků.",
+        "Obrazovky pokrývají rezervace, kiosk check-in, samoobslužné platby, transkripci a call centrum."
+      ],
+      "limitations": [
+        "Nalezený zdroj nedokládá DRG audit, OCR pipeline, Django backend ani porovnávání DRG kódů.",
+        "Jde o prototyp podle produktového zadání, nikoli produkční zdravotnický systém.",
+        "Zdravotnická nebo regulatorní certifikace ani veřejný deployment nejsou potvrzené."
+      ]
+    }
+  },
+  {
+    "sourceId": "05",
+    "slug": "praut-cleaner",
+    "title": "PrautCleaner",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "PrautCleaner je desktopová konzole pro správu flotily lokálních Git repozitářů. Tauri aplikace sjednocuje inventuru, stav větví a auditované hromadné Git/GitHub operace do jednoho workflow.",
+    "benefits": "Vývojář získává jednotný přehled nad větším počtem pracovních kopií a může opakovatelné úkony provádět řízeně s potvrzením, logem a obnovitelnou karanténou.",
+    "technologies": [
+      "Tauri 2",
+      "Rust",
+      "React",
+      "Vite",
+      "Git",
+      "GitHub CLI",
+      "JSONL"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "React",
+          "Vite"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Rust"
+        ]
+      },
+      {
+        "part": "Data & Infrastruktura",
+        "items": [
+          "JSONL"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Tauri 2",
+          "Git",
+          "GitHub CLI"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Soukromé nasazení",
+    "source": "Neveřejný zdrojový kód",
+    "profileUrl": "https://svanda.tech/projekty/praut-cleaner",
+    "onePagerUrl": "https://svanda.tech/project-showcase/praut-cleaner/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "326e802f7ef5",
+      "maturity": "Privátní desktopová aplikace",
+      "facts": [
+        "Desktopová architektura kombinuje Tauri 2, Rust a React/Vite.",
+        "Aplikace inventarizuje lokální repozitáře a řídí commit, sync, backup, merge, archivaci a karanténu.",
+        "Hromadné operace doplňují potvrzovací dialogy, obnovitelná karanténa a JSONL auditní log."
+      ],
+      "limitations": [
+        "Archivace může po vytvoření zálohy fyzicky odstranit lokální pracovní adresář.",
+        "Hromadné commity, push, rebase a merge jsou vysoce dopadové operace a nejsou bezrizikové.",
+        "Před veřejnou distribucí chybí CI, testy, podepsaný release, licence a bezpečnostní hardening."
+      ]
+    }
+  },
+  {
+    "sourceId": "06",
+    "slug": "ai-telemarketing",
+    "title": "AI telemarketing",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Automatizovaný telemarketing, který startuje vyplněním webového formuláře. n8n workflow zachytí data přes webhook, doplní je o další informace o kontaktu a následně přes Twilio spustí AI hovor, který vede rozhovor podle scénáře a zaznamená výsledek.",
+    "benefits": "Lead je kontaktován během několika minut od vyplnění formuláře, bez čekání na volného obchodníka. Firmám s vysokým objemem poptávek to šetří kapacitu na prvokontaktech a zajišťuje jednotnou kvalitu hovoru u každého leadu.",
+    "technologies": [
+      "n8n",
+      "Twilio",
+      "AI Voice",
+      "Webhooks",
+      "Speech-to-Text",
+      "Text-to-Speech"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Automatizace / Integrace",
+        "items": [
+          "n8n",
+          "Twilio",
+          "Webhooks"
+        ]
+      },
+      {
+        "part": "AI / LLM",
+        "items": [
+          "AI Voice",
+          "Speech-to-Text",
+          "Text-to-Speech"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Soukromé nasazení",
+    "source": "Neveřejný zdrojový kód",
+    "profileUrl": "https://svanda.tech/projekty/ai-telemarketing",
+    "onePagerUrl": "https://svanda.tech/project-showcase/ai-telemarketing/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": null
+  },
+  {
+    "sourceId": "10",
+    "slug": "emperor-codex",
+    "title": "EmperorCodex",
+    "category": "Prototyp",
+    "categoryKey": "Prototype",
+    "description": "EmperorCodex je experimentální prostředí pro koordinaci AI agentů při vývoji softwaru. Zadám úlohu a systém ji rozdělí mezi jednotlivé agenty, kteří pracují souběžně na kódu, testech a review. Je to sandbox, ve kterém zkouším, jak moc lze automatizovat samotný proces psaní kódu, ne jen jeho části.",
+    "benefits": "Ukazuje, kde agentní automatizace v reálném vývoji funguje a kde ještě ne — bez toho, abych to zkoušel přímo v produkčním kódu Tatooine. Slouží mi jako testovací polygon pro vzorce koordinace agentů, které pak případně přenáším do ostrých projektů.",
+    "technologies": [
+      "Agents",
+      "Code Automation"
+    ],
+    "techBreakdown": [
+      {
+        "part": "AI / LLM",
+        "items": [
+          "Agents"
+        ]
+      },
+      {
+        "part": "Automatizace / Integrace",
+        "items": [
+          "Code Automation"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Soukromé nasazení",
+    "source": "Neveřejný zdrojový kód",
+    "profileUrl": "https://svanda.tech/projekty/emperor-codex",
+    "onePagerUrl": "https://svanda.tech/project-showcase/emperor-codex/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": null
+  },
+  {
+    "sourceId": "11",
+    "slug": "agent-vocas",
+    "title": "Agent VOCAS",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "Agent VOCAS je hlasový konverzační agent postavený jako součást projektu Tatooine. Zpracovává mluvený vstup, vede dialog a reaguje hlasem v reálném čase pomocí agentní architektury nad voice AI modely.",
+    "benefits": "Umožňuje ovládat a dotazovat systémy hlasem bez psaní, což se hodí tam, kde je klávesnice nepraktická nebo kde chci rychlejší a přirozenější interakci. Základ je znovupoužitelný pro další hlasové agenty v rámci Tatooine.",
+    "technologies": [
+      "Voice AI",
+      "Agents"
+    ],
+    "techBreakdown": [
+      {
+        "part": "AI / LLM",
+        "items": [
+          "Voice AI",
+          "Agents"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Soukromé nasazení",
+    "source": "Neveřejný zdrojový kód",
+    "profileUrl": "https://svanda.tech/projekty/agent-vocas",
+    "onePagerUrl": "https://svanda.tech/project-showcase/agent-vocas/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": null
+  },
+  {
+    "sourceId": "13",
+    "slug": "zephyr",
+    "title": "Zephyr / BPS dashboard",
+    "category": "Prototyp",
+    "categoryKey": "Prototype",
+    "description": "Interaktivní statický dashboard bioplynové stanice se syntetickými časovými řadami a přehledy provozu.",
+    "benefits": "Prototyp ukazuje, jak zpřehlednit energii, materiálové toky a provozní ukazatele v jednom rozhraní. Umožňuje posoudit informační strukturu bez připojení k reálné technologii.",
+    "buildStory": "HTML, CSS a JavaScript tvoří samostatnou aplikaci bez build kroku. Chart.js je součástí HTML. Seedovaný generátor vytváří demonstrativní řady, jednotlivé pohledy se sestavují na požádání a grafy se inicializují až po zobrazení plátna.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Chart.js",
+      "Cloudflare Pages"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Chart.js",
+          "Cloudflare Pages"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/zephyr",
+    "onePagerUrl": "https://svanda.tech/project-showcase/zephyr/",
+    "webUrl": "https://bio.praut.cz/",
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-10-05",
+      "maturity": "Interaktivní statický prototyp",
+      "facts": [
+        "README výslovně uvádí syntetická data a Chart.js vložený v index.html.",
+        "Generátor časových řad používá seed; registr pohledů odděluje sestavení HTML a inicializaci grafů.",
+        "Kód kontroluje rozměry viditelného plátna a při problému omezeně opakuje inicializaci."
+      ],
+      "limitations": [
+        "Dohledaný projekt neobsahuje backend, živou SCADA integraci ani řízení zařízení.",
+        "Provozní hodnoty neslouží jako měření skutečné bioplynové stanice.",
+        "Konfigurace Cloudflare Pages v README není doklad dostupnosti produkční integrace."
+      ]
+    }
+  },
+  {
+    "sourceId": "16",
+    "slug": "face-animation",
+    "title": "Face Animation",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "Face Animation je série experimentů s animací obličeje pomocí AI nástrojů – od statického portrétu k mluvící nebo emotivně reagující tváři. Testuji na něm generování a synchronizaci pohybu obličeje s audiem a hledám hranice toho, co dnešní nástroje pro AI video umí a kde ještě selhávají.",
+    "benefits": "Slouží jako rychlý poligon pro vyzkoušení nových AI video nástrojů před jejich nasazením v klientských nebo interních projektech Praut. Výstupy z něj se dají využít pro avatary, personalizovaný video obsah nebo experimentální kreativní produkci.",
+    "technologies": [
+      "AI Video",
+      "Animation"
+    ],
+    "techBreakdown": [
+      {
+        "part": "AI / LLM",
+        "items": [
+          "AI Video"
+        ]
+      },
+      {
+        "part": "Design",
+        "items": [
+          "Animation"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Portfolio ukázka",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/face-animation",
+    "onePagerUrl": "https://svanda.tech/project-showcase/face-animation/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": null
+  },
+  {
+    "sourceId": "17",
+    "slug": "ai-spin-that-shit",
+    "title": "AI Spin That Shit",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "AI Spin That Shit je experimentální Python CLI pro koordinaci specializovaných rolí Claude Code. Rozděluje práci mezi plánování, návrh, implementaci, review a testování a zachovává průběh v projektových handoffech a checkpointech.",
+    "benefits": "Oddělené role a trvalé artefakty pomáhají navázat na delší agentní běhy a zpětně dohledat jejich průběh. Projekt slouží jako výzkumný prototyp pro hledání bezpečnějšího a reprodukovatelnějšího agentního vývoje.",
+    "technologies": [
+      "Python",
+      "Claude Code",
+      "Git",
+      "Bash",
+      "JSON",
+      "Markdown"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Backend",
+        "items": [
+          "Python"
+        ]
+      },
+      {
+        "part": "AI / LLM",
+        "items": [
+          "Claude Code"
+        ]
+      },
+      {
+        "part": "Data & Infrastruktura",
+        "items": [
+          "JSON",
+          "Markdown"
+        ]
+      },
+      {
+        "part": "Automatizace / Integrace",
+        "items": [
+          "Bash"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Git"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Portfolio ukázka",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/ai-spin-that-shit",
+    "onePagerUrl": "https://svanda.tech/project-showcase/ai-spin-that-shit/",
+    "webUrl": null,
+    "githubUrl": "https://github.com/EmperorKunDis/AI_SpinThatShit",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "118f0da9ec47",
+      "maturity": "Experimentální CLI prototyp",
+      "facts": [
+        "Python CLI koordinuje osm specializovaných agentních rolí.",
+        "Ukládá plán, journal, handoffy a checkpointy do projektového adresáře.",
+        "Obsahuje 32 lokalizací a základní Git, retry a pattern-based security kontroly."
+      ],
+      "limitations": [
+        "Runtime používá režim přeskočení oprávnění a automatické Git operace.",
+        "Repozitář nemá automatizované testy, CI ani licenci.",
+        "Projekt je R&D koncept, nikoli bezpečný autonomní produkční systém."
+      ]
+    }
+  },
+  {
+    "sourceId": "18",
+    "slug": "screen-qa-system",
+    "title": "Screen Q&A System",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "Nástroj, který ze screenshotu obrazovky vytáhne text pomocí OCR, rozpozná v něm otázku a pomocí lokálního RAG systému nad vlastní znalostní bází vygeneruje odpověď. Celý proces běží lokálně bez závislosti na externím API, včetně LLM inference.",
+    "benefits": "Hodí se všude, kde je potřeba rychle zodpovědět otázku, kterou vidím na obrazovce (test, formulář, dokumentace), aniž bych musel text ručně přepisovat nebo posílat data mimo svůj počítač. Díky lokálnímu běhu je řešení vhodné i pro citlivější data, kde nechci nic odesílat do cloudu.",
+    "technologies": [
+      "OCR",
+      "RAG",
+      "Local LLM",
+      "Python"
+    ],
+    "techBreakdown": [
+      {
+        "part": "AI / LLM",
+        "items": [
+          "OCR",
+          "RAG",
+          "Local LLM"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Python"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Portfolio ukázka",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/screen-qa-system",
+    "onePagerUrl": "https://svanda.tech/project-showcase/screen-qa-system/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": null
+  },
+  {
+    "sourceId": "20",
+    "slug": "ucebnice-ai",
+    "title": "Učebnice AI",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Interaktivní učebnice AI propojující autorský obsah, praktické úkoly, evidenci studijního pokroku a kontextového AI tutora.",
+    "benefits": "Student navazuje na svůj uložený postup, odevzdává práci a dostává pomoc v kontextu konkrétní kapitoly. Hodnocení, odměny a oprávnění spravuje aplikace odděleně od odpovědí modelu.",
+    "buildStory": "Platforma v Next.js a Reactu používá Prisma a PostgreSQL pro obsah, odevzdání, hodnocení, historii a odměny. API kontroluje přihlášení, vlastnictví a kanonické klíče obsahu. Ukládání rozpracované práce hlídá revize; opakované odevzdání a tutorové požadavky mají idempotentní kontrakt. AI tutor dostává omezenou historii a kontext kapitoly.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "NextAuth"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Prisma",
+          "PostgreSQL",
+          "NextAuth"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/ucebnice-ai",
+    "onePagerUrl": "https://svanda.tech/project-showcase/ucebnice-ai/",
+    "webUrl": "https://ucebnice.praut.cz/",
+    "githubUrl": "https://github.com/EmperorKunDis/ucebnice-ai-chatbot",
+    "repositoryAudit": {
+      "verifiedAt": "2026-10-05",
+      "commit": "146b1e30b90b",
+      "maturity": "Implementovaná výuková platforma",
+      "facts": [
+        "Zdroj obsahuje API pro kapitoly, úkoly, opakování, pokrok, tutora, administraci a certifikáty.",
+        "Odevzdání používá requestKey; drafty kontrolují revizi a souběžný přepis vracejí jako konflikt.",
+        "SM-2 opakování a přidělení odměny se zapisují v transakci s deduplikační evidencí.",
+        "Tutor ověřuje session, vstupy a přístup k zadání; kontext kapitoly a studentské důkazy jsou rozlišeny."
+      ],
+      "limitations": [
+        "Tato revize zdrojového kódu není testem veřejného nasazení ani kvality modelových odpovědí.",
+        "Starší samostatný FastAPI chatbot je jiná část historie projektu, nikoli architektura současné platformy.",
+        "Pokyn tutorovi neschvalovat projekty nenahrazuje aplikační oprávnění a kontrolu hodnoticího toku."
+      ]
+    }
+  },
+  {
+    "sourceId": "21",
+    "slug": "langchain-kurikulum",
+    "title": "LangChain kurikulum",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "Dohledaná první lekce LangChain vysvětluje zprávy, šablony promptů a jednoduchý chatbot v Python notebooku a konzoli.",
+    "benefits": "Příklad ukazuje vztah mezi vstupem, sestaveným promptem a odpovědí modelu. Výsledek výuky nebo zkrácení onboardingu nebyly měřeny.",
+    "buildStory": "Soukromý zdroj obsahuje český a ukrajinský notebook první lekce. Příklady používají ChatOpenAI, zprávy a prompt templates; InteractiveChatbot.run komunikuje přes terminál. V revizi nejsou doložené další lekce ani webová aplikace.",
+    "technologies": [
+      "Python",
+      "Jupyter",
+      "LangChain",
+      "ChatOpenAI"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "Python",
+          "Jupyter",
+          "LangChain",
+          "ChatOpenAI"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Portfolio ukázka",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/langchain-kurikulum",
+    "onePagerUrl": "https://svanda.tech/project-showcase/langchain-kurikulum/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-10-15",
+      "commit": "3910644cfd504013fd140e87b7879b459adce9e2",
+      "maturity": "Dohledaná první notebooková lekce; výukový provoz neověřen",
+      "facts": [
+        "Repozitář v této revizi obsahuje pouze Lekce-1.ipynb a ukrajinskou variantu první lekce.",
+        "Notebook ukazuje ChatOpenAI.invoke, zprávy a šablony promptů.",
+        "InteractiveChatbot.run čte vstup z konzole; nejde o webové UI."
+      ],
+      "limitations": [
+        "Tvrzení o třiceti lekcích nebo ověřeném onboardingu není doložené.",
+        "API volání, notebook, code review a výsledky studentů nebyly při revizi provedeny."
+      ]
+    }
+  },
+  {
+    "sourceId": "25",
+    "slug": "puls-akademie",
+    "title": "PULS Akademie",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Vzdělávací platforma s kohortami, odevzdáváním důkazů práce, lektorským hodnocením a návaznými odměnami a certifikáty.",
+    "benefits": "Student, lektor a správce pracují nad společným stavem studia. Každé odevzdání má revizi a rozhodnutí lze dohledat; certifikace navazuje na pravidla absolvování.",
+    "buildStory": "Angular klient komunikuje s Django REST API. Domény rozdělují účty, kohorty, obsah, odevzdání, hodnocení a certifikáty. PostgreSQL uchovává stav a audit, Celery řeší následné úlohy a MinIO soubory. Schválení revize probíhá transakčně a navazující úlohy se spouštějí po commitu.",
+    "technologies": [
+      "Angular",
+      "Django",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Celery",
+      "Redis",
+      "MinIO"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "Angular",
+          "Django",
+          "Django REST Framework",
+          "PostgreSQL",
+          "Celery",
+          "Redis",
+          "MinIO"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/puls-akademie",
+    "onePagerUrl": "https://svanda.tech/project-showcase/puls-akademie/",
+    "webUrl": "https://puls.praut.cz/",
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-10-05",
+      "commit": "cca00826f59f",
+      "maturity": "Implementovaná vzdělávací platforma",
+      "facts": [
+        "Submission a SubmissionReview evidují revizi, stav, hodnotitele a rozhodnutí.",
+        "review_submission používá databázovou transakci a zámek řádku; jedna revize má unikátní review.",
+        "Po schválení se přes on_commit předávají úlohy pro aktualizaci pokroku, XP a notifikaci.",
+        "Repozitář obsahuje testy přístupů, odevzdání, hodnocení, certifikátů a administrace."
+      ],
+      "limitations": [
+        "Tato revize nepouštěla testy ani celé produkční nasazení PULS.",
+        "Jitsi konfigurace je označena jako placeholder; živé video nelze vydávat za ověřenou integraci.",
+        "Hodnocení provádí lektor. README vylučuje LLM volání a platební bránu; přístupy přiděluje správce."
+      ]
+    }
+  },
+  {
+    "sourceId": "26",
+    "slug": "montexbau",
+    "title": "MontexBau",
+    "category": "Prototyp",
+    "categoryKey": "Prototype",
+    "description": "MontexBau je interaktivní HR/operations prototyp pro stavební workforce. V jednom rozhraní propojuje správu pracovníků, nábor, onboarding, projektové přidělení, logistiku a administrativní workflow.",
+    "benefits": "Tým získává společný přehled nad cestou pracovníka od náboru přes dokumenty až po přidělení na projekt. Koncept omezuje ruční přepisování mezi oddělenými tabulkami a komunikačními kanály.",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Google Apps Script",
+      "Cloudflare Workers"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "part": "Automatizace / Integrace",
+        "items": [
+          "Google Apps Script",
+          "Cloudflare Workers"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Portfolio ukázka",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/montexbau",
+    "onePagerUrl": "https://svanda.tech/project-showcase/montexbau/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "bf94ca9b23ab",
+      "maturity": "Privátní HR/operations prototyp",
+      "facts": [
+        "Dashboard propojuje pracovníky, náborový kanban, projekty, onboarding, dokumenty a analytiku.",
+        "Statický frontend doplňuje kalendářová automatizace a oddělená integrační proxy.",
+        "Součástí konceptu je generování HR dokumentů a chatbotový náborový tok."
+      ],
+      "limitations": [
+        "Zdrojový kód a pracovní datasety jsou privátní; veřejná prezentace je anonymizovaná.",
+        "Demo přihlášení a klientské ukládání dat nejsou produkční autentizace ani produkční ERP.",
+        "Veřejný provoz ani dostupná vlastní doména nebyly při auditu potvrzené."
+      ]
+    }
+  },
+  {
+    "sourceId": "29",
+    "slug": "pj-group-ekosystem",
+    "title": "PJ Group ekosystém",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "PJ Group je vícejazyčný digitální rozcestník propojující realitní služby, interiérový design, rekonstrukce a dlouhodobou správu nemovitostí pod jednou značkou.",
+    "benefits": "Jeden ekosystém pomáhá návštěvníkovi projít celý životní cyklus nemovitosti a přejít mezi čtyřmi specializovanými službami bez ztráty značkového a obsahového kontextu.",
+    "technologies": [
+      "Next.js 15",
+      "React 18",
+      "TypeScript",
+      "next-intl",
+      "Framer Motion",
+      "Tailwind CSS"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "Next.js 15",
+          "React 18",
+          "TypeScript",
+          "next-intl",
+          "Framer Motion",
+          "Tailwind CSS"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/pj-group-ekosystem",
+    "onePagerUrl": "https://svanda.tech/project-showcase/pj-group-ekosystem/",
+    "webUrl": "https://pjgroup.cz/cs/",
+    "githubUrl": "https://github.com/EmperorKunDis/pavel-jaros-hub",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "56e10e5a3683",
+      "maturity": "Vícejazyčný frontend s chybným Pages artefaktem",
+      "facts": [
+        "Zdroj představuje reality, interiérový design, rekonstrukce a správu nemovitostí.",
+        "Obsahuje šest lokalizací: češtinu, angličtinu, němčinu, polštinu, ruštinu a slovenštinu.",
+        "Next.js aplikace má lokalizovaná metadata, strukturovaná data, sitemapu, robots a cookie consent."
+      ],
+      "limitations": [
+        "Auditovaný Pages workflow neprovádí instalaci, testy ani Next.js build.",
+        "Publikovaný Pages artefakt je vývojový dokument, nikoli čistý produkční export aplikace.",
+        "Deklarované Jest skripty nemají ve zdroji odpovídající testovací soubory."
+      ]
+    }
+  },
+  {
+    "sourceId": "30",
+    "slug": "diplomatenpass-online",
+    "title": "DiplomatenPass Online — webový koncept",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "DiplomatenPass Online je německá React SPA prezentující diplomatický consulting, proces spolupráce, galerii, právní informace a kontaktní možnosti v jednotném vizuálním stylu.",
+    "benefits": "Koncept strukturuje odborně působící nabídku do srozumitelných obsahových kroků a ukazuje, jak lze sladit služby, proces, právní obsah a kontaktní cestu v jedné responzivní prezentaci.",
+    "technologies": [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "React 18",
+          "TypeScript",
+          "Vite",
+          "Tailwind CSS",
+          "shadcn/ui"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/diplomatenpass-online",
+    "onePagerUrl": "https://svanda.tech/project-showcase/diplomatenpass-online/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "0ed0b0c6140b",
+      "maturity": "Živý statický marketingový koncept",
+      "facts": [
+        "React 18, TypeScript, Vite, Tailwind a shadcn/ui tvoří vícestránkovou SPA prezentaci.",
+        "Web obsahuje služby, consulting, galerii, kontakt a právní stránky včetně cookies a ochrany dat.",
+        "Aktuální HEAD byl úspěšně sestaven a publikován pomocí GitHub Pages workflow."
+      ],
+      "limitations": [
+        "Nejde o systém pro vydávání nebo správu diplomatických pasů a nemá backend, účty ani databázi.",
+        "Kontaktní a hlavní CTA prvky nemají doložený funkční integrační tok.",
+        "Tvrzení o autorizaci, licencích, zastoupení a právní shodě nejsou repozitářem doložená."
+      ]
+    }
+  },
+  {
+    "sourceId": "32",
+    "slug": "vojta-zizka",
+    "title": "Vojta Žižka",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Vojta Žižka je webový prototyp pro přepis audia pomocí Whisperu. FastAPI a Jinja rozhraní obsluhuje nahrání souboru, synchronní ML inference přes FFmpeg/stable-whisper, historii úloh v SQLite a stažení textového výsledku.",
+    "benefits": "Projekt ukazuje jednoduchý tok od uploadu audia po lokální speech-to-text výsledek v jednom webovém rozhraní. Docker základ umožňuje aplikaci izolovaně spustit na vlastním serveru.",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Whisper",
+      "FFmpeg",
+      "SQLAlchemy",
+      "SQLite",
+      "Jinja2",
+      "Docker"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "Jinja2"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Python",
+          "FastAPI",
+          "SQLAlchemy"
+        ]
+      },
+      {
+        "part": "AI / LLM",
+        "items": [
+          "Whisper"
+        ]
+      },
+      {
+        "part": "Data & Infrastruktura",
+        "items": [
+          "SQLite"
+        ]
+      },
+      {
+        "part": "Automatizace / Integrace",
+        "items": [
+          "FFmpeg"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Docker"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Portfolio ukázka",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/vojta-zizka",
+    "onePagerUrl": "https://svanda.tech/project-showcase/vojta-zizka/",
+    "webUrl": null,
+    "githubUrl": "https://github.com/EmperorKunDis/ZizkaTranscribe.git",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "ef7b1ec",
+      "maturity": "FastAPI/Whisper prototyp",
+      "facts": [
+        "FastAPI rozhraní spojuje upload audia, Whisper inference, SQLite historii a stažení výsledku.",
+        "Repozitář obsahuje Docker základ a lokální zpracování řeči po stažení modelu.",
+        "Tři HTTP routy a jedna databázová tabulka tvoří kompaktní monolitický prototyp."
+      ],
+      "limitations": [
+        "GitHub Pages zobrazuje pouze dokumentaci a nemůže provozovat FastAPI, Whisper ani FFmpeg.",
+        "Překlad a VTT nejsou z běžného formuláře plně funkčně propojené.",
+        "Před veřejným provozem jsou nutné autentizace, limity uploadu, retence, fronta úloh a testy."
+      ]
+    }
+  },
+  {
+    "sourceId": "33",
+    "slug": "jaros-reko",
+    "title": "Jaroš Reko",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Jaroš Reko je responzivní vícejazyčný web pro rekonstrukce bytů a domů. Statická Next.js prezentace vysvětluje nabídku služeb, pětikrokový proces spolupráce, ukázkové projekty, reference a kontaktní cestu.",
+    "benefits": "Web strukturuje složitou nabídku rekonstrukčních služeb do srozumitelného procesu a šesti jazykových variant. Statický export je rychlý, snadno hostovatelný a nevyžaduje aplikační backend.",
+    "technologies": [
+      "Next.js 15",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "next-intl",
+      "Jest",
+      "Bun"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "Next.js 15",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "next-intl"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Jest",
+          "Bun"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/jaros-reko",
+    "onePagerUrl": "https://svanda.tech/project-showcase/jaros-reko/",
+    "webUrl": "https://pjreko.cz/",
+    "githubUrl": "https://github.com/EmperorKunDis/pavel-jaros-rekonstrukce",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "514b7ef",
+      "maturity": "Statický vícejazyčný frontend",
+      "facts": [
+        "Next.js landing page obsahuje šest lokalizací, služby, proces, projektové karty a reference.",
+        "Tři testovací soubory obsahují 23 jednoduchých UI test cases.",
+        "GitHub Actions vytváří statický Pages artefakt na aktuálním SHA."
+      ],
+      "limitations": [
+        "GitHub Pages project-site routing a absolutní asset cesty nejsou aktuálně funkční.",
+        "Kontaktní formulář používá zástupné Formspree ID.",
+        "Ukázkové fotografie a reference nelze vydávat za ověřené klientské realizace."
+      ]
+    }
+  },
+  {
+    "sourceId": "34",
+    "slug": "jaros-design",
+    "title": "Jaroš Design",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Jaroš Design je interaktivní vícejazyčný web pro interiérové studio. Vedle prezentace služeb, portfolia a procesu spolupráce nabízí klientského průvodce deseti interiérovými styly s okamžitou změnou vizuálu a popisu.",
+    "benefits": "Návštěvník si může před prvním kontaktem ujasnit preferovaný vizuální směr. Šest lokalizací a statický export umožňují oslovit české i zahraniční publikum bez provozu vlastního backendu.",
+    "technologies": [
+      "Next.js 15",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "next-intl",
+      "Jest",
+      "Bun"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "Next.js 15",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "next-intl"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Jest",
+          "Bun"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/jaros-design",
+    "onePagerUrl": "https://svanda.tech/project-showcase/jaros-design/",
+    "webUrl": null,
+    "githubUrl": "https://github.com/EmperorKunDis/pavel-jaros-design",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "0cad6d2",
+      "maturity": "Interaktivní statický frontend",
+      "facts": [
+        "Šest lokalizací a interaktivní průvodce deseti interiérovými styly.",
+        "Repozitář obsahuje jedenáct lokálních náhledů stylů a samostatnou privacy stránku.",
+        "Aktuální GitHub Actions build statického exportu je zelený."
+      ],
+      "limitations": [
+        "Project-site routing, base path a absolutní asset cesty nejsou pro Pages opravené.",
+        "Kontaktní formulář používá zástupné Formspree ID.",
+        "Původ vizuálních assetů a skutečné klientské realizace nejsou auditním repozitářem doložené."
+      ]
+    }
+  },
+  {
+    "sourceId": "35",
+    "slug": "jaros-sprava",
+    "title": "Jaroš Správa",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Jaroš Správa je vícejazyčná digitální prezentace služby správy pronajímaných nemovitostí. Web vysvětluje přínosy, čtyřkrokový proces spolupráce, tři tarifní varianty, reference, FAQ a poptávkový tok.",
+    "benefits": "Složitá služba je rozdělena do jasných kroků a porovnatelných tarifů, takže majitel rychle pochopí rozsah nabídky. Šest jazykových variant zpřístupňuje prezentaci i zahraničním vlastníkům.",
+    "technologies": [
+      "Next.js 15",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "next-intl",
+      "Jest",
+      "Bun"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "Next.js 15",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "next-intl"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Jest",
+          "Bun"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/jaros-sprava",
+    "onePagerUrl": "https://svanda.tech/project-showcase/jaros-sprava/",
+    "webUrl": "https://pjsprava.cz/",
+    "githubUrl": "https://github.com/EmperorKunDis/pavel-jaros-sprava",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "c6c9134",
+      "maturity": "Statický vícejazyčný frontend",
+      "facts": [
+        "Šest lokalizací, čtyřkrokový proces, tři tarifní varianty a čtyři FAQ.",
+        "Tři testovací soubory obsahují 23 jednoduchých UI test cases.",
+        "GitHub Actions na auditovaném SHA úspěšně vytvořil Pages artefakt."
+      ],
+      "limitations": [
+        "Pages URL strategie a některé assety nejsou v project-site režimu funkční.",
+        "Kontaktní formulář používá zástupné Formspree ID a privacy tok není dokončený.",
+        "Reference, garance a obchodní výsledky nejsou auditním repozitářem doložené."
+      ]
+    }
+  },
+  {
+    "sourceId": "36",
+    "slug": "purify-clinic",
+    "title": "Purify Clinic",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Purify Clinic je digitální produktový koncept pro longevity péči. Spojuje veřejnou prezentaci kliniky, klientské rezervace a osobní plán s odděleným staff rozhraním pro provozní workflow.",
+    "benefits": "Jednotná produktová architektura ukazuje, jak lze propojit první kontakt klienta, rezervaci, osobní plán a interní správu bez roztříštěného uživatelského zážitku.",
+    "technologies": [
+      "Angular 21",
+      "TypeScript",
+      "Django 5",
+      "Django REST Framework",
+      "JWT"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "Angular 21",
+          "TypeScript"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Django 5",
+          "Django REST Framework",
+          "JWT"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/purify-clinic",
+    "onePagerUrl": "https://svanda.tech/project-showcase/purify-clinic/",
+    "webUrl": "https://emperorkundis.github.io/purify-clinic/",
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "19b4448a28a4",
+      "maturity": "Frontendový produktový koncept",
+      "facts": [
+        "Angular frontend obsahuje veřejný web, klientský portál a interní staff rozhraní.",
+        "Klientská část pokrývá dashboard, rezervace, osobní plán a profil.",
+        "Backendový návrh používá Django REST API, JWT a oddělené doménové moduly."
+      ],
+      "limitations": [
+        "Veřejný Pages build je pouze frontend a není napojený na veřejně dostupný backend.",
+        "Vývojové backendové nastavení není připravené pro produkční práci se zdravotními daty.",
+        "Projekt nedokládá zdravotnickou certifikaci, compliance ani reálný klinický provoz."
+      ]
+    }
+  },
+  {
+    "sourceId": "41",
+    "slug": "family-planner",
+    "title": "FamilyPlanner",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "Family Planner je C++/wxWidgets desktopový koncept pro správu členů domácnosti, úkolů, odměn a budoucího týdenního rozvrhu.",
+    "benefits": "Návrh soustředí opakující se domácí povinnosti, odpovědnost a motivaci do jednoho přehledného rozhraní použitelného na běžných desktopových platformách.",
+    "technologies": [
+      "C++20",
+      "wxWidgets",
+      "CMake"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "wxWidgets"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "C++20"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "CMake"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Soukromé nasazení",
+    "source": "Neveřejný zdrojový kód",
+    "profileUrl": "https://svanda.tech/projekty/family-planner",
+    "onePagerUrl": "https://svanda.tech/project-showcase/family-planner/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "ac879f88a9b3",
+      "maturity": "C++ desktopový UI prototyp",
+      "facts": [
+        "C++20 a wxWidgets tvoří cross-platform desktopový základ pro macOS, Windows a Linux.",
+        "Rozhraní modeluje členy domácnosti, úkoly, odměny, bodový systém a náhled rozvrhu.",
+        "CMake konfigurace stahuje a staticky sestavuje wxWidgets."
+      ],
+      "limitations": [
+        "Aktuální build konfigurace pravděpodobně neobsahuje všechny potřebné implementační soubory.",
+        "Plánovací algoritmus, datový model a obsluha hlavních akcí nejsou doloženě dokončené.",
+        "Automatické férové rozdělení, export, ukládání a notifikace nelze uvádět jako hotové funkce."
+      ]
+    }
+  },
+  {
+    "sourceId": "42",
+    "slug": "runaway",
+    "title": "EndlessDuško / RunAway",
+    "category": "Hobby",
+    "categoryKey": "Hobby",
+    "description": "Endless runner pro Duklockovu komunitu. Herní prototyp v Unreal Engine propojuje ovládání postavy, překážky a navazující segmenty úrovně.",
+    "benefits": "Krátký herní zážitek staví na jednoduchém ovládání a opakovatelném průchodu prostředím. Veřejná verze je dostupná pro Windows na itch.io.",
+    "technologies": [
+      "Unreal Engine 5.4",
+      "C++",
+      "MetaHuman"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "Unreal Engine 5.4",
+          "C++",
+          "MetaHuman"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/runaway",
+    "onePagerUrl": "https://svanda.tech/project-showcase/runaway/",
+    "webUrl": "https://emperorkundis.itch.io/runaway",
+    "githubUrl": "https://github.com/EmperorKunDis/RunAway",
+    "repositoryAudit": {
+      "verifiedAt": "2026-10-05",
+      "commit": "d8573a98b736",
+      "maturity": "Veřejný prealpha prototyp",
+      "facts": [
+        "Veřejná stránka uvádí EndlessDuško, verzi 0.0.0.2 a platformu Windows.",
+        "RunnerCharacter.cpp implementuje pohyb, skok, boční kameru a restart po zásahu překážkou.",
+        "SpawnLevel.cpp vybírá z deseti typů segmentů a navazuje je podle výstupního bodu předchozího segmentu."
+      ],
+      "limitations": [
+        "Repozitář obsahuje C++ část, nikoli celý Unreal projekt se všemi assety.",
+        "Veřejná verze je prealpha; stránka uvádí absenci menu a uživatelského rozhraní.",
+        "Binární hra nebyla při přípravě portfolia spouštěna."
+      ]
+    }
+  },
+  {
+    "sourceId": "43",
+    "slug": "java-rpg",
+    "title": "JavaRPG",
+    "category": "Hobby",
+    "categoryKey": "Hobby",
+    "description": "JavaRPG je rozsáhlý 2D desktopový RPG prototyp postavený v čisté Javě nad Swing/AWT. Obsahuje vlastní game loop, dlaždicovou mapu, kameru, entity, kolize, animace, dialogy, monstra, události, uživatelské rozhraní a zvuk.",
+    "benefits": "Projekt ukazuje stavbu herního základu bez komerčního enginu a jasné rozdělení zodpovědností mezi herní smyčku, mapu, entity, vstup, kolize a UI. Je vhodný jako technická ukázka práce s Java 2D grafikou a stavovým gameplayem.",
+    "technologies": [
+      "Java 17",
+      "Swing",
+      "AWT",
+      "ImageIO",
+      "Java Sound",
+      "Tiled"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Herní vývoj",
+        "items": [
+          "Java 17",
+          "Swing",
+          "AWT",
+          "ImageIO",
+          "Java Sound",
+          "Tiled"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Portfolio ukázka",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/java-rpg",
+    "onePagerUrl": "https://svanda.tech/project-showcase/java-rpg/",
+    "webUrl": null,
+    "githubUrl": "https://github.com/EmperorKunDis/JavaRPG",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "3f1f951a73db",
+      "maturity": "Rozsáhlý desktopový prototyp",
+      "facts": [
+        "22 Java souborů a 2 212 řádků herní logiky.",
+        "Vlastní 100×100 tile svět, game loop, entity, kolize, události, dialogy, UI a zvuk.",
+        "Implementace používá Java 17 a standardní Swing/AWT API bez herního enginu."
+      ],
+      "limitations": [
+        "Chybí Maven/Gradle build, reprodukovatelný balíček, testy a CI.",
+        "Repozitář obsahuje build output a IDE metadata.",
+        "Licence a provenience obrazových a zvukových assetů nejsou doložené."
+      ]
+    }
+  },
+  {
+    "sourceId": "44",
+    "slug": "dnd-game",
+    "title": "D&D Game",
+    "category": "Hobby",
+    "categoryKey": "Hobby",
+    "description": "D&D Game je TypeScriptový technický základ pro budoucí multiplayer D&D 5e zážitek s AI vypravěčem. Monorepo propojuje pravidlový engine kostek, sdílené multiplayer typy, databázový model kampaní a základ AI postav.",
+    "benefits": "Sdílené typy a samostatný pravidlový engine vytvářejí základ, na kterém lze stavět konzistentní klientské i serverové herní mechaniky bez duplikace logiky.",
+    "technologies": [
+      "TypeScript",
+      "Turborepo",
+      "Expo",
+      "React Native",
+      "Express",
+      "Socket.IO",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "OpenRouter"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "Expo",
+          "React Native"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "TypeScript",
+          "Express",
+          "Socket.IO"
+        ]
+      },
+      {
+        "part": "AI / LLM",
+        "items": [
+          "OpenRouter"
+        ]
+      },
+      {
+        "part": "Data & Infrastruktura",
+        "items": [
+          "Prisma",
+          "PostgreSQL",
+          "Redis"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Turborepo"
+        ]
+      }
+    ],
+    "status": "Koncept",
+    "hosting": "Portfolio ukázka",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/dnd-game",
+    "onePagerUrl": "https://svanda.tech/project-showcase/dnd-game/",
+    "webUrl": null,
+    "githubUrl": "https://github.com/EmperorKunDis/DnDMobileMultiplayer_OpenSource",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "f0c26a76c201",
+      "maturity": "Technický základ a architektonický koncept",
+      "facts": [
+        "Pravidlový engine podporuje D&D hody včetně advantage/disadvantage, keep/drop, rerollů a explozí.",
+        "Monorepo definuje sdílené doménové a Socket.IO typy pro multiplayer.",
+        "Serverová část obsahuje Prisma datový model, AI context builder a OpenRouter klienta s fallbackem."
+      ],
+      "limitations": [
+        "Mobilní aplikace má pouze manifest; její zdrojový kód a AR funkcionalita chybí.",
+        "Server nemá doložený vstupní bod, API routy ani seed očekávané deklarovanými skripty.",
+        "Chybí testy, CI, lockfile, deployment a reprodukovatelný build."
+      ]
+    }
+  },
+  {
+    "sourceId": "45",
+    "slug": "counterstrike-web-game",
+    "title": "CounterStrike Web Game",
+    "category": "Hobby",
+    "categoryKey": "Hobby",
+    "description": "Taktická střílečka odehrávající se přímo v prohlížeči, postavená jako webová aplikace bez nutnosti instalace. Hráč ovládá postavu, střílí a plní herní cíle typické pro žánr CS – runda, výzbroj, týmy.",
+    "benefits": "Hra běží okamžitě po otevření odkazu, bez stahování klienta nebo instalace herního enginu. Vhodné pro rychlé vyzkoušení konceptu nebo demo hratelnosti přímo v prohlížeči.",
+    "technologies": [
+      "Web Game",
+      "Vercel"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Herní vývoj",
+        "items": [
+          "Web Game"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Vercel"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Soukromé nasazení",
+    "source": "Neveřejný zdrojový kód",
+    "profileUrl": "https://svanda.tech/projekty/counterstrike-web-game",
+    "onePagerUrl": "https://svanda.tech/project-showcase/counterstrike-web-game/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": null
+  },
+  {
+    "sourceId": "46",
+    "slug": "svci-stvanci",
+    "title": "SVCI / Štvanci",
+    "category": "Hobby",
+    "categoryKey": "Hobby",
+    "description": "SVCI / Štvanci je full-stack digitální základna československé herní komunity. Propojuje výraznou 3D prezentaci klanu s členskými profily, událostmi, oceněními a řízenými nástroji pro vedení.",
+    "benefits": "Komunita získává jeden veřejný vstupní bod i strukturované členské zázemí. Role oddělují běžné členy od správy a citlivá členská data nejsou součástí veřejného profilu.",
+    "technologies": [
+      "React",
+      "Vite",
+      "Three.js",
+      "Django",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Docker Compose",
+      "Playwright"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "React",
+          "Vite",
+          "Three.js"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Django",
+          "Django REST Framework"
+        ]
+      },
+      {
+        "part": "Data & Infrastruktura",
+        "items": [
+          "PostgreSQL"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Docker Compose",
+          "Playwright"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/svci-stvanci",
+    "onePagerUrl": "https://svanda.tech/project-showcase/svci-stvanci/",
+    "webUrl": "https://svci.vercel.app/",
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "29c4e0df76d4",
+      "maturity": "Živá komunitní full-stack platforma",
+      "facts": [
+        "Platforma kombinuje veřejnou prezentaci, 3D vizuál, vedení a sanitizovaný veřejný roster.",
+        "Přihlášená členská část obsahuje profily, události, ocenění a rolemi řízené nástroje.",
+        "Kanonický zdroj má backendové, frontendové a E2E testy následované produkčním deploymentem."
+      ],
+      "limitations": [
+        "Pomocný datový repozitář není samostatná aplikace ani veřejný zdroj členských dat.",
+        "Starší veřejné repozitáře používají odlišné označení a stack a nejsou kanonickým zdrojem.",
+        "Privátní zdroj, členský dataset, interní odkazy a provozní konfigurace zůstávají neveřejné."
+      ]
+    }
+  },
+  {
+    "sourceId": "47",
+    "slug": "javascript-showcase",
+    "title": "JavaScript Showcase",
+    "category": "Prototyp",
+    "categoryKey": "Prototype",
+    "description": "JavaScript Showcase obsahuje dva interaktivní creative-coding experimenty v p5.js: fotografický stippling přes Voronoi/Delaunay geometrii a perspektivní průlet hvězdným polem řízený myší.",
+    "benefits": "Ukázky převádějí algoritmy výpočetní geometrie a perspektivní projekce do okamžitě pochopitelné vizuální interakce. Jsou malé, statické a spustitelné bez backendu.",
+    "technologies": [
+      "JavaScript",
+      "p5.js",
+      "d3-delaunay",
+      "HTML",
+      "CSS",
+      "Canvas"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "JavaScript",
+          "p5.js",
+          "d3-delaunay",
+          "HTML",
+          "CSS",
+          "Canvas"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Portfolio ukázka",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/javascript-showcase",
+    "onePagerUrl": "https://svanda.tech/project-showcase/javascript-showcase/",
+    "webUrl": null,
+    "githubUrl": "https://github.com/EmperorKunDis/Some-javascript-showcase",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "d51380cef79b",
+      "maturity": "Funkční creative-coding ukázky",
+      "facts": [
+        "Voronoi experiment pracuje s 5 000 adaptivními body a Delaunay triangulací.",
+        "Starfield vykresluje 2 500 hvězd s perspektivní projekcí a motion trails.",
+        "Obě ukázky jsou statické klientské aplikace bez backendu."
+      ],
+      "limitations": [
+        "Voronoi implementace uvádí inspiraci Coding Train Challenge #181.",
+        "Mobilní výkon, stabilní FPS ani přístupnost nejsou doložené.",
+        "Repozitář nemá testy, CI, licenci ani vlastní GitHub Pages deployment."
+      ]
+    }
+  },
+  {
+    "sourceId": "49",
+    "slug": "tatooine-living-architecture",
+    "title": "Tatooine Living Architecture",
+    "category": "Svatý grál",
+    "categoryKey": "HolyGrail",
+    "description": "Tatooine Living Architecture je privátní local-first řídicí systém pro agentní workflow. Terminálová platforma propojuje výzkum, úlohy, automatizaci, schvalování a auditní stopu s důrazem na dohledatelnost.",
+    "benefits": "Jednotný operační model udržuje dlouhé agentní workflow pod kontrolou: odděluje návrh, provedení, důkazy a schválení a umožňuje zpětně dohledat, proč se konkrétní krok stal.",
+    "technologies": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Textual",
+      "Typer",
+      "Pytest"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "Textual"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Python",
+          "Django"
+        ]
+      },
+      {
+        "part": "Data & Infrastruktura",
+        "items": [
+          "PostgreSQL"
+        ]
+      },
+      {
+        "part": "Automatizace / Integrace",
+        "items": [
+          "Typer"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "Pytest"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Portfolio ukázka",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/tatooine-living-architecture",
+    "onePagerUrl": "https://svanda.tech/project-showcase/tatooine-living-architecture/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "1f74fc5885d4",
+      "maturity": "Pokročilá interní R&D platforma",
+      "facts": [
+        "Lokální terminálová aplikace používá Python, Django, PostgreSQL a Textual.",
+        "Výzkum, úlohy, automatizace, schvalování a auditní stopa jsou součástí jednoho řízeného workflow.",
+        "Auditovaný snapshot obsahuje 97 testovacích souborů a 1 053 testovacích funkcí."
+      ],
+      "limitations": [
+        "Kanonický produkt není veřejný webový dashboard ani realtime graf běhu agentů.",
+        "Aktuální vzdálený CI běh neposkytuje zelený důkaz a platforma nemá veřejný release.",
+        "Interní topologie, oprávnění, provozní data, endpointy a privátní nasazení zůstávají neveřejné."
+      ]
+    }
+  },
+  {
+    "sourceId": "50",
+    "slug": "autonomni-financni-centrum",
+    "title": "Autonomní finanční centrum",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "Účetní centrum je modulární macOS desktopová aplikace propojující česká účetní workflow, bankovní importy, výkazy a lokální zpracování dokladů pomocí OCR.",
+    "benefits": "Jedno lokální rozhraní sjednocuje evidenci dokladů, účetní kontroly, párování transakcí a přípravu výkazů. Automatizace omezuje ruční přepis, ale zachovává prostor pro odbornou validaci.",
+    "technologies": [
+      "Python",
+      "PyQt6",
+      "SQLite",
+      "Apple Vision",
+      "Tesseract",
+      "OpenCV"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "PyQt6"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Python"
+        ]
+      },
+      {
+        "part": "AI / LLM",
+        "items": [
+          "Apple Vision",
+          "Tesseract",
+          "OpenCV"
+        ]
+      },
+      {
+        "part": "Data & Infrastruktura",
+        "items": [
+          "SQLite"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Portfolio ukázka",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/autonomni-financni-centrum",
+    "onePagerUrl": "https://svanda.tech/project-showcase/autonomni-financni-centrum/",
+    "webUrl": null,
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "a8124d7a457c",
+      "maturity": "Rozsáhlý lokální účetní prototyp",
+      "facts": [
+        "Desktopová aplikace pokrývá účetní deník, doklady, daně, mzdy, majetek, saldokonto a výkazy.",
+        "OCR vrstva zpracovává faktury a doplňuje validaci polí, bankovní import a návrhy párování.",
+        "Repozitář obsahuje šest databázových migrací a patnáct testovacích modulů."
+      ],
+      "limitations": [
+        "Repozitář nedokládá autonomní multi-agentní finanční platformu.",
+        "Legislativní správnost, certifikace ani náhrada odborného účetního nejsou potvrzené.",
+        "Databáze, doklady, logy a reálné finanční či osobní údaje zůstávají privátní."
+      ]
+    }
+  },
+  {
+    "sourceId": "51",
+    "slug": "dotace",
+    "title": "Dotace",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "Dotační radar sjednocuje veřejné dotační výzvy do jednoho vyhledatelného read-only přehledu. Python pipeline získává data z katalogů a sitemap, normalizuje termíny, deduplikuje záznamy a generuje statický dataset pro rychlý webový frontend.",
+    "benefits": "Firmy, obce, školy, neziskové organizace a poradci mohou procházet více veřejných zdrojů na jednom místě. Každá položka zůstává dohledatelná k původnímu zdroji a frontend nevyžaduje účet ani backendovou databázi.",
+    "technologies": [
+      "Python 3.12",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "GitHub Actions",
+      "GitHub Pages"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Python 3.12"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "GitHub Actions",
+          "GitHub Pages"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/dotace",
+    "onePagerUrl": "https://svanda.tech/project-showcase/dotace/",
+    "webUrl": "https://dotace.praut.cz/",
+    "githubUrl": "https://github.com/EmperorKunDis/dotace.praut.cz",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "477c71aa26cf",
+      "maturity": "Živý automatizovaný produkt",
+      "facts": [
+        "Ověřený snapshot obsahoval 227 položek ze 17 zdrojů a 2 078 příloh.",
+        "Týdenní Python pipeline normalizuje, deduplikuje a validuje veřejná data.",
+        "Statický frontend běží na GitHub Pages a živá doména odpověděla přes HTTPS."
+      ],
+      "limitations": [
+        "Jde o informativní agregátor; rozhodující je vždy původní oficiální zdroj.",
+        "Aktualizace je týdenní, nikoli realtime.",
+        "Při auditu selhával jeden časově závislý test klasifikace termínu."
+      ]
+    }
+  },
+  {
+    "sourceId": "52",
+    "slug": "investori",
+    "title": "Investor Radar",
+    "category": "Moje výrobky",
+    "categoryKey": "MojeVyrobky",
+    "description": "Investor Radar je živý výzkumný dashboard pro orientaci mezi fondy, angel investory, akcelerátory a grantovými příležitostmi. Umožňuje vyhledávání, detail, transparentní prioritizaci a CSV export.",
+    "benefits": "Zakladatel nebo analytik může na jednom místě porovnat typ investora, fázi, oborovou shodu a dostupnost doložených veřejných zdrojů bez tvrzení, že skóre nahrazuje vlastní due diligence.",
+    "technologies": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "GitHub Actions",
+      "GitHub Pages"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Frontend",
+        "items": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "part": "Backend",
+        "items": [
+          "Python"
+        ]
+      },
+      {
+        "part": "Nástroje & DevOps",
+        "items": [
+          "GitHub Actions",
+          "GitHub Pages"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Veřejný repozitář",
+    "profileUrl": "https://svanda.tech/projekty/investori",
+    "onePagerUrl": "https://svanda.tech/project-showcase/investori/",
+    "webUrl": "https://invest.praut.cz/",
+    "githubUrl": "https://github.com/EmperorKunDis/invest.praut.cz",
+    "repositoryAudit": {
+      "verifiedAt": "2026-08-04",
+      "commit": "7d073d30a2d9",
+      "maturity": "Živý automatizovaný výzkumný dashboard",
+      "facts": [
+        "Statický dashboard nabízí vyhledávání, detail, prioritizaci a CSV export investorů a zdrojů.",
+        "Dataset třídí fondy, specializované fondy, angel investory, akcelerátory, granty a veřejné zdroje.",
+        "Python a GitHub Actions pravidelně obnovují data a transparentní heuristiku skóre."
+      ],
+      "limitations": [
+        "Nejde o Django/PostgreSQL/Angular CRM ani systém pro správu investorských vztahů.",
+        "Skóre není AI predikce, investiční doporučení ani důkaz zájmu konkrétního investora.",
+        "Osobní kontaktní údaje nejsou součástí portfolia a jejich aktuálnost a právní režim vyžadují kontrolu."
+      ]
+    }
+  },
+  {
+    "sourceId": "54",
+    "slug": "jobradar",
+    "title": "JobRadar",
+    "category": "Produkt",
+    "categoryKey": "Produkt",
+    "description": "Datovaná revize zdroje odděluje sběr nabídek, pracovní stav, zaznamenané rozhodnutí a omezenou read-only prezentaci. Současná veřejná instalace nebyla ověřena.",
+    "benefits": "Pracovní stav a zaznamenané oprávnění jsou oddělené od veřejné projekce.",
+    "buildStory": "Prohlédnutý commit obsahuje lokální Python/FastAPI systém se SQLite, transakčními rozhodnutími nad konkrétní verzí nabídky a omezenou veřejnou API projekcí. To není doklad aktuálního nasazení, úspěšného odeslání ani přesnosti posouzení.",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Pydantic",
+      "SQLite"
+    ],
+    "techBreakdown": [
+      {
+        "part": "Technologie v auditovaném zdroji",
+        "items": [
+          "Python",
+          "FastAPI",
+          "Pydantic",
+          "SQLite"
+        ]
+      }
+    ],
+    "status": "Aktivní vývoj",
+    "hosting": "Veřejný odkaz; provoz neověřen",
+    "source": "Repozitář není veřejně propojený",
+    "profileUrl": "https://svanda.tech/projekty/jobradar",
+    "onePagerUrl": "https://svanda.tech/project-showcase/jobradar/",
+    "webUrl": "https://svanda.tech/JobRadar/",
+    "githubUrl": null,
+    "repositoryAudit": {
+      "verifiedAt": "2026-10-15",
+      "commit": "256022c975866dc27cc6210e4e31f1c15d7ab0b1",
+      "maturity": "Stav implementace podle prohlédnutého commitu; provoz neověřen",
+      "facts": [
+        "Doménový kontrakt popisuje nabídku, její původ a dostupnost. Normalizace odkazů a obsahové aliasy podporují rozpoznání souvisejících záznamů; kontrola způsobilosti posuzuje mimo jiné doložené datum a dostupnost.",
+        "Schéma odděluje zdroje, nabídky, běhy, modelové úlohy, zprávy, rozhodnutí, události a zámky. Cizí klíče a unikátní vazby vymezují části datového toku.",
+        "Rozhodnutí se zapisuje v transakci a váže se na fingerprint nabídky. Další autorizace znovu kontroluje kladné rozhodnutí i shodu nabídky. Worker rozlišuje přípravu, čekání na data, nejistý výsledek a blokaci.",
+        "Read-only výstup skládá vybrané stavy a omezené události místo raw payloadů zpráv, profilu nebo CV. Textový helper odstraňuje e-mailové adresy. Aktivita modelu vychází ze záznamu úlohy a platného vlastnického zámku."
+      ],
+      "limitations": [
+        "Prohlédnut byl uvedený commit, nikoli běžící aplikace, produkční dostupnost nebo výsledek testů.",
+        "Pracovní kopie obsahuje novější nezapsané změny. Jejich chování není připsáno uvedenému commitu a současný stav nebyl ověřen.",
+        "Novější statický exportér a novější politika automatického schvalování nejsou součástí tohoto prohlédnutého commitu; studie je nevydává za jeho implementaci.",
+        "Existence modelového posouzení není měřením jeho přesnosti. Aktuální veřejná revize, doručení zpráv a úplné portálové podání nebyly ověřeny.",
+        "Zobrazení vybraných stavů není úplný audit ochrany osobních údajů, všech veřejných cest nebo všech exportovaných souborů."
+      ]
+    }
+  }
+]

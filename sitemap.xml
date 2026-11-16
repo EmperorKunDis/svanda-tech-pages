@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://svanda.tech/</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/case-studies</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/case-studies" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/case-studies" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/engineering</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/verification</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/verification" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/verification" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/experience</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/experience" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/experience" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/about</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/about" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/about" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/now</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/now" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/now" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/contact</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/contact" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/contact" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/videa</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/zivotopis</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/zivotopis" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/resume" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/soukromi</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/ai</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/hry/llm-arena</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/spoluprace</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/reference</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/ai-agenti</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/ai-agenti" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/ai-agents" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/rag</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/lokalni-llm</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/lokalni-llm" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/local-llms" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/hlasova-ai</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/hlasova-ai" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/voice-ai" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/ai-integrace</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/agenticdev</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/ai-obsah</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/ai-skoleni</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/ai-konzultace</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/resume</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/zivotopis" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/resume" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/ai-agents</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/ai-agenti" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/ai-agents" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/local-llms</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/lokalni-llm" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/local-llms" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/voice-ai</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/hlasova-ai" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/voice-ai" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/case-studies</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/case-studies" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/case-studies" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/engineering</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/engineering" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/engineering" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/verification</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/verification" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/verification" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/contact</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/contact" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/contact" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/experience</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/experience" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/experience" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/about</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/about" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/about" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/now</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/now" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/now" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/mike</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/mike" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/mike" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/mike</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/mike" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/mike" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/posthub</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/posthub" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/posthub" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/posthub</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/posthub" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/posthub" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/zaznamnik-pro</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/zaznamnik-pro" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/zaznamnik-pro" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/zaznamnik-pro</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/zaznamnik-pro" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/zaznamnik-pro" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/ai-drg-auditor-medvision</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ai-drg-auditor-medvision" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ai-drg-auditor-medvision" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/ai-drg-auditor-medvision</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ai-drg-auditor-medvision" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ai-drg-auditor-medvision" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/praut-cleaner</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/praut-cleaner" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/praut-cleaner" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/praut-cleaner</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/praut-cleaner" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/praut-cleaner" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/ai-telemarketing</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ai-telemarketing" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ai-telemarketing" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/ai-telemarketing</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ai-telemarketing" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ai-telemarketing" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/multi-tool-agent</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/multi-tool-agent" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/multi-tool-agent" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/multi-tool-agent</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/multi-tool-agent" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/multi-tool-agent" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/agentic-kundis</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/agentic-kundis" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/agentic-kundis" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/agentic-kundis</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/agentic-kundis" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/agentic-kundis" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/emperor-codex</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/emperor-codex" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/emperor-codex" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/emperor-codex</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/emperor-codex" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/emperor-codex" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/agent-vocas</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/agent-vocas" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/agent-vocas" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/agent-vocas</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/agent-vocas" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/agent-vocas" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/agent-harnesses</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/agent-harnesses" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/agent-harnesses" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/agent-harnesses</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/agent-harnesses" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/agent-harnesses" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/zephyr</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/zephyr" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/zephyr" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/zephyr</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/zephyr" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/zephyr" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/lightrag</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/lightrag" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/lightrag" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/lightrag</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/lightrag" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/lightrag" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/ssh-embedding-local-rag</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ssh-embedding-local-rag" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ssh-embedding-local-rag" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/ssh-embedding-local-rag</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ssh-embedding-local-rag" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ssh-embedding-local-rag" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/face-animation</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/face-animation" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/face-animation" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/face-animation</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/face-animation" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/face-animation" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/ai-spin-that-shit</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ai-spin-that-shit" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ai-spin-that-shit" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/ai-spin-that-shit</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ai-spin-that-shit" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ai-spin-that-shit" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/screen-qa-system</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/screen-qa-system" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/screen-qa-system" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/screen-qa-system</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/screen-qa-system" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/screen-qa-system" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/comfyui-pipelines</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/comfyui-pipelines" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/comfyui-pipelines" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/comfyui-pipelines</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/comfyui-pipelines" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/comfyui-pipelines" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/ucebnice-ai</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ucebnice-ai" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ucebnice-ai" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/ucebnice-ai</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ucebnice-ai" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ucebnice-ai" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/langchain-kurikulum</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/langchain-kurikulum" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/langchain-kurikulum" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/langchain-kurikulum</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/langchain-kurikulum" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/langchain-kurikulum" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/praut-ai-kurz</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/praut-ai-kurz" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/praut-ai-kurz" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/praut-ai-kurz</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/praut-ai-kurz" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/praut-ai-kurz" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/ai-pro-zs-a-ss</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ai-pro-zs-a-ss" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ai-pro-zs-a-ss" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/ai-pro-zs-a-ss</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ai-pro-zs-a-ss" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ai-pro-zs-a-ss" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/puls-akademie</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/puls-akademie" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/puls-akademie" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/puls-akademie</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/puls-akademie" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/puls-akademie" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/montexbau</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/montexbau" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/montexbau" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/montexbau</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/montexbau" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/montexbau" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/ucetnictvi-builder-team</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ucetnictvi-builder-team" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ucetnictvi-builder-team" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/ucetnictvi-builder-team</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ucetnictvi-builder-team" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ucetnictvi-builder-team" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/pj-group-ekosystem</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/pj-group-ekosystem" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/pj-group-ekosystem" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/pj-group-ekosystem</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/pj-group-ekosystem" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/pj-group-ekosystem" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/diplomatenpass-online</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/diplomatenpass-online" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/diplomatenpass-online" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/diplomatenpass-online</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/diplomatenpass-online" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/diplomatenpass-online" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/sch-ekonom-klientsky-portal</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/sch-ekonom-klientsky-portal" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/sch-ekonom-klientsky-portal" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/sch-ekonom-klientsky-portal</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/sch-ekonom-klientsky-portal" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/sch-ekonom-klientsky-portal" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/vojta-zizka</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/vojta-zizka" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/vojta-zizka" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/vojta-zizka</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/vojta-zizka" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/vojta-zizka" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/jaros-reko</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/jaros-reko" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/jaros-reko" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/jaros-reko</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/jaros-reko" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/jaros-reko" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/jaros-design</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/jaros-design" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/jaros-design" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/jaros-design</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/jaros-design" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/jaros-design" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/jaros-sprava</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/jaros-sprava" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/jaros-sprava" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/jaros-sprava</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/jaros-sprava" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/jaros-sprava" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/purify-clinic</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/purify-clinic" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/purify-clinic" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/purify-clinic</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/purify-clinic" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/purify-clinic" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/enhanced-web-scraper</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/enhanced-web-scraper" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/enhanced-web-scraper" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/enhanced-web-scraper</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/enhanced-web-scraper" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/enhanced-web-scraper" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/hotel-scraper</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/hotel-scraper" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/hotel-scraper" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/hotel-scraper</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/hotel-scraper" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/hotel-scraper" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/hivebeast-control-center</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/hivebeast-control-center" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/hivebeast-control-center" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/hivebeast-control-center</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/hivebeast-control-center" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/hivebeast-control-center" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/family-planner</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/family-planner" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/family-planner" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/family-planner</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/family-planner" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/family-planner" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/runaway</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/runaway" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/runaway" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/runaway</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/runaway" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/runaway" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/java-rpg</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/java-rpg" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/java-rpg" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/java-rpg</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/java-rpg" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/java-rpg" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/dnd-game</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/dnd-game" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/dnd-game" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/dnd-game</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/dnd-game" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/dnd-game" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/counterstrike-web-game</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/counterstrike-web-game" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/counterstrike-web-game" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/counterstrike-web-game</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/counterstrike-web-game" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/counterstrike-web-game" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/svci-stvanci</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/svci-stvanci" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/svci-stvanci" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/svci-stvanci</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/svci-stvanci" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/svci-stvanci" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/javascript-showcase</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/javascript-showcase" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/javascript-showcase" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/javascript-showcase</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/javascript-showcase" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/javascript-showcase" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/gargantua</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/gargantua" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/gargantua" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/gargantua</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/gargantua" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/gargantua" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/tatooine-living-architecture</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/tatooine-living-architecture" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/tatooine-living-architecture" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/tatooine-living-architecture</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/tatooine-living-architecture" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/tatooine-living-architecture" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/autonomni-financni-centrum</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/autonomni-financni-centrum" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/autonomni-financni-centrum" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/autonomni-financni-centrum</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/autonomni-financni-centrum" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/autonomni-financni-centrum" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/dotace</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/dotace" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/dotace" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/dotace</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/dotace" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/dotace" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/investori</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/investori" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/investori" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/investori</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/investori" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/investori" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/postautomaton</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/postautomaton" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/postautomaton" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/postautomaton</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/postautomaton" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/postautomaton" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/jobradar</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/jobradar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/jobradar" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/jobradar</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/jobradar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/jobradar" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/praut-arena</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/praut-arena" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/praut-arena" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/praut-arena</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/praut-arena" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/praut-arena" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/agenticdev</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/agenticdev" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/agenticdev" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/agenticdev</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/agenticdev" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/agenticdev" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/fantastic-future</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/fantastic-future" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/fantastic-future" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/fantastic-future</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/fantastic-future" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/fantastic-future" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/projekty/ept-connectors-recepce</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ept-connectors-recepce" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ept-connectors-recepce" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/en/projects/ept-connectors-recepce</loc>
+<xhtml:link rel="alternate" hreflang="cs" href="https://svanda.tech/projekty/ept-connectors-recepce" />
+<xhtml:link rel="alternate" hreflang="en" href="https://svanda.tech/en/projects/ept-connectors-recepce" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/ai-agent-nebo-workflow</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/ai-obsah-firemni-kontext-persony</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/cena-ai-reseni</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/hlasovy-asistent-v-praxi</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/lokalni-llm-nebo-cloud</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/overovani-ai-systemu</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/priprava-firmy-na-ai</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/rag-nad-firemnimi-dokumenty</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/architektura-terminalovych-llm-agentu</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/prvni-krajsky-ai-hackathon-v-chebu</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/74-releasu-za-52-dni</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://svanda.tech/blog/dovednosti-v-claude-code</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+</urlset>

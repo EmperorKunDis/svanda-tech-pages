@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://svanda.tech
+Sitemap: https://svanda.tech/sitemap.xml
