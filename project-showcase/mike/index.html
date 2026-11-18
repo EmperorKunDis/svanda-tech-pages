@@ -31,7 +31,7 @@
       </nav>
       <main id="obsah">
         <header class="hero">
-          <p class="eyebrow">Projekt #01 · Moje výrobky · Alpha při revizi</p>
+          <p class="eyebrow">Projekt #01 · Moje výrobky · Open-source alpha pro Apple Silicon</p>
           <h1>M.I.K.E.</h1>
           <p class="lede">M.I.K.E. je veřejná alpha českého hlasového asistenta pro Apple Silicon Mac s lokálním přepisem, jazykovým modelem, explicitní pamětí a systémovým TTS.</p>
           <div class="actions">
@@ -41,14 +41,14 @@
           </div>
         </header>
         <section class="facts" aria-label="Projekt v kostce">
-          <article class="fact"><p class="label">Stav</p><p class="value">Alpha při revizi</p></article><article class="fact"><p class="label">Dostupnost</p><p class="value">Veřejný provoz není doložen</p></article><article class="fact"><p class="label">Role autora</p><p class="value">Návrh a vývoj lokální pipeline</p></article><article class="fact"><p class="label">Datum revize podkladů</p><p class="value">2026-08-04</p></article>
+          <article class="fact"><p class="label">Stav</p><p class="value">Open-source alpha pro Apple Silicon</p></article><article class="fact"><p class="label">Dostupnost</p><p class="value">Veřejný zdrojový kód (MIT)</p></article><article class="fact"><p class="label">Role autora</p><p class="value">Návrh a vývoj lokální pipeline</p></article><article class="fact"><p class="label">Datum revize podkladů</p><p class="value">2026-08-04</p></article>
         </section>
         <div class="content-grid">
           <section class="panel"><p class="eyebrow">Katalogový kontext</p><h2>Záměr projektu</h2><p>Lokální architektura ponechává základní hlasový tok a paměť na zařízení. Volitelné research, voiceprint a read-only terminál mají vlastní zapínání a bezpečnostní hranice.</p></section>
           <section class="panel"><p class="eyebrow">Problém a práce autora</p><h2>Návrh a vývoj lokální pipeline</h2><p>Hlasové rozhraní musí spojit několik náročných kroků do jedné konverzace. Zároveň jsem chtěl mít pod kontrolou, kde se zpracovává hlas, co si asistent pamatuje a k jakým systémovým schopnostem dostane přístup.</p><p>Hlas a historie ve výchozím režimu neopouštějí Mac.</p><p>Výsledkem je veřejná alpha českého hlasového asistenta s lokální pamětí, dashboardem a diagnostikou. Základní hlasový tok zůstává na zařízení.</p></section>
           <section class="panel"><p class="eyebrow">Popis z dostupných podkladů</p><h2>Realizace v dostupných podkladech</h2><p>Postavil jsem hlasovou pipeline od PyAudio a segmentace přes Whisper/MLX a Ollamu až po systémový hlas macOS. SQLite FTS5 uchovává explicitně spravovanou paměť; loopback dashboard a diagnostické příkazy pomáhají odděleně kontrolovat její části. Voiceprint zůstává experimentálním pomocným signálem, ne ověřením identity pro citlivé akce.</p></section>
           <section class="panel"><p class="eyebrow">Technické řešení</p><h2>Technologie podle části</h2><div class="stack-groups"><section class="stack-group"><p class="label">Technologie v podkladech</p><div class="tags"><span class="tag">Python</span><span class="tag">Whisper</span><span class="tag">MLX</span><span class="tag">Ollama</span><span class="tag">SQLite FTS5</span><span class="tag">PyAudio</span><span class="tag">macOS</span></div></section></div></section>
-          <section class="panel"><p class="eyebrow">Ověřitelnost</p><h2>Co je veřejně doložitelné</h2><ul class="proof"><li>Veřejná alpha v0.1.0 · lokální provoz na Apple Silicon.</li><li>Veřejná provozní URL není uvedena.</li><li>Zdrojový repozitář je veřejně propojen.</li></ul></section>
+          <section class="panel"><p class="eyebrow">Ověřitelnost</p><h2>Co je veřejně doložitelné</h2><p>Alpha při revizi. Běh na cílovém Macu není v tomto portfoliu ověřený.</p><ul class="proof"><li>Veřejná alpha v0.1.0 · lokální provoz na Apple Silicon.</li><li>Veřejná provozní URL není uvedena.</li><li>Zdrojový repozitář je veřejně propojen.</li></ul></section>
           <section class="panel wide"><p class="eyebrow">Historická kontrola zdroje · 2026-08-04</p><h2>Podklady a publikační hranice</h2><p class="result-count">Revize zdroje fa4e9a7bf1d8 · Veřejná alpha v0.1.0</p><div class="audit-columns"><div><h3>Popsané ve zdrojové revizi</h3><ul class="proof"><li>23 zdrojových Python modulů a 11 testovacích modulů.</li><li>137 testovacích funkcí a coverage gate 75 %.</li><li>CI, Gitleaks, ochrana hlavní větve a licence MIT.</li></ul></div><div><h3>Stav a hranice</h3><ul class="proof limitations"><li>Vyžaduje macOS 13+, Apple Silicon, Python a lokální Ollama modely.</li><li>Nejde o podepsanou ani notarizovanou macOS aplikaci.</li><li>Voiceprint je volitelný signál, nikoli autentizační mechanismus.</li></ul></div></div></section>
 
           <section class="panel wide"><p class="eyebrow">Další krok</p><h2>Prohlédnout projekt v kontextu celého portfolia</h2><p>Na svanda.tech je rozšířený profil, související projekty, galerie a aktuální odkazy na provoz nebo zdrojový kód.</p><div class="actions"><a class="button" href="https://svanda.tech/projekty/mike">Otevřít profil na svanda.tech</a></div></section>

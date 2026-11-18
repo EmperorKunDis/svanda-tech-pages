@@ -31,8 +31,18 @@
         ]
       }
     ],
-    "status": "Alpha při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Open-source alpha pro Apple Silicon",
+    "phase": "Alpha při revizi",
+    "projectType": {
+      "code": "local-desktop",
+      "label": "Lokální desktopová aplikace"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Běh na cílovém Macu není v tomto portfoliu ověřený."
+    },
+    "hosting": "Veřejný zdrojový kód (MIT)",
     "role": "Návrh a vývoj lokální pipeline",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -94,8 +104,18 @@
         ]
       }
     ],
-    "status": "Historický produkční stav",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Historický produkt / architektura a implementace",
+    "phase": "Historický produkční stav",
+    "projectType": {
+      "code": "historical-product",
+      "label": "Historický produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na web projektu",
     "role": "Architektura a full-stack vývoj",
     "reviewedAt": "2026-10-05",
     "qualification": {
@@ -162,8 +182,18 @@
         ]
       }
     ],
-    "status": "Historický produkční stav",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Historický produkční stav",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na web projektu",
     "role": "Architektura a full-stack integrace",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -234,8 +264,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Neveřejný projekt; provoz neověřen",
+    "status": "Prototyp",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "prototype",
+      "label": "Prototyp"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Veřejný popis neveřejného projektu",
     "role": "Produktová architektura a frontendový prototyp",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -311,8 +351,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Neveřejný projekt; provoz neověřen",
+    "status": "Projekt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Veřejný popis neveřejného projektu",
     "role": "Návrh a vývoj desktopové aplikace",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -376,8 +426,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Neveřejný projekt; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Veřejný popis neveřejného projektu",
     "role": "Role autora není specifikovaná",
     "reviewedAt": null,
     "qualification": {
@@ -425,8 +485,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Neveřejný projekt; provoz neověřen",
+    "status": "Prototyp",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "prototype",
+      "label": "Prototyp"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Veřejný popis neveřejného projektu",
     "role": "Role autora není specifikovaná",
     "reviewedAt": null,
     "qualification": {
@@ -469,8 +539,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Neveřejný projekt; provoz neověřen",
+    "status": "Projekt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Veřejný popis neveřejného projektu",
     "role": "Role autora není specifikovaná",
     "reviewedAt": null,
     "qualification": {
@@ -520,8 +600,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Prototyp",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "prototype",
+      "label": "Prototyp"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na web projektu",
     "role": "Návrh a implementace dashboardu",
     "reviewedAt": "2026-10-05",
     "qualification": {
@@ -575,8 +665,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Projekt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Projektový popis bez odkazu na veřejnou ukázku",
     "role": "Role autora není specifikovaná",
     "reviewedAt": null,
     "qualification": {
@@ -647,8 +747,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Projekt",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na zdrojový kód",
     "role": "Návrh experimentální orchestrace",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -708,8 +818,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Projekt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Projektový popis bez odkazu na veřejnou ukázku",
     "role": "Role autora není specifikovaná",
     "reviewedAt": null,
     "qualification": {
@@ -761,8 +881,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Webový odkaz a zdrojový kód",
     "role": "Produktový návrh a full-stack vývoj",
     "reviewedAt": "2026-10-05",
     "qualification": {
@@ -819,8 +949,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Projekt",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Projektový popis bez odkazu na veřejnou ukázku",
     "role": "Příprava výukových příkladů",
     "reviewedAt": "2026-10-15",
     "qualification": {
@@ -890,8 +1030,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na web projektu",
     "role": "Návrh a vývoj vzdělávací platformy",
     "reviewedAt": "2026-10-05",
     "qualification": {
@@ -954,8 +1104,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Prototyp",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "prototype",
+      "label": "Prototyp"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Projektový popis bez odkazu na veřejnou ukázku",
     "role": "Návrh pracovních toků a frontendový vývoj",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1014,8 +1174,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Webový odkaz a zdrojový kód",
     "role": "Frontendová architektura a vývoj",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1072,8 +1242,18 @@
         ]
       }
     ],
-    "status": "Koncept při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Produkt",
+    "phase": "Koncept při revizi",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Projektový popis bez odkazu na veřejnou ukázku",
     "role": "Frontendový návrh a vývoj",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1161,8 +1341,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Produkt",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na zdrojový kód",
     "role": "Vývoj přepisovacího nástroje",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1228,8 +1418,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Webový odkaz a zdrojový kód",
     "role": "Návrh a frontendový vývoj",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1295,8 +1495,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Produkt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na zdrojový kód",
     "role": "Frontendový návrh a vývoj",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1362,8 +1572,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Webový odkaz a zdrojový kód",
     "role": "Obsahová struktura a frontendový vývoj",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1425,8 +1645,18 @@
         ]
       }
     ],
-    "status": "Koncept při revizi",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Koncept při revizi",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na web projektu",
     "role": "Produktový návrh a frontendový vývoj",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1489,8 +1719,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Neveřejný projekt; provoz neověřen",
+    "status": "Projekt",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Veřejný popis neveřejného projektu",
     "role": "Návrh desktopového UI a základní implementace",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1543,8 +1783,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Hra / experiment",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "game",
+      "label": "Hra / experiment"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Webový odkaz a zdrojový kód",
     "role": "Herní vývoj a C++ gameplay",
     "reviewedAt": "2026-10-05",
     "qualification": {
@@ -1603,8 +1853,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Hra / experiment",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "game",
+      "label": "Hra / experiment"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na zdrojový kód",
     "role": "Návrh a implementace herního základu",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1691,8 +1951,18 @@
         ]
       }
     ],
-    "status": "Koncept při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Hra / experiment",
+    "phase": "Koncept při revizi",
+    "projectType": {
+      "code": "game",
+      "label": "Hra / experiment"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na zdrojový kód",
     "role": "Návrh domény a technického základu",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1748,8 +2018,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Neveřejný projekt; provoz neověřen",
+    "status": "Hra / experiment",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "game",
+      "label": "Hra / experiment"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Veřejný popis neveřejného projektu",
     "role": "Role autora není specifikovaná",
     "reviewedAt": null,
     "qualification": {
@@ -1819,8 +2099,18 @@
         ]
       }
     ],
-    "status": "Historický produkční stav",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Hra / experiment",
+    "phase": "Historický produkční stav",
+    "projectType": {
+      "code": "game",
+      "label": "Hra / experiment"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na web projektu",
     "role": "Full-stack vývoj a technická architektura",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1879,8 +2169,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Prototyp",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "prototype",
+      "label": "Prototyp"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na zdrojový kód",
     "role": "Algoritmické prototypování a frontendový vývoj",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -1959,8 +2259,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Interní R&D / technická studie",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "internal-rd",
+      "label": "Interní R&D"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Běh interního prostředí nebyl součástí této revize."
+    },
+    "hosting": "Projektový popis bez odkazu na veřejnou ukázku",
     "role": "Návrh a implementace interní platformy",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -2043,8 +2353,18 @@
         ]
       }
     ],
-    "status": "Prototyp při revizi",
-    "hosting": "Veřejný provoz není doložen",
+    "status": "Projekt",
+    "phase": "Prototyp při revizi",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Projektový popis bez odkazu na veřejnou ukázku",
     "role": "Návrh a vývoj desktopového systému",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -2113,8 +2433,18 @@
         ]
       }
     ],
-    "status": "Historický produkční stav",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Projekt",
+    "phase": "Historický produkční stav",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Webový odkaz a zdrojový kód",
     "role": "Datová pipeline a frontendový produkt",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -2183,8 +2513,18 @@
         ]
       }
     ],
-    "status": "Historický produkční stav",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Projekt",
+    "phase": "Historický produkční stav",
+    "projectType": {
+      "code": "project",
+      "label": "Projekt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Webový odkaz a zdrojový kód",
     "role": "Datová pipeline, heuristika a frontend",
     "reviewedAt": "2026-08-04",
     "qualification": {
@@ -2240,8 +2580,18 @@
         ]
       }
     ],
-    "status": "Katalogový záznam / studie",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Produkt",
+    "phase": "Katalogový záznam / studie",
+    "projectType": {
+      "code": "product",
+      "label": "Produkt"
+    },
+    "runtimeVerification": {
+      "state": "not-recorded",
+      "checkedAt": null,
+      "label": "Současný provoz nebyl součástí této revize ověřen."
+    },
+    "hosting": "Odkaz na web projektu",
     "role": "Konkrétní osobní role není touto kontrolou zdroje doložena.",
     "reviewedAt": "2026-10-15",
     "qualification": {
