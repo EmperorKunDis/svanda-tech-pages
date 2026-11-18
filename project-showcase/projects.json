@@ -19,7 +19,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "Python",
           "Whisper",
@@ -31,8 +31,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Portfolio ukázka",
+    "status": "Alpha při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Návrh a vývoj lokální pipeline",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/mike",
     "onePagerUrl": "https://svanda.tech/project-showcase/mike/",
@@ -52,7 +59,8 @@
         "Nejde o podepsanou ani notarizovanou macOS aplikaci.",
         "Voiceprint je volitelný signál, nikoli autentizační mechanismus."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "02",
@@ -74,7 +82,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "Angular",
           "Django",
@@ -86,8 +94,24 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Historický produkční stav",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Architektura a full-stack vývoj",
+    "reviewedAt": "2026-10-05",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [
+      {
+        "id": "posthub-historic-scale",
+        "text": "Zakladatel uvádí historické měsíce provozu a stovky klientů.",
+        "limit": "Nezávislý anonymizovaný provozní záznam a současná dostupnost nejsou zveřejněné.",
+        "sourceKind": "owner-testimony",
+        "sourceCommit": null,
+        "observedAt": "2026-10-05"
+      }
+    ],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/posthub",
     "onePagerUrl": "https://svanda.tech/project-showcase/posthub/",
@@ -98,13 +122,13 @@
       "commit": "c871592844f1",
       "maturity": "Historický SaaS; rozsah provozu podle zakladatele",
       "facts": [
-        "PostHub běžel měsíce v plném veřejném provozu a měl stovky klientů; provozní zkušenost potvrzuje zakladatel a vývojář Martin Švanda.",
         "Auditovaný zdroj na produkční větvi odděluje Angular frontend, Django API, PostgreSQL/pgvector, Redis, Celery workery, plánovač a Nginx.",
         "Organizace a firmy vymezují klientská data; obsah navazuje na firemní DNA, persony, témata a generovací úlohy.",
         "Billing ověřuje podpis Stripe webhooků a eviduje zpracované události pro idempotenci."
       ],
       "limitations": []
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "03",
@@ -126,7 +150,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "Django REST Framework",
           "PostgreSQL",
@@ -138,8 +162,24 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Historický produkční stav",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Architektura a full-stack integrace",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [
+      {
+        "id": "zaznamnik-source-workflow",
+        "text": "Auditovaný zdroj propojuje telefonní tok s uložením požadavku a navazující prací.",
+        "limit": "Auditovaná revize se lišila od nasazeného buildu; produkční parita nebyla ověřena.",
+        "sourceKind": "source-review",
+        "sourceCommit": "d8f684ecaf6e",
+        "observedAt": "2026-10-14"
+      }
+    ],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/zaznamnik-pro",
     "onePagerUrl": "https://svanda.tech/project-showcase/zaznamnik-pro/",
@@ -159,7 +199,8 @@
         "Telefonní čísla, přepisy, klientská data a identifikátory poskytovatelů zůstávají neveřejné.",
         "SLA ani úplná produkční funkčnost všech notifikačních kanálů nejsou doložené."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "04",
@@ -193,8 +234,15 @@
         ]
       }
     ],
-    "status": "Koncept",
-    "hosting": "Soukromé nasazení",
+    "status": "Prototyp při revizi",
+    "hosting": "Neveřejný projekt; provoz neověřen",
+    "role": "Produktová architektura a frontendový prototyp",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Neveřejný zdrojový kód",
     "profileUrl": "https://svanda.tech/projekty/ai-drg-auditor-medvision",
     "onePagerUrl": "https://svanda.tech/project-showcase/ai-drg-auditor-medvision/",
@@ -214,7 +262,8 @@
         "Jde o prototyp podle produktového zadání, nikoli produkční zdravotnický systém.",
         "Zdravotnická nebo regulatorní certifikace ani veřejný deployment nejsou potvrzené."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "05",
@@ -262,8 +311,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Soukromé nasazení",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Neveřejný projekt; provoz neověřen",
+    "role": "Návrh a vývoj desktopové aplikace",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Neveřejný zdrojový kód",
     "profileUrl": "https://svanda.tech/projekty/praut-cleaner",
     "onePagerUrl": "https://svanda.tech/project-showcase/praut-cleaner/",
@@ -283,7 +339,8 @@
         "Hromadné commity, push, rebase a merge jsou vysoce dopadové operace a nejsou bezrizikové.",
         "Před veřejnou distribucí chybí CI, testy, podepsaný release, licence a bezpečnostní hardening."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "06",
@@ -291,7 +348,7 @@
     "title": "AI telemarketing",
     "category": "Produkt",
     "categoryKey": "Produkt",
-    "description": "Automatizovaný telemarketing, který startuje vyplněním webového formuláře. n8n workflow zachytí data přes webhook, doplní je o další informace o kontaktu a následně přes Twilio spustí AI hovor, který vede rozhovor podle scénáře a zaznamená výsledek.",
+    "description": "Katalogový popis: Automatizovaný telemarketing, který startuje vyplněním webového formuláře. n8n workflow zachytí data přes webhook, doplní je o další informace o kontaktu a následně přes Twilio spustí AI hovor, který vede rozhovor podle scénáře a zaznamená výsledek.. Aktuální funkčnost není v portfoliu doložena.",
     "benefits": "Lead je kontaktován během několika minut od vyplnění formuláře, bez čekání na volného obchodníka. Firmám s vysokým objemem poptávek to šetří kapacitu na prvokontaktech a zajišťuje jednotnou kvalitu hovoru u každého leadu.",
     "technologies": [
       "n8n",
@@ -319,14 +376,28 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Soukromé nasazení",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Neveřejný projekt; provoz neověřen",
+    "role": "Role autora není specifikovaná",
+    "reviewedAt": null,
+    "qualification": {
+      "ready": false,
+      "missing": [
+        "date",
+        "problem",
+        "role",
+        "decision",
+        "outcome"
+      ]
+    },
+    "claims": [],
     "source": "Neveřejný zdrojový kód",
     "profileUrl": "https://svanda.tech/projekty/ai-telemarketing",
     "onePagerUrl": "https://svanda.tech/project-showcase/ai-telemarketing/",
     "webUrl": null,
     "githubUrl": null,
-    "repositoryAudit": null
+    "repositoryAudit": null,
+    "internalReview": null
   },
   {
     "sourceId": "10",
@@ -334,7 +405,7 @@
     "title": "EmperorCodex",
     "category": "Prototyp",
     "categoryKey": "Prototype",
-    "description": "EmperorCodex je experimentální prostředí pro koordinaci AI agentů při vývoji softwaru. Zadám úlohu a systém ji rozdělí mezi jednotlivé agenty, kteří pracují souběžně na kódu, testech a review. Je to sandbox, ve kterém zkouším, jak moc lze automatizovat samotný proces psaní kódu, ne jen jeho části.",
+    "description": "Katalogový popis: EmperorCodex je experimentální prostředí pro koordinaci AI agentů při vývoji softwaru. Zadám úlohu a systém ji rozdělí mezi jednotlivé agenty, kteří pracují souběžně na kódu, testech a review. Je to sandbox, ve kterém zkouším, jak moc lze automatizovat samotný proces psaní kódu, ne jen jeho části.. Aktuální funkčnost není v portfoliu doložena.",
     "benefits": "Ukazuje, kde agentní automatizace v reálném vývoji funguje a kde ještě ne — bez toho, abych to zkoušel přímo v produkčním kódu Tatooine. Slouží mi jako testovací polygon pro vzorce koordinace agentů, které pak případně přenáším do ostrých projektů.",
     "technologies": [
       "Agents",
@@ -354,14 +425,28 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Soukromé nasazení",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Neveřejný projekt; provoz neověřen",
+    "role": "Role autora není specifikovaná",
+    "reviewedAt": null,
+    "qualification": {
+      "ready": false,
+      "missing": [
+        "date",
+        "problem",
+        "role",
+        "decision",
+        "outcome"
+      ]
+    },
+    "claims": [],
     "source": "Neveřejný zdrojový kód",
     "profileUrl": "https://svanda.tech/projekty/emperor-codex",
     "onePagerUrl": "https://svanda.tech/project-showcase/emperor-codex/",
     "webUrl": null,
     "githubUrl": null,
-    "repositoryAudit": null
+    "repositoryAudit": null,
+    "internalReview": null
   },
   {
     "sourceId": "11",
@@ -369,7 +454,7 @@
     "title": "Agent VOCAS",
     "category": "Moje výrobky",
     "categoryKey": "MojeVyrobky",
-    "description": "Agent VOCAS je hlasový konverzační agent postavený jako součást projektu Tatooine. Zpracovává mluvený vstup, vede dialog a reaguje hlasem v reálném čase pomocí agentní architektury nad voice AI modely.",
+    "description": "Katalogový popis: Agent VOCAS je hlasový konverzační agent postavený jako součást projektu Tatooine. Zpracovává mluvený vstup, vede dialog a reaguje hlasem v reálném čase pomocí agentní architektury nad voice AI modely.. Aktuální funkčnost není v portfoliu doložena.",
     "benefits": "Umožňuje ovládat a dotazovat systémy hlasem bez psaní, což se hodí tam, kde je klávesnice nepraktická nebo kde chci rychlejší a přirozenější interakci. Základ je znovupoužitelný pro další hlasové agenty v rámci Tatooine.",
     "technologies": [
       "Voice AI",
@@ -384,14 +469,28 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Soukromé nasazení",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Neveřejný projekt; provoz neověřen",
+    "role": "Role autora není specifikovaná",
+    "reviewedAt": null,
+    "qualification": {
+      "ready": false,
+      "missing": [
+        "date",
+        "problem",
+        "role",
+        "decision",
+        "outcome"
+      ]
+    },
+    "claims": [],
     "source": "Neveřejný zdrojový kód",
     "profileUrl": "https://svanda.tech/projekty/agent-vocas",
     "onePagerUrl": "https://svanda.tech/project-showcase/agent-vocas/",
     "webUrl": null,
     "githubUrl": null,
-    "repositoryAudit": null
+    "repositoryAudit": null,
+    "internalReview": null
   },
   {
     "sourceId": "13",
@@ -411,7 +510,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "HTML",
           "CSS",
@@ -421,16 +520,23 @@
         ]
       }
     ],
-    "status": "Koncept",
+    "status": "Prototyp při revizi",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Návrh a implementace dashboardu",
+    "reviewedAt": "2026-10-05",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/zephyr",
     "onePagerUrl": "https://svanda.tech/project-showcase/zephyr/",
     "webUrl": "https://bio.praut.cz/",
     "githubUrl": null,
-    "repositoryAudit": {
-      "verifiedAt": "2026-10-05",
-      "maturity": "Interaktivní statický prototyp",
+    "repositoryAudit": null,
+    "internalReview": {
+      "reviewedAt": "2026-10-05",
       "facts": [
         "README výslovně uvádí syntetická data a Chart.js vložený v index.html.",
         "Generátor časových řad používá seed; registr pohledů odděluje sestavení HTML a inicializaci grafů.",
@@ -449,7 +555,7 @@
     "title": "Face Animation",
     "category": "Moje výrobky",
     "categoryKey": "MojeVyrobky",
-    "description": "Face Animation je série experimentů s animací obličeje pomocí AI nástrojů – od statického portrétu k mluvící nebo emotivně reagující tváři. Testuji na něm generování a synchronizaci pohybu obličeje s audiem a hledám hranice toho, co dnešní nástroje pro AI video umí a kde ještě selhávají.",
+    "description": "Katalogový popis: Face Animation je série experimentů s animací obličeje pomocí AI nástrojů – od statického portrétu k mluvící nebo emotivně reagující tváři. Testuji na něm generování a synchronizaci pohybu obličeje s audiem a hledám hranice toho, co dnešní nástroje pro AI video umí a kde ještě selhávají.. Aktuální funkčnost není v portfoliu doložena.",
     "benefits": "Slouží jako rychlý poligon pro vyzkoušení nových AI video nástrojů před jejich nasazením v klientských nebo interních projektech Praut. Výstupy z něj se dají využít pro avatary, personalizovaný video obsah nebo experimentální kreativní produkci.",
     "technologies": [
       "AI Video",
@@ -469,14 +575,28 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Portfolio ukázka",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Role autora není specifikovaná",
+    "reviewedAt": null,
+    "qualification": {
+      "ready": false,
+      "missing": [
+        "date",
+        "problem",
+        "role",
+        "decision",
+        "outcome"
+      ]
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/face-animation",
     "onePagerUrl": "https://svanda.tech/project-showcase/face-animation/",
     "webUrl": null,
     "githubUrl": null,
-    "repositoryAudit": null
+    "repositoryAudit": null,
+    "internalReview": null
   },
   {
     "sourceId": "17",
@@ -527,8 +647,15 @@
         ]
       }
     ],
-    "status": "Koncept",
-    "hosting": "Portfolio ukázka",
+    "status": "Prototyp při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Návrh experimentální orchestrace",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/ai-spin-that-shit",
     "onePagerUrl": "https://svanda.tech/project-showcase/ai-spin-that-shit/",
@@ -548,7 +675,8 @@
         "Repozitář nemá automatizované testy, CI ani licenci.",
         "Projekt je R&D koncept, nikoli bezpečný autonomní produkční systém."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "18",
@@ -556,7 +684,7 @@
     "title": "Screen Q&A System",
     "category": "Moje výrobky",
     "categoryKey": "MojeVyrobky",
-    "description": "Nástroj, který ze screenshotu obrazovky vytáhne text pomocí OCR, rozpozná v něm otázku a pomocí lokálního RAG systému nad vlastní znalostní bází vygeneruje odpověď. Celý proces běží lokálně bez závislosti na externím API, včetně LLM inference.",
+    "description": "Katalogový popis: Nástroj, který ze screenshotu obrazovky vytáhne text pomocí OCR, rozpozná v něm otázku a pomocí lokálního RAG systému nad vlastní znalostní bází vygeneruje odpověď. Celý proces běží lokálně bez závislosti na externím API, včetně LLM inference.. Aktuální funkčnost není v portfoliu doložena.",
     "benefits": "Hodí se všude, kde je potřeba rychle zodpovědět otázku, kterou vidím na obrazovce (test, formulář, dokumentace), aniž bych musel text ručně přepisovat nebo posílat data mimo svůj počítač. Díky lokálnímu běhu je řešení vhodné i pro citlivější data, kde nechci nic odesílat do cloudu.",
     "technologies": [
       "OCR",
@@ -580,14 +708,28 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Portfolio ukázka",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Role autora není specifikovaná",
+    "reviewedAt": null,
+    "qualification": {
+      "ready": false,
+      "missing": [
+        "date",
+        "problem",
+        "role",
+        "decision",
+        "outcome"
+      ]
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/screen-qa-system",
     "onePagerUrl": "https://svanda.tech/project-showcase/screen-qa-system/",
     "webUrl": null,
     "githubUrl": null,
-    "repositoryAudit": null
+    "repositoryAudit": null,
+    "internalReview": null
   },
   {
     "sourceId": "20",
@@ -608,7 +750,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "Next.js",
           "React",
@@ -619,8 +761,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Katalogový záznam / studie",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Produktový návrh a full-stack vývoj",
+    "reviewedAt": "2026-10-05",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/ucebnice-ai",
     "onePagerUrl": "https://svanda.tech/project-showcase/ucebnice-ai/",
@@ -641,7 +790,8 @@
         "Starší samostatný FastAPI chatbot je jiná část historie projektu, nikoli architektura současné platformy.",
         "Pokyn tutorovi neschvalovat projekty nenahrazuje aplikační oprávnění a kontrolu hodnoticího toku."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "21",
@@ -660,7 +810,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "Python",
           "Jupyter",
@@ -669,8 +819,24 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Portfolio ukázka",
+    "status": "Prototyp při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Příprava výukových příkladů",
+    "reviewedAt": "2026-10-15",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [
+      {
+        "id": "langchain-first-lesson",
+        "text": "Dohledaná revize obsahuje český a ukrajinský notebook první lekce.",
+        "limit": "Další lekce, skutečný výukový běh a výsledky studentů nejsou tímto auditem potvrzené.",
+        "sourceKind": "source-review",
+        "sourceCommit": "3910644cfd504013fd140e87b7879b459adce9e2",
+        "observedAt": "2026-10-15"
+      }
+    ],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/langchain-kurikulum",
     "onePagerUrl": "https://svanda.tech/project-showcase/langchain-kurikulum/",
@@ -689,7 +855,8 @@
         "Tvrzení o třiceti lekcích nebo ověřeném onboardingu není doložené.",
         "API volání, notebook, code review a výsledky studentů nebyly při revizi provedeny."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "25",
@@ -711,7 +878,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "Angular",
           "Django",
@@ -723,8 +890,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Katalogový záznam / studie",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Návrh a vývoj vzdělávací platformy",
+    "reviewedAt": "2026-10-05",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/puls-akademie",
     "onePagerUrl": "https://svanda.tech/project-showcase/puls-akademie/",
@@ -745,7 +919,8 @@
         "Jitsi konfigurace je označena jako placeholder; živé video nelze vydávat za ověřenou integraci.",
         "Hodnocení provádí lektor. README vylučuje LLM volání a platební bránu; přístupy přiděluje správce."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "26",
@@ -779,8 +954,15 @@
         ]
       }
     ],
-    "status": "Koncept",
-    "hosting": "Portfolio ukázka",
+    "status": "Prototyp při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Návrh pracovních toků a frontendový vývoj",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/montexbau",
     "onePagerUrl": "https://svanda.tech/project-showcase/montexbau/",
@@ -800,7 +982,8 @@
         "Demo přihlášení a klientské ukládání dat nejsou produkční autentizace ani produkční ERP.",
         "Veřejný provoz ani dostupná vlastní doména nebyly při auditu potvrzené."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "29",
@@ -831,8 +1014,15 @@
         ]
       }
     ],
-    "status": "Koncept",
+    "status": "Katalogový záznam / studie",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Frontendová architektura a vývoj",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/pj-group-ekosystem",
     "onePagerUrl": "https://svanda.tech/project-showcase/pj-group-ekosystem/",
@@ -852,7 +1042,8 @@
         "Publikovaný Pages artefakt je vývojový dokument, nikoli čistý produkční export aplikace.",
         "Deklarované Jest skripty nemají ve zdroji odpovídající testovací soubory."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "30",
@@ -881,8 +1072,15 @@
         ]
       }
     ],
-    "status": "Koncept",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Koncept při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Frontendový návrh a vývoj",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/diplomatenpass-online",
     "onePagerUrl": "https://svanda.tech/project-showcase/diplomatenpass-online/",
@@ -902,7 +1100,8 @@
         "Kontaktní a hlavní CTA prvky nemají doložený funkční integrační tok.",
         "Tvrzení o autorizaci, licencích, zastoupení a právní shodě nejsou repozitářem doložená."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "32",
@@ -962,8 +1161,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Portfolio ukázka",
+    "status": "Prototyp při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Vývoj přepisovacího nástroje",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/vojta-zizka",
     "onePagerUrl": "https://svanda.tech/project-showcase/vojta-zizka/",
@@ -983,7 +1189,8 @@
         "Překlad a VTT nejsou z běžného formuláře plně funkčně propojené.",
         "Před veřejným provozem jsou nutné autentizace, limity uploadu, retence, fronta úloh a testy."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "33",
@@ -1021,8 +1228,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Katalogový záznam / studie",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Návrh a frontendový vývoj",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/jaros-reko",
     "onePagerUrl": "https://svanda.tech/project-showcase/jaros-reko/",
@@ -1042,7 +1256,8 @@
         "Kontaktní formulář používá zástupné Formspree ID.",
         "Ukázkové fotografie a reference nelze vydávat za ověřené klientské realizace."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "34",
@@ -1080,8 +1295,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Veřejný odkaz; provoz neověřen",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Frontendový návrh a vývoj",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/jaros-design",
     "onePagerUrl": "https://svanda.tech/project-showcase/jaros-design/",
@@ -1101,7 +1323,8 @@
         "Kontaktní formulář používá zástupné Formspree ID.",
         "Původ vizuálních assetů a skutečné klientské realizace nejsou auditním repozitářem doložené."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "35",
@@ -1139,8 +1362,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Katalogový záznam / studie",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Obsahová struktura a frontendový vývoj",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/jaros-sprava",
     "onePagerUrl": "https://svanda.tech/project-showcase/jaros-sprava/",
@@ -1160,7 +1390,8 @@
         "Kontaktní formulář používá zástupné Formspree ID a privacy tok není dokončený.",
         "Reference, garance a obchodní výsledky nejsou auditním repozitářem doložené."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "36",
@@ -1194,8 +1425,15 @@
         ]
       }
     ],
-    "status": "Koncept",
+    "status": "Koncept při revizi",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Produktový návrh a frontendový vývoj",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/purify-clinic",
     "onePagerUrl": "https://svanda.tech/project-showcase/purify-clinic/",
@@ -1215,7 +1453,8 @@
         "Vývojové backendové nastavení není připravené pro produkční práci se zdravotními daty.",
         "Projekt nedokládá zdravotnickou certifikaci, compliance ani reálný klinický provoz."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "41",
@@ -1250,8 +1489,15 @@
         ]
       }
     ],
-    "status": "Koncept",
-    "hosting": "Soukromé nasazení",
+    "status": "Prototyp při revizi",
+    "hosting": "Neveřejný projekt; provoz neověřen",
+    "role": "Návrh desktopového UI a základní implementace",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Neveřejný zdrojový kód",
     "profileUrl": "https://svanda.tech/projekty/family-planner",
     "onePagerUrl": "https://svanda.tech/project-showcase/family-planner/",
@@ -1271,7 +1517,8 @@
         "Plánovací algoritmus, datový model a obsluha hlavních akcí nejsou doloženě dokončené.",
         "Automatické férové rozdělení, export, ukládání a notifikace nelze uvádět jako hotové funkce."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "42",
@@ -1288,7 +1535,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "Unreal Engine 5.4",
           "C++",
@@ -1296,8 +1543,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Prototyp při revizi",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Herní vývoj a C++ gameplay",
+    "reviewedAt": "2026-10-05",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/runaway",
     "onePagerUrl": "https://svanda.tech/project-showcase/runaway/",
@@ -1317,7 +1571,8 @@
         "Veřejná verze je prealpha; stránka uvádí absenci menu a uživatelského rozhraní.",
         "Binární hra nebyla při přípravě portfolia spouštěna."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "43",
@@ -1348,8 +1603,15 @@
         ]
       }
     ],
-    "status": "Koncept",
-    "hosting": "Portfolio ukázka",
+    "status": "Prototyp při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Návrh a implementace herního základu",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/java-rpg",
     "onePagerUrl": "https://svanda.tech/project-showcase/java-rpg/",
@@ -1369,7 +1631,8 @@
         "Repozitář obsahuje build output a IDE metadata.",
         "Licence a provenience obrazových a zvukových assetů nejsou doložené."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "44",
@@ -1428,8 +1691,15 @@
         ]
       }
     ],
-    "status": "Koncept",
-    "hosting": "Portfolio ukázka",
+    "status": "Koncept při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Návrh domény a technického základu",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/dnd-game",
     "onePagerUrl": "https://svanda.tech/project-showcase/dnd-game/",
@@ -1449,7 +1719,8 @@
         "Server nemá doložený vstupní bod, API routy ani seed očekávané deklarovanými skripty.",
         "Chybí testy, CI, lockfile, deployment a reprodukovatelný build."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "45",
@@ -1457,7 +1728,7 @@
     "title": "CounterStrike Web Game",
     "category": "Hobby",
     "categoryKey": "Hobby",
-    "description": "Taktická střílečka odehrávající se přímo v prohlížeči, postavená jako webová aplikace bez nutnosti instalace. Hráč ovládá postavu, střílí a plní herní cíle typické pro žánr CS – runda, výzbroj, týmy.",
+    "description": "Katalogový popis: Taktická střílečka odehrávající se přímo v prohlížeči, postavená jako webová aplikace bez nutnosti instalace. Hráč ovládá postavu, střílí a plní herní cíle typické pro žánr CS – runda, výzbroj, týmy.. Aktuální funkčnost není v portfoliu doložena.",
     "benefits": "Hra běží okamžitě po otevření odkazu, bez stahování klienta nebo instalace herního enginu. Vhodné pro rychlé vyzkoušení konceptu nebo demo hratelnosti přímo v prohlížeči.",
     "technologies": [
       "Web Game",
@@ -1477,14 +1748,28 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Soukromé nasazení",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Neveřejný projekt; provoz neověřen",
+    "role": "Role autora není specifikovaná",
+    "reviewedAt": null,
+    "qualification": {
+      "ready": false,
+      "missing": [
+        "date",
+        "problem",
+        "role",
+        "decision",
+        "outcome"
+      ]
+    },
+    "claims": [],
     "source": "Neveřejný zdrojový kód",
     "profileUrl": "https://svanda.tech/projekty/counterstrike-web-game",
     "onePagerUrl": "https://svanda.tech/project-showcase/counterstrike-web-game/",
     "webUrl": null,
     "githubUrl": null,
-    "repositoryAudit": null
+    "repositoryAudit": null,
+    "internalReview": null
   },
   {
     "sourceId": "46",
@@ -1534,8 +1819,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Historický produkční stav",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Full-stack vývoj a technická architektura",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/svci-stvanci",
     "onePagerUrl": "https://svanda.tech/project-showcase/svci-stvanci/",
@@ -1555,7 +1847,8 @@
         "Starší veřejné repozitáře používají odlišné označení a stack a nejsou kanonickým zdrojem.",
         "Privátní zdroj, členský dataset, interní odkazy a provozní konfigurace zůstávají neveřejné."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "47",
@@ -1586,8 +1879,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Portfolio ukázka",
+    "status": "Katalogový záznam / studie",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Algoritmické prototypování a frontendový vývoj",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/javascript-showcase",
     "onePagerUrl": "https://svanda.tech/project-showcase/javascript-showcase/",
@@ -1607,7 +1907,8 @@
         "Mobilní výkon, stabilní FPS ani přístupnost nejsou doložené.",
         "Repozitář nemá testy, CI, licenci ani vlastní GitHub Pages deployment."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "49",
@@ -1658,8 +1959,24 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Portfolio ukázka",
+    "status": "Prototyp při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Návrh a implementace interní platformy",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [
+      {
+        "id": "tatooine-source-workflow",
+        "text": "Auditovaný zdroj obsahuje terminálové úlohy, schvalovací hranice a auditní evidenci.",
+        "limit": "Nejde o ověření veřejného dashboardu, provozu ani zeleného vzdáleného CI.",
+        "sourceKind": "source-review",
+        "sourceCommit": "1f74fc5885d4",
+        "observedAt": "2026-10-14"
+      }
+    ],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/tatooine-living-architecture",
     "onePagerUrl": "https://svanda.tech/project-showcase/tatooine-living-architecture/",
@@ -1679,7 +1996,8 @@
         "Aktuální vzdálený CI běh neposkytuje zelený důkaz a platforma nemá veřejný release.",
         "Interní topologie, oprávnění, provozní data, endpointy a privátní nasazení zůstávají neveřejné."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "50",
@@ -1725,8 +2043,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
-    "hosting": "Portfolio ukázka",
+    "status": "Prototyp při revizi",
+    "hosting": "Veřejný provoz není doložen",
+    "role": "Návrh a vývoj desktopového systému",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/autonomni-financni-centrum",
     "onePagerUrl": "https://svanda.tech/project-showcase/autonomni-financni-centrum/",
@@ -1746,7 +2071,8 @@
         "Legislativní správnost, certifikace ani náhrada odborného účetního nejsou potvrzené.",
         "Databáze, doklady, logy a reálné finanční či osobní údaje zůstávají privátní."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "51",
@@ -1787,8 +2113,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Historický produkční stav",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Datová pipeline a frontendový produkt",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/dotace",
     "onePagerUrl": "https://svanda.tech/project-showcase/dotace/",
@@ -1808,7 +2141,8 @@
         "Aktualizace je týdenní, nikoli realtime.",
         "Při auditu selhával jeden časově závislý test klasifikace termínu."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "52",
@@ -1849,8 +2183,15 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Historický produkční stav",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Datová pipeline, heuristika a frontend",
+    "reviewedAt": "2026-08-04",
+    "qualification": {
+      "ready": true,
+      "missing": []
+    },
+    "claims": [],
     "source": "Veřejný repozitář",
     "profileUrl": "https://svanda.tech/projekty/investori",
     "onePagerUrl": "https://svanda.tech/project-showcase/investori/",
@@ -1870,7 +2211,8 @@
         "Skóre není AI predikce, investiční doporučení ani důkaz zájmu konkrétního investora.",
         "Osobní kontaktní údaje nejsou součástí portfolia a jejich aktuálnost a právní režim vyžadují kontrolu."
       ]
-    }
+    },
+    "internalReview": null
   },
   {
     "sourceId": "54",
@@ -1889,7 +2231,7 @@
     ],
     "techBreakdown": [
       {
-        "part": "Technologie v auditovaném zdroji",
+        "part": "Technologie v podkladech",
         "items": [
           "Python",
           "FastAPI",
@@ -1898,8 +2240,17 @@
         ]
       }
     ],
-    "status": "Aktivní vývoj",
+    "status": "Katalogový záznam / studie",
     "hosting": "Veřejný odkaz; provoz neověřen",
+    "role": "Konkrétní osobní role není touto kontrolou zdroje doložena.",
+    "reviewedAt": "2026-10-15",
+    "qualification": {
+      "ready": false,
+      "missing": [
+        "role"
+      ]
+    },
+    "claims": [],
     "source": "Repozitář není veřejně propojený",
     "profileUrl": "https://svanda.tech/projekty/jobradar",
     "onePagerUrl": "https://svanda.tech/project-showcase/jobradar/",
@@ -1922,6 +2273,7 @@
         "Existence modelového posouzení není měřením jeho přesnosti. Aktuální veřejná revize, doručení zpráv a úplné portálové podání nebyly ověřeny.",
         "Zobrazení vybraných stavů není úplný audit ochrany osobních údajů, všech veřejných cest nebo všech exportovaných souborů."
       ]
-    }
+    },
+    "internalReview": null
   }
 ]

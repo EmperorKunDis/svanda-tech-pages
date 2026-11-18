@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[7121,[],""]
+3:I[4581,[],""]
+:HL["/_next/static/css/65567d51426a0430.css","style"]
+5:X
+5:C
+6:X
+8:T55d,[{"@context":"https://schema.org","@type":"WebSite","@id":"https://svanda.tech/#website","name":"Martin Švanda — AI/LLM systémy a softwarová architektura","url":"https://svanda.tech/","description":"Martin Švanda, seniorní AI engineer a softwarový architekt. Navrhuji agentní a LLM systémy od kontextu a nástrojů po stav, integrace a ověření. Projekty a zkušenosti.","inLanguage":"cs","author":{"@id":"https://svanda.tech/#person"}},{"@context":"https://schema.org","@type":"Person","@id":"https://svanda.tech/#person","name":"Martin Švanda","url":"https://svanda.tech","email":"mailto:martin@svanda.tech","jobTitle":"Chief Technology Officer","worksFor":{"@id":"https://svanda.tech/#organization"},"sameAs":["https://github.com/EmperorKunDis","https://www.linkedin.com/in/martin-%C5%A1vanda-b8491a264/","https://www.youtube.com/@MartinSvandaDeveloper"]},{"@context":"https://schema.org","@type":"Organization","@id":"https://svanda.tech/#organization","name":"Praut s.r.o.","url":"https://www.praut.cz","description":"Praut s.r.o. pomáhá firmám digitalizovat, automatizovat a zefektivňovat procesy pomocí umělé inteligence a moderních informačních systémů. Propojujeme firemní data, komunikaci, administrativu a každodenní pracovní postupy s důrazem na bezpečnost, ochranu dat a možnost provozu přímo v infrastruktuře zákazníka."}]7:[["children",{"s":"(cs)","h":48,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/65567d51426a0430.css","precedence":"next"}]],["$","html",null,{"lang":"cs","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon-ms.svg"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function () {\n                try {\n                  var mode = localStorage.getItem('portfolio-appearance-mode') || 'auto';\n                  if (!['light', 'dark', 'auto'].includes(mode)) mode = 'auto';\n                  var resolved = mode === 'auto'\n                    ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')\n                    : mode;\n                  document.documentElement.dataset.appearance = mode;\n                  document.documentElement.dataset.theme = resolved;\n                  document.documentElement.style.colorScheme = resolved;\n                } catch (_) {\n                  document.documentElement.dataset.appearance = 'auto';\n                }\n              })();\n            "}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$8"}}],"$L9"]}],"$La"]}]]}],"p":"$@b","v":null,"s":"$6"}}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}],"p":"$@4","v":"$5","s":"$6"},"c":"$Q7"}},"a":"$@c","u":"$@d","b":"GfZ5jcvybkJcHpnn9tVam"}
+f:"static/chunks/3510-f621103dba65ac18.js"
+10:"static/chunks/5009-a1743f55bf06a61f.js"
+11:"static/chunks/app/(cs)/layout-a65bb3540f448231.js"
+12:I[805,["3510","$f","5009","$10","901","$11"],"default"]
+e:T47e,
+              (function() {
+                const removeAttr = (el) => {
+                  if (el.removeAttribute) {
+                    el.removeAttribute('bis_skin_checked');
+                  }
+                };
+                const observer = new MutationObserver((mutations) => {
+                  mutations.forEach((m) => {
+                    if (m.type === 'attributes' && m.attributeName === 'bis_skin_checked') {
+                      removeAttr(m.target);
+                    }
+                    if (m.addedNodes) {
+                      m.addedNodes.forEach((n) => {
+                        if (n.nodeType === 1) {
+                          removeAttr(n);
+                          n.querySelectorAll('[bis_skin_checked]').forEach(removeAttr);
+                        }
+                      });
+                    }
+                  });
+                });
+                observer.observe(document.documentElement, {
+                  childList: true,
+                  subtree: true,
+                  attributes: true,
+                  attributeFilter: ['bis_skin_checked']
+                });
+              })();
+            9:["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$e"}}]
+a:["$","body",null,{"suppressHydrationWarning":true,"children":[["$","$L12",null,{}],["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]]}]]}]
+6:300
+d:true
+6:C
+c:0
+4:"$undefined"
+b:"$undefined"

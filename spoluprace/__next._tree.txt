@@ -1,5 +1,6 @@
-:HL["/_next/static/css/6a894af17091110a.css","style"]
-:HL["/_next/static/css/f0338c94d559e9df.css","style"]
-2:[["children",{"s":"__PAGE__","h":160}]]
-1:[["children",{"s":{"n":"topic","t":"d","k":"spoluprace","s":["_not-found","_global-error","JobRadar","about","admin","ai","blog","build-info.json","case-studies","compare","contact","data","desktop","en","engineering","experience","hry","manifest.webmanifest","now","projekty","reference","robots.txt","rss.xml","sitemap.xml","soukromi","verification","videa","zivotopis"]},"h":64,"c":"$Q2"}]]
-0:{"b":"pwYrvDTXlFB4G9KwxSHgW","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+:HL["/_next/static/css/65567d51426a0430.css","style"]
+:HL["/_next/static/css/4c1b3911f748f059.css","style"]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"topic","t":"d","k":"spoluprace","s":["_not-found","_global-error","JobRadar","about","admin","ai","blog","case-studies","compare","contact","desktop","engineering","experience","hry","now","projekty","reference","soukromi","verification","videa","zivotopis","build-info.json","data","en","manifest.webmanifest","robots.txt","rss.xml","sitemap.xml"]},"h":64,"c":"$Q3"}]]
+1:[["children",{"s":"(cs)","h":48,"c":"$Q2"}]]
+0:{"b":"GfZ5jcvybkJcHpnn9tVam","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

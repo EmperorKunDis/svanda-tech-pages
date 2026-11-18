@@ -1,0 +1,468 @@
+3:"$Sreact.fragment"
+4:"static/chunks/8500-107859ed31978aa3.js"
+5:"static/chunks/app/(cs)/blog/layout-aa3ea3545ce57b84.js"
+6:I[1977,["8500","$4","8388","$5"],"default"]
+7:I[7121,[],""]
+8:I[4581,[],""]
+50:"ViewportBoundary"
+51:I[484,[],"$50"]
+52:"MetadataBoundary"
+53:I[484,[],"$52"]
+54:"$Sreact.suspense"
+55:I[6869,[],"IconMark"]
+:HL["/_next/static/css/4c1b3911f748f059.css","style"]
+a:X
+d:X
+d:C
+f:[["$","source",null,{"srcSet":"/media/blog/editorial/claude-code-skills.avif","type":"image/avif"}],["$","img",null,{"src":"/media/blog/editorial/claude-code-skills.webp","alt":"","className":"h-full w-full object-cover","style":{"objectPosition":"50% 50%"},"loading":"eager"}]]
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","main",null,{"className":"blog-page-frame blog-article-page","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Dovednosti v Claude Code: Kompletní průvodce od živé ukázky po vlastní skills\",\"description\":\"Praktický průvodce opakovaně použitelnými AI pracovními postupy, paralelními agenty, optimalizací tokenů a tvorbou vlastních skills.\",\"datePublished\":\"2026-03-16T08:00:00.000Z\",\"dateModified\":\"2026-03-16T08:00:00.000Z\",\"author\":{\"@id\":\"https://svanda.tech/#person\"},\"image\":\"/media/blog/editorial/claude-code-skills.webp\",\"mainEntityOfPage\":\"https://svanda.tech/blog/dovednosti-v-claude-code\"}"}}],["$","div",null,{"className":"blog-page-heading","children":[["$","p",null,{"children":["Agentní vývoj"," · ",28," min čtení",""]}],["$","h1",null,{"children":"Dovednosti v Claude Code: Kompletní průvodce od živé ukázky po vlastní skills"}]]}],["$","figure",null,{"className":"blog-article-hero","children":["$","picture",null,{"className":"","children":"$f"}]}],["$","div",null,{"className":"grid grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,840px)_240px]","children":[["$","div",null,{"className":"min-w-0","children":[false,["$","details",null,{"className":"blog-toc-mobile","children":[["$","summary",null,{"children":"Obsah článku"}],["$","ol",null,{"children":[["$","li","ziva-ukazka-ctyri-agenti-pracuji-paralelne",{"className":"","children":["$","a",null,{"href":"#ziva-ukazka-ctyri-agenti-pracuji-paralelne","children":"Živá ukázka: Čtyři agenti pracují paralelně"}]}],["$","li","vysledky-vsech-ctyr-agentu",{"className":"pl-3","children":["$","a",null,{"href":"#vysledky-vsech-ctyr-agentu","children":"Výsledky všech čtyř agentů"}]}],["$","li","co-jsou-vlastne-dovednosti",{"className":"","children":["$","a",null,{"href":"#co-jsou-vlastne-dovednosti","children":"Co jsou vlastně dovednosti"}]}],["$","li","priklad-z-praxe-excalidraw-vizualy",{"className":"pl-3","children":["$","a",null,{"href":"#priklad-z-praxe-excalidraw-vizualy","children":"Příklad z praxe: Excalidraw vizuály"}]}],["$","li","proc-by-vas-dovednosti-mely-zajimat-tri-velke-duvody",{"className":"","children":["$","a",null,{"href":"#proc-by-vas-dovednosti-mely-zajimat-tri-velke-duvody","children":"Proč by vás dovednosti měly zajímat: Tři velké důvody"}]}],["$","li","1-osobni-produktivita",{"className":"pl-3","children":["$","a",null,{"href":"#1-osobni-produktivita","children":"1. Osobní produktivita"}]}],["$","li","2-tymova-efektivita",{"className":"pl-3","children":["$","a",null,{"href":"#2-tymova-efektivita","children":"2. Týmová efektivita"}]}],["$","li","3-monetizace",{"className":"pl-3","children":["$","a",null,{"href":"#3-monetizace","children":"3. Monetizace"}]}],["$","li","realny-dopad",{"className":"pl-3","children":["$","a",null,{"href":"#realny-dopad","children":"Reálný dopad"}]}],["$","li","dovednosti-nejsou-jen-text",{"className":"pl-3","children":["$","a",null,{"href":"#dovednosti-nejsou-jen-text","children":"Dovednosti nejsou jen text"}]}],["$","li","anatomie-dovednosti",{"className":"","children":["$","a",null,{"href":"#anatomie-dovednosti","children":"Anatomie dovednosti"}]}],["$","li","priklad-ze-skutecneho-projektu",{"className":"pl-3","children":["$","a",null,{"href":"#priklad-ze-skutecneho-projektu","children":"Příklad ze skutečného projektu"}]}],["$","li","yaml-front-matter",{"className":"pl-3","children":["$","a",null,{"href":"#yaml-front-matter","children":"YAML front matter"}]}],"$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35","$L36","$L37","$L38","$L39","$L3a","$L3b","$L3c","$L3d","$L3e","$L3f","$L40","$L41","$L42","$L43","$L44","$L45","$L46","$L47"]}]]}],"$L48","$L49","$L4a",null,"$L4b","$L4c"]}],"$L4d"]}]]}],null,"$L4e"]}],"p":"$@4f","v":null,"s":"$a"}}]]
+b:[["children",{"s":{"n":"slug","t":"d","k":"dovednosti-v-claude-code","s":[]},"h":65632,"d":{"r":["$","$3","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@c","v":"$d","s":"$a"},"c":"$Qe"}]]
+2:[["children",{"s":"blog","h":131136,"d":{"r":["$","$3","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4c1b3911f748f059.css","precedence":"next"}]],["$","div",null,{"className":"blog-shell","children":[["$","$L6",null,{}],["$","div",null,{"className":"blog-shell-content","children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]}],["$","footer",null,{"className":"blog-footer","children":"Portfolio a obsah © 2026 Martin Švanda / Praut s.r.o."}]]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(cs)","h":131120,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L51",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#000000","media":"(prefers-color-scheme: dark)"}],["$","meta","3",{"name":"theme-color","content":"#f5f5f7","media":"(prefers-color-scheme: light)"}]]}],["$","$L53",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$54",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Dovednosti v Claude Code: Kompletní průvodce od živé ukázky po vlastní skills | Martin Švanda"}],["$","meta","1",{"name":"description","content":"Praktický průvodce opakovaně použitelnými AI pracovními postupy, paralelními agenty, optimalizací tokenů a tvorbou vlastních skills."}],["$","meta","2",{"name":"application-name","content":"Martin Švanda — AI/LLM systémy a softwarová architektura"}],["$","link","3",{"rel":"author","href":"https://svanda.tech"}],["$","meta","4",{"name":"author","content":"Martin Švanda"}],["$","link","5",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","6",{"name":"generator","content":"Next.js"}],["$","meta","7",{"name":"keywords","content":"Martin Švanda,portfolio,AgenticDev,AI,LLM,Praut,CTO,softwarová architektura"}],["$","meta","8",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","9",{"name":"creator","content":"Martin Švanda"}],["$","meta","10",{"name":"publisher","content":"Martin Švanda"}],["$","meta","11",{"name":"category","content":"technologie"}],["$","meta","12",{"name":"classification","content":"Profesní portfolio"}],["$","link","13",{"rel":"canonical","href":"https://svanda.tech/blog/dovednosti-v-claude-code/"}],["$","meta","14",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","15",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","16",{"name":"apple-mobile-web-app-title","content":"Martin Švanda — AI/LLM systémy a softwarová architektura"}],["$","meta","17",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["$","meta","18",{"property":"og:title","content":"Dovednosti v Claude Code: Kompletní průvodce od živé ukázky po vlastní skills"}],["$","meta","19",{"property":"og:description","content":"Praktický průvodce opakovaně použitelnými AI pracovními postupy, paralelními agenty, optimalizací tokenů a tvorbou vlastních skills."}],["$","meta","20",{"property":"og:url","content":"https://svanda.tech/blog/dovednosti-v-claude-code/"}],["$","meta","21",{"property":"og:site_name","content":"Martin Švanda — AI/LLM systémy a softwarová architektura"}],["$","meta","22",{"property":"og:locale","content":"cs_CZ"}],["$","meta","23",{"property":"og:image","content":"https://svanda.tech/blog/dovednosti-v-claude-code/og.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2026-03-16T08:00:00.000Z"}],["$","meta","28",{"property":"article:author","content":"Martin Švanda"}],["$","meta","29",{"property":"article:tag","content":"Claude Code"}],["$","meta","30",{"property":"article:tag","content":"AI agenti"}],["$","meta","31",{"property":"article:tag","content":"skills"}],["$","meta","32",{"property":"article:tag","content":"automatizace"}],["$","meta","33",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","34",{"name":"twitter:title","content":"Dovednosti v Claude Code: Kompletní průvodce od živé ukázky po vlastní skills"}],["$","meta","35",{"name":"twitter:description","content":"Praktický průvodce opakovaně použitelnými AI pracovními postupy, paralelními agenty, optimalizací tokenů a tvorbou vlastních skills."}],["$","meta","36",{"name":"twitter:image","content":"https://svanda.tech/blog/dovednosti-v-claude-code/og.png"}],["$","link","37",{"rel":"shortcut icon","href":"/favicon-ms.svg"}],["$","link","38",{"rel":"icon","href":"/favicon-ms.svg"}],["$","$L55","39",{}]]}]}],null]}],null]}],"p":"$@56","v":null,"s":"$a"}},"a":"$@57","u":"$@58","b":"GfZ5jcvybkJcHpnn9tVam"}
+5a:"static/chunks/app/(cs)/blog/%5Bslug%5D/page-a9dc488d3ea5f03a.js"
+5b:I[8676,["8500","$4","4165","$5a"],"default"]
+5c:I[8415,["8500","$4","4165","$5a"],"default"]
+5d:I[8500,["8500","$4","4165","$5a"],""]
+90:I[484,[],"OutletBoundary"]
+10:["$","li","referencni-soubory-kam-je-dat",{"className":"","children":["$","a",null,{"href":"#referencni-soubory-kam-je-dat","children":"Referenční soubory: Kam je dát"}]}]
+11:["$","li","moznost-a-vnorene-primo-pod-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#moznost-a-vnorene-primo-pod-dovednosti","children":"Možnost A: Vnořené přímo pod dovedností"}]}]
+12:["$","li","moznost-b-samostatne-v-projektu",{"className":"pl-3","children":["$","a",null,{"href":"#moznost-b-samostatne-v-projektu","children":"Možnost B: Samostatně v projektu"}]}]
+13:["$","li","konkretni-priklad-dovednost-idea-mining",{"className":"pl-3","children":["$","a",null,{"href":"#konkretni-priklad-dovednost-idea-mining","children":"Konkrétní příklad: Dovednost „idea mining\""}]}]
+14:["$","li","jak-by-to-mohlo-vypadat-s-moznosti-a",{"className":"pl-3","children":["$","a",null,{"href":"#jak-by-to-mohlo-vypadat-s-moznosti-a","children":"Jak by to mohlo vypadat s možností A"}]}]
+15:["$","li","klicove-pravidlo-zalezi-jen-na-spravne-ceste",{"className":"pl-3","children":["$","a",null,{"href":"#klicove-pravidlo-zalezi-jen-na-spravne-ceste","children":"Klíčové pravidlo: Záleží jen na správné cestě"}]}]
+16:["$","li","skill-builder-nastroj-ktery-vam-pomuze",{"className":"pl-3","children":["$","a",null,{"href":"#skill-builder-nastroj-ktery-vam-pomuze","children":"Skill builder: Nástroj, který vám pomůže"}]}]
+17:["$","li","shrnuti-mozek-a-nastroje",{"className":"pl-3","children":["$","a",null,{"href":"#shrnuti-mozek-a-nastroje","children":"Shrnutí: Mozek a nástroje"}]}]
+18:["$","li","souvislost-s-frameworkem-wat",{"className":"","children":["$","a",null,{"href":"#souvislost-s-frameworkem-wat","children":"Souvislost s frameworkem WAT"}]}]
+19:["$","li","kde-dovednosti-ziskat-nemusite-vsechny-vytvaret",{"className":"","children":["$","a",null,{"href":"#kde-dovednosti-ziskat-nemusite-vsechny-vytvaret","children":"Kde dovednosti získat: Nemusíte všechny vytvářet"}]}]
+1a:["$","li","jak-claude-vi-kdy-dovednost-pouzit",{"className":"","children":["$","a",null,{"href":"#jak-claude-vi-kdy-dovednost-pouzit","children":"Jak Claude ví, kdy dovednost použít"}]}]
+1b:["$","li","1-explicitni-spusteni",{"className":"pl-3","children":["$","a",null,{"href":"#1-explicitni-spusteni","children":"1. Explicitní spuštění"}]}]
+1c:["$","li","2-prirozeny-jazyk",{"className":"pl-3","children":["$","a",null,{"href":"#2-prirozeny-jazyk","children":"2. Přirozený jazyk"}]}]
+1d:["$","li","jak-to-funguje-pod-kapotou",{"className":"pl-3","children":["$","a",null,{"href":"#jak-to-funguje-pod-kapotou","children":"Jak to funguje pod kapotou"}]}]
+1e:["$","li","progresivni-nacitani-kontextu-jak-dovednosti-zustavaji-nenarocne",{"className":"","children":["$","a",null,{"href":"#progresivni-nacitani-kontextu-jak-dovednosti-zustavaji-nenarocne","children":"Progresivní načítání kontextu: Jak dovednosti zůstávají nenáročné"}]}]
+1f:["$","li","uroven-1-pocatecni-vyhledavani",{"className":"pl-3","children":["$","a",null,{"href":"#uroven-1-pocatecni-vyhledavani","children":"Úroveň 1: Počáteční vyhledávání"}]}]
+20:["$","li","uroven-2-cela-dovednost",{"className":"pl-3","children":["$","a",null,{"href":"#uroven-2-cela-dovednost","children":"Úroveň 2: Celá dovednost"}]}]
+21:["$","li","uroven-3-dodatecne-soubory",{"className":"pl-3","children":["$","a",null,{"href":"#uroven-3-dodatecne-soubory","children":"Úroveň 3: Dodatečné soubory"}]}]
+22:["$","li","dokumentace",{"className":"pl-3","children":["$","a",null,{"href":"#dokumentace","children":"Dokumentace"}]}]
+23:["$","li","cyklus-zpetne-vazby-a-kdy-vytvaret-dovednost",{"className":"","children":["$","a",null,{"href":"#cyklus-zpetne-vazby-a-kdy-vytvaret-dovednost","children":"Cyklus zpětné vazby a kdy vytvářet dovednost"}]}]
+24:["$","li","nikdy-nenapisete-perfektni-dovednost-napoprve",{"className":"pl-3","children":["$","a",null,{"href":"#nikdy-nenapisete-perfektni-dovednost-napoprve","children":"Nikdy nenapíšete perfektní dovednost napoprvé"}]}]
+25:["$","li","iterativni-cyklus",{"className":"pl-3","children":["$","a",null,{"href":"#iterativni-cyklus","children":"Iterativní cyklus"}]}]
+26:["$","li","priklad-pokrocile-dovednosti-kontrola-pulsu",{"className":"","children":["$","a",null,{"href":"#priklad-pokrocile-dovednosti-kontrola-pulsu","children":"Příklad pokročilé dovednosti: Kontrola pulsu"}]}]
+27:["$","li","optimalizace-1-napevno-zakodovana-id-seznamu",{"className":"pl-3","children":["$","a",null,{"href":"#optimalizace-1-napevno-zakodovana-id-seznamu","children":"Optimalizace 1: Napevno zakódovaná ID seznamů"}]}]
+28:["$","li","optimalizace-2-specializovany-subagent",{"className":"pl-3","children":["$","a",null,{"href":"#optimalizace-2-specializovany-subagent","children":"Optimalizace 2: Specializovaný subagent"}]}]
+29:["$","li","priklad-nastroj-pro-tvorbu-dovednosti-skill-builder",{"className":"","children":["$","a",null,{"href":"#priklad-nastroj-pro-tvorbu-dovednosti-skill-builder","children":"Příklad: Nástroj pro tvorbu dovedností (skill builder)"}]}]
+2a:["$","li","hlavni-myslenka",{"className":"pl-3","children":["$","a",null,{"href":"#hlavni-myslenka","children":"Hlavní myšlenka"}]}]
+2b:["$","li","cil-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#cil-dovednosti","children":"Cíl dovedností"}]}]
+2c:["$","li","kdy-vytvorit-dovednost",{"className":"pl-3","children":["$","a",null,{"href":"#kdy-vytvorit-dovednost","children":"Kdy vytvořit dovednost"}]}]
+2d:["$","li","sestikrokovy-ramec-pro-budovani-dovednosti",{"className":"","children":["$","a",null,{"href":"#sestikrokovy-ramec-pro-budovani-dovednosti","children":"Šestikrokový rámec pro budování dovedností"}]}]
+2e:["$","li","1-nazev-a-spoustec",{"className":"pl-3","children":["$","a",null,{"href":"#1-nazev-a-spoustec","children":"1. Název a spouštěč"}]}]
+2f:["$","li","2-cil",{"className":"pl-3","children":["$","a",null,{"href":"#2-cil","children":"2. Cíl"}]}]
+30:["$","li","3-postup-krok-za-krokem-jadro-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#3-postup-krok-za-krokem-jadro-dovednosti","children":"3. Postup krok za krokem (jádro dovednosti)"}]}]
+31:["$","li","4-referencni-soubory",{"className":"pl-3","children":["$","a",null,{"href":"#4-referencni-soubory","children":"4. Referenční soubory"}]}]
+32:["$","li","5-pravidla",{"className":"pl-3","children":["$","a",null,{"href":"#5-pravidla","children":"5. Pravidla"}]}]
+33:["$","li","6-smycka-sebezdokonalovani",{"className":"pl-3","children":["$","a",null,{"href":"#6-smycka-sebezdokonalovani","children":"6. Smyčka sebezdokonalování"}]}]
+34:["$","li","zive-sestaveni-dovednosti-od-nuly",{"className":"","children":["$","a",null,{"href":"#zive-sestaveni-dovednosti-od-nuly","children":"Živé sestavení dovednosti od nuly"}]}]
+35:["$","li","priprava-prostredi",{"className":"pl-3","children":["$","a",null,{"href":"#priprava-prostredi","children":"Příprava prostředí"}]}]
+36:["$","li","krok-1-stazeni-skill-builderu-a-inicializace",{"className":"pl-3","children":["$","a",null,{"href":"#krok-1-stazeni-skill-builderu-a-inicializace","children":"Krok 1: Stažení skill builderu a inicializace"}]}]
+37:["$","li","krok-2-vlozeni-skill-builderu",{"className":"pl-3","children":["$","a",null,{"href":"#krok-2-vlozeni-skill-builderu","children":"Krok 2: Vložení skill builderu"}]}]
+38:["$","li","krok-3-spusteni-skill-builderu",{"className":"pl-3","children":["$","a",null,{"href":"#krok-3-spusteni-skill-builderu","children":"Krok 3: Spuštění skill builderu"}]}]
+39:["$","li","krok-4-interaktivni-vytvareni-otazky-a-odpovedi",{"className":"pl-3","children":["$","a",null,{"href":"#krok-4-interaktivni-vytvareni-otazky-a-odpovedi","children":"Krok 4: Interaktivní vytváření — otázky a odpovědi"}]}]
+3a:["$","li","krok-5-nastaveni-znacky",{"className":"pl-3","children":["$","a",null,{"href":"#krok-5-nastaveni-znacky","children":"Krok 5: Nastavení značky"}]}]
+3b:["$","li","krok-6-vysledek-co-se-vytvorilo",{"className":"pl-3","children":["$","a",null,{"href":"#krok-6-vysledek-co-se-vytvorilo","children":"Krok 6: Výsledek — co se vytvořilo"}]}]
+3c:["$","li","testovani-dovednosti-a-iterace-vysledku",{"className":"","children":["$","a",null,{"href":"#testovani-dovednosti-a-iterace-vysledku","children":"Testování dovednosti a iterace výsledků"}]}]
+3d:["$","li","prvni-spusteni",{"className":"pl-3","children":["$","a",null,{"href":"#prvni-spusteni","children":"První spuštění"}]}]
+3e:["$","li","druhe-spusteni",{"className":"pl-3","children":["$","a",null,{"href":"#druhe-spusteni","children":"Druhé spuštění"}]}]
+3f:["$","li","co-bylo-ve-skutecnosti-vytvoreno",{"className":"pl-3","children":["$","a",null,{"href":"#co-bylo-ve-skutecnosti-vytvoreno","children":"Co bylo ve skutečnosti vytvořeno"}]}]
+40:["$","li","testovani-ladeni-a-bezne-opravy",{"className":"","children":["$","a",null,{"href":"#testovani-ladeni-a-bezne-opravy","children":"Testování, ladění a běžné opravy"}]}]
+41:["$","li","prehled-symptomu-a-reseni",{"className":"pl-3","children":["$","a",null,{"href":"#prehled-symptomu-a-reseni","children":"Přehled symptomů a řešení"}]}]
+42:["$","li","pokrocile-nastaveni-yaml-front-matter-reference",{"className":"","children":["$","a",null,{"href":"#pokrocile-nastaveni-yaml-front-matter-reference","children":"Pokročilé nastavení: YAML front matter reference"}]}]
+43:["$","li","lokalni-vs-globalni-dovednosti-kde-dovednosti-ziji",{"className":"","children":["$","a",null,{"href":"#lokalni-vs-globalni-dovednosti-kde-dovednosti-ziji","children":"Lokální vs. globální dovednosti: Kde dovednosti žijí"}]}]
+44:["$","li","globalni-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#globalni-dovednosti","children":"Globální dovednosti"}]}]
+45:["$","li","vizualni-srovnani",{"className":"pl-3","children":["$","a",null,{"href":"#vizualni-srovnani","children":"Vizuální srovnání"}]}]
+46:["$","li","kdy-pouzit-globalni-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#kdy-pouzit-globalni-dovednosti","children":"Kdy použít globální dovednosti"}]}]
+47:["$","li","zaver",{"className":"","children":["$","a",null,{"href":"#zaver","children":"Závěr"}]}]
+59:Tab4e,<p>Díky dovednostem v Claude Code jsem nikdy nebyl tak produktivní, jako jsem teď. Tento obrázek to opravdu shrnuje. Mám pocit, jako bych pracoval na více různých počítačích a na více různých úkolech současně, aniž bych obětoval kvalitu. V konečném důsledku jde o jedno jednoduché slovo, a to je <strong>pákový efekt</strong>. S Claudeovými dovednostmi, nebo vlastně jakýmikoli dovednostmi agenta, máte mnohem větší pákový efekt, než kdybyste to dělali sami.</p>
+<p>V tomto článku si rozeberu, co jsou dovednosti, jak fungují a jak si můžete vybudovat opravdu, opravdu dobré skills, i když jste o tomto konceptu nikdy neslyšeli nebo si žádnou dovednost nevybudovali. Pojďme se tedy rychle podívat na živou ukázku a pojďme na to.</p>
+<hr />
+<h2 id="ziva-ukazka-ctyri-agenti-pracuji-paralelne">Živá ukázka: Čtyři agenti pracují paralelně</h2>
+<p>Tady jsme v Claude Code v projektu Herk 2, který je něco jako můj osobní asistent. Pokud se vám tohle zdá ohromující, teď si s tím nedělejte starosti. Jen se soustřeďte na to, co vlastně po agentovi chci.</p>
+<p>Mám dovednost, které říkám <strong>„ranní káva"</strong> a která mi pomáhá plánovat si den každé ráno. Takže teď ještě není ráno, ale spustím tohle, abyste viděli, jak to funguje.</p>
+<p>Zatímco Claude Code na to přichází, otevřu dalšího agenta. A v něm ho požádám, aby <strong>provedl pulzní kontrolu všech mých projektů a závazků</strong>, abych zjistil, jak se věci mají.</p>
+<p>Otevřu dalšího, aby mi <strong>vytvořil diagram v Excalidraw</strong>, který ukazuje rozdíl mezi lokálními modely umělé inteligence a modely s uzavřeným zdrojovým kódem.</p>
+<p>A pojďme udělat ještě jeden, který <strong>seškrábe komentáře z mých nedávných videí na YouTube</strong> a poskytne mi analýzu toho, co potřebuji zlepšit.</p>
+<p>Takže to, na co se právě díváte, jsou čtyři různí agenti, kteří běží paralelně a dělají věci za mě. A trvalo mi asi 30 sekund, než jsem je o to požádal. A protože jsem si vybudoval všechny tyto dovednosti, všichni tito agenti mají veškerý kontext o mém podnikání, co se děje s našimi projekty, mým kanálem na YouTube. Má doslova vše, co potřebuje.</p>
+<h3 id="vysledky-vsech-ctyr-agentu">Výsledky všech čtyř agentů</h3>
+<p>A teď jsou všichni ti agenti hotovi.</p>
+<p><strong>Agent 1 — Ranní káva.</strong> Tady byla moje ranní káva 26. února. V kalendáři jsem měl tři věci. Takže to, co udělá, je, že se podívá na můj ClickUp. Uvidí, co dalšího mám tento týden, podívá se na mé úkoly a pak mi pomůže naplánovat zbytek dne. Takže tohle je plán, který navrhl. Stačí říct „Jo" a všechno mi to zablokuje v kalendáři. A pro mě je to obrovské, protože už nemám únavu z rozhodování o tom, na čem musím pracovat.</p>
+<p><strong>Agent 2 — Kontrola pulsu.</strong> Druhý agent se vrátil s kontrolou pulsu — 2 dny do konce měsíce. Tady je všechno. V podstatě mi to pomáhá dohnat všechny hlavní iniciativy, které děláme tento měsíc a toto čtvrtletí, a ujistit se, že vše jde podle plánu. A tady vidíte, že je pár věcí, které musím ručně sledovat. A tohle by mi možná uniklo, protože jsem tak zaneprázdněný natáčením videí na YouTube, kdybych neměl tohoto osobního asistenta, který by mě kontroloval pomocí té dovednosti.</p>
+<p><strong>Agent 3 — Diagram z Excalidraw.</strong> Třetí agent se vrátil, dokončil diagram z Excalidraw, já jsem ho tam vložil a vypadá skvěle. Takže kdybych o tom potřeboval natočit video, nemusel bych si věnovat čas vytváření této vizualizace.</p>
+<p><strong>Agent 4 — Analýza komentářů z YouTube.</strong> Takže analýza komentářů se vrátila a můžeme vidět všechny komentáře, všechny názory a věci, které musím řešit buď v budoucích videích, nebo v komentářích. Máme tu trochu zmatku. Máme nějaké finanční záležitosti, které musím probrat. Musíme přestat s ukázkami hraček pro videa s nástroji. Zdá se, že diváci opravdu chtějí vidět nějaké pokročilé věci. A pak máme tři hlavní priority.</p>
+<p>Takže teď nahrávám toto asi 6 minut. Jen si představte, že kdybych všechny čtyři tyto věci udělal sám, kolik kontextu bych musel přepínat a jak dlouho by mi to trvalo.</p>
+<hr />
+<h2 id="co-jsou-vlastne-dovednosti">Co jsou vlastně dovednosti</h2>
+<p>Dobře, teď když jste viděli skutečnou ukázku a doufám, že se trochu těšíte na informace o cloudových dovednostech, pokud jste je ještě nepoužívali — co to vlastně je?</p>
+<p>Dovednosti jsou <strong>opakovaně použitelné instrukce</strong>. Napíšete je jednou a uložíte je jako dovednost. Můžete je kdykoli spustit a dosáhnete mnohem konzistentnějších výsledků, protože pokaždé procházejí stejným procesem.</p>
+<h3 id="priklad-z-praxe-excalidraw-vizualy">Příklad z praxe: Excalidraw vizuály</h3>
+<p>Takže ten vizuál, co jste viděli, byl ve skutečnosti obrázek vygenerovaný umělou inteligencí, který jsem použil s dovedností. Byl to obrázek v mém Claude Code, který se jmenuje „Excalidraw visuals". Ale někdy se u obrázků vygenerovaných AI slova nepíší správně. Jak vidíte, je to celé zpackané. Všechny tyto věci jsou zpackané.</p>
+<p>Takže mám také druhou dovednost, jak jste viděli v ukázce, na vytváření Excalidraw diagramů. A tenhle vytváří skutečný Excalidraw soubor, který můžu přesouvat a upravovat. A slova jsou vždy perfektní, protože se ve skutečnosti jen píšou, nejsou generovány jako obrázek. A tyto dvě dovednosti mi samy o sobě ušetřily obrovské množství času.</p>
+<p>A mimochodem, v bezplatné školní komunitě (odkaz dole v popisu) jsem přidal novou sekci s názvem „Dovednosti agentů", kde sdílím spoustu těchto dovedností, které si můžete stáhnout zcela zdarma.</p>
+<hr />
+<h2 id="proc-by-vas-dovednosti-mely-zajimat-tri-velke-duvody">Proč by vás dovednosti měly zajímat: Tři velké důvody</h2>
+<p>Takže než se do toho ponoříme — proč by vás to mělo zajímat? Existují tři velké důvody.</p>
+<h3 id="1-osobni-produktivita">1. Osobní produktivita</h3>
+<p>Můžete být mnohem produktivnější jako člověk, protože můžete automatizovat věci, jak jste to právě viděli dělat mě. A můžete si legitimně vytvořit osobního asistenta, který za vás udělá téměř cokoli.</p>
+<h3 id="2-tymova-efektivita">2. Týmová efektivita</h3>
+<p>Můžete stávající standardní operační postupy opravdu snadno proměnit v automatizované. A pokud vytvoříte něco nového, můžete to používat nejen vy, ale celá vaše organizace. Takže každý jako skupina se stává mnohem produktivnějším, což téměř nepochybně povede k růstu firmy.</p>
+<h3 id="3-monetizace">3. Monetizace</h3>
+<p>Vstupujeme do tohoto nového světa, kde dovednosti hrají velkou roli a vy můžete z mnoha z těchto věcí těžit. Neříkám, že to bude dlouhodobě životaschopný obchodní model — takže na to byste se neměli spoléhat — ale je to něco, čeho si je třeba být vědom, stejně jako když lidé prodávali upravené šablony workflow a podobné věci.</p>
+<h3 id="realny-dopad">Reálný dopad</h3>
+<p>Ale opět se to redukuje na jedno slovo, a to je <strong>pákový efekt</strong>. Není to jen teorie. Je to něco, co vidíme u klientů. Je to něco, co vidíme i interně v mé vlastní firmě. Tato rychlost práce, které jsme nyní schopni dosáhnout, se zdá šílená, ale stane se normální. A pokud to nedokážete, okamžitě se stanete příliš pomalými a příliš drahými pro firmu a možná si vás neudrží.</p>
+<p>Ve skutečnosti si dáváme za prioritu zajistit, aby všichni naši zaměstnanci používali Claude Code, protože teď mám všechny tyto různé dovednosti, které můžu spustit jednoduchým příkazem s lomítkem nebo jednoduchým příkazem v přirozeném jazyce a získat výstup na jeden den v týdnu. Protože opět — jeden člověk dokáže přijít na to, jak něco nejlépe udělat, a proměnit to v dovednost, kterou může využít celý tým.</p>
+<h3 id="dovednosti-nejsou-jen-text">Dovednosti nejsou jen text</h3>
+<p>Ale negenerují jen text. Jsou to v podstatě automatizace. Mohou spouštět skripty. Mohou volat API. Mohou vytvářet věci. Mohou mít subagenty. A mohou být také volány agenty. Takže toto je skutečná automatizace s využitím umělé inteligence.</p>
+<p>A jen abych to pořádně zdůraznil — jsou to v podstatě <strong>standardní operační postupy (SOP) pro vaše agenty s využitím umělé inteligence</strong>. Stejným způsobem, jako byste školili lidského zaměstnance tím, že byste mu nechali přečíst si SOP, aby pochopil proces, a pak by ho byl schopen dělat. Prostě v tom agenta zaškolíte. Dáte mu dovednost, on si ji přečte a pak ji udělá.</p>
+<p>A nejlepší na tom je, že <strong>čím více dovednost používáte, tím lepší a lepší je</strong>.</p>
+<hr />
+<h2 id="anatomie-dovednosti">Anatomie dovednosti</h2>
+<p>Takže jsme mluvili o mnoha výhodách. Ale co je vlastně dovednost? Jaká je anatomie dovednosti?</p>
+<p>No, je to jen složka a nachází se někde ve vašem projektu. Nejběžnějším příkladem bude pravděpodobně <code>.claude/skills/nazev-dovednosti</code> a pak máte něco jako <code>skill.md</code> — soubor v Markdownu.</p>
+<h3 id="priklad-ze-skutecneho-projektu">Příklad ze skutečného projektu</h3>
+<p>Tady v projektu Herk 2 vidíte nahoře <code>.claude</code>. Když otevřu tuto složku, máme agenty, pravidla a dovednosti. Momentálně mluvíme jen o dovednostech. Pokud otevřu složku skills, uvidíme všechny různé dovednosti, které jsem vytvořil.</p>
+<p>Řekněme například dovednost diagramu v Excalidraw. Pokud na to kliknu, máme <code>skill.md</code>. A když to otevřu, vidíte, že máme:</p>
+<ul>
+<li><strong>Název dovednosti</strong></li>
+<li><strong>Popis</strong></li>
+<li><strong>Samotný pracovní postup</strong> — krok jedna: pochopení konceptu, krok dva: plánování rozvržení, krok tři: generování prvků</li>
+</ul>
+<p>Celá tato dovednost v podstatě naučí mého agenta, jak mi tyto diagramy v Excalidraw vytvářet.</p>
+<h3 id="yaml-front-matter">YAML front matter</h3>
+<p>Takže, jak jsem řekl, to je anatomie dovednosti. Máme úvodní materiál, který je mezi dvěma tečkovanými čarami, a to je v něčem, co se nazývá <strong>YAML</strong> — a nemusíte se starat o to, co to znamená. Takhle je to prostě naznačeno, něco jako váš Markdown, JSON nebo Python.</p>
+<p>Tady nahoře budeme mít <strong>název</strong> a <strong>popis</strong>, který Claude Code říká, jak se daná dovednost nazývá a co dělá. Takže, jak vidíte, jmenuje se Excalidraw-Diagram. A je tam stručný popis toho, co vlastně dělá nebo kdy ji použít.</p>
+<p>A pak tu máme <strong>podrobná pravidla</strong>, což jsou v podstatě instrukce. A tohle Claude vlastně dělá, jakmile se rozhodne, že je to pro danou práci ta správná dovednost.</p>
+<hr />
+<h2 id="referencni-soubory-kam-je-dat">Referenční soubory: Kam je dát</h2>
+<p>Zajímavá věc na dovednostech s referenčními soubory je, že někdy potřebujete mnohem více dat. Řekněme například, že píšeme příspěvek na LinkedIn. Na to máme dovednost. Ale co musí být v dovednosti, jsou další informace — někdy jako tón hlasu společnosti nebo možná váš LinkedIn tón hlasu, cílový avatar, aktuální priority, logo. Možná existují i další věci, které chcete do dovednosti vložit kromě podrobných instrukcí, které ji vylepší.</p>
+<p>Otázkou tedy je — kam tyto věci vedou?</p>
+<h3 id="moznost-a-vnorene-primo-pod-dovednosti">Možnost A: Vnořené přímo pod dovedností</h3>
+<p>V <code>.claude/skills/nazev-dovednosti</code> můžete mít <code>skill.md</code>, můžete tam mít své skripty a můžete tam mít své reference. Všechno je přímo vnořené pod danou dovedností.</p>
+<pre><code>.claude/skills/nazev-dovednosti/
+  skill.md
+  skripty/
+  reference/
+</code></pre>
+<h3 id="moznost-b-samostatne-v-projektu">Možnost B: Samostatně v projektu</h3>
+<p>Referenční soubory a skripty nejsou přímo vnořené pod danou dovedností. Máme <code>.claude/skills/infographic/skill.md</code> a stále máme naše skripty a reference ve stejném projektu, ale nejsou přímo vnořené pod dovedností.</p>
+<pre><code>.claude/skills/infographic/
+  skill.md
+
+reference/        ← jinde v projektu
+skripty/          ← jinde v projektu
+</code></pre>
+<h3 id="konkretni-priklad-dovednost-idea-mining">Konkrétní příklad: Dovednost „idea mining"</h3>
+<p>Vím, že to možná nedávalo smysl, takže ukážu přesně, co tím myslím.</p>
+<p>Tady máme dovednost zvanou <strong>idea mining</strong>. To, co se zde děje, se v podstatě používá, když někdo požádá o nápady na obsah, nápady na videa, co natočit dál, nebo o spuštění idea miningu.</p>
+<p>Takže jsem tomu dal nějaký kontext — můj kanál má tolik odběratelů, jde o automatizaci AI, mé pilíře obsahu jsou agenti, Claude Code, hlasová AI. A pak jsem tomu dal spoustu referencí:</p>
+<ul>
+<li><strong>Data kanálu</strong> — soubor <code>youtube-channel.md</code></li>
+<li><strong>Nezpracovaná data</strong> — soubor JSON</li>
+<li><strong>Seznam konkurentů</strong></li>
+<li><strong>Skutečný skript</strong> pro spuštění analýzy na mém YouTube kanálu</li>
+</ul>
+<p>V tomto případě jsem zvolil <strong>možnost B</strong>, kde ukládám referenční soubory a skripty nikoli přímo vnořené do dovednosti.</p>
+<h3 id="jak-by-to-mohlo-vypadat-s-moznosti-a">Jak by to mohlo vypadat s možností A</h3>
+<p>V podstatě by to mohlo vypadat tak, že v samotné dovednosti bychom mohli mít složku s názvem <code>reference</code>. Mohli bychom zde také mít složku s názvem <code>skripty</code>. A pak v obou těchto podsložkách bychom mohli mít další věci — například v referencích bychom mohli mít data kanálů. A ve skriptech bych mohl mít <code>youtube-analysis.js</code> nebo <code>.py</code>, cokoli to je.</p>
+<h3 id="klicove-pravidlo-zalezi-jen-na-spravne-ceste">Klíčové pravidlo: Záleží jen na správné cestě</h3>
+<p>V podstatě jde o to, že <strong>nezáleží na tom, kde se skutečné referenční soubory nebo skripty nacházejí, pokud ukážete na správné místo v souboru skill.md</strong>.</p>
+<p>Takže v mém případě se tyto soubory skutečně nacházejí v jiné složce. Pro data kanálů bych v podstatě šel až k referencím a pak bych mohl najít <code>youtube-channel.md</code>. Claude Code tedy přečte dovednost a pak ji dokáže najít, pokud ji potřebuje. Totéž platí pro skripty — šlo by to ke skriptům a pak by to našlo <code>analyze-youtube.py</code> a ten by to tam prostě načetl, kdyby to potřeboval.</p>
+<p>Doufám, že se mnou souhlasíte. Ať už to chcete nastavit jakkoli, funguje to. A myslím, že to je momentálně na Claude Code to, že každý používá jinou architekturu složek.</p>
+<h3 id="skill-builder-nastroj-ktery-vam-pomuze">Skill builder: Nástroj, který vám pomůže</h3>
+<p>Ale nebojte se — já to naprosto zvládám. Mám dovednost, kterou jsem si vytvořil, a jmenuje se <strong>skill builder</strong>. Tuhle budu opět rozdávat zdarma v bezplatné školní komunitě. A stačí jen načíst nástroj pro tvorbu dovedností a ten vám pak pomůže sestavit vše, co potřebujete. A za pár minut ukážu živou ukázku.</p>
+<h3 id="shrnuti-mozek-a-nastroje">Shrnutí: Mozek a nástroje</h3>
+<p>Takže <code>skill.md</code> je samotný <strong>mozek</strong> a podpůrné soubory jsou <strong>nástroje</strong>, které může používat. To neznamená, že pokaždé, když je dovednost vyvolána, budou volány všechny referenční soubory.</p>
+<hr />
+<h2 id="souvislost-s-frameworkem-wat">Souvislost s frameworkem WAT</h2>
+<p>A jen pro případ, že by vás zajímalo — pokud jste viděli některá z předchozích videí o Claude Code, kde jsme použili framework WAT k vytváření automatizací, je to v tomto frameworku velmi, velmi podobné:</p>
+<ul>
+<li><strong>Pracovní postupy (W)</strong> byly standardní operační postupy v Markdown souboru — to je v podstatě ta dovednost</li>
+<li><strong>Nástroje (T)</strong> byly samotné skripty v Pythonu — to jsou v podstatě jen skripty, které byste mohli napsat, nebo reference, které byste přidali</li>
+</ul>
+<p>Takže pokud už vytváříte nějaké věci pro WAT, dovednosti se naučíte super rychle.</p>
+<hr />
+<h2 id="kde-dovednosti-ziskat-nemusite-vsechny-vytvaret">Kde dovednosti získat: Nemusíte všechny vytvářet</h2>
+<p>Skvělé na dovednostech je, že je nemusíte všechny vytvářet sami. Je zřejmé, že když pracujete s Claude Code a zjistíte, že děláte věci opakovaně, můžete si pro ně vytvořit dovednost. Existuje však:</p>
+<ul>
+<li><strong>Oficiální knihovna dovedností od Anthropic</strong> (Anthropic Skills Library)</li>
+<li><strong>Komunita</strong> všech, kteří open sourcují své dovednosti a rozdávají je</li>
+<li><strong>Tržiště</strong>, kde můžete sdílet, prodávat nebo stahovat dovednosti od lidí</li>
+</ul>
+<p>A pak byste si vzali tu dovednost nebo v podstatě prompt a přidali byste k ní svůj vlastní nádech.</p>
+<p><strong>Důležité upozornění:</strong> Buďte opatrní a ujistěte se, že se vám nikdo nesnaží dát dovednost, která má nějaký zlý úmysl.</p>
+<p>A všechny tyto dovednosti mohou fungovat <strong>napříč různými produkty</strong> — Cursor, Windsurf, CodeX — protože je to založené na Markdownu a je to v podstatě jen prompt, může je používat spousta různých modelů AI.</p>
+<hr />
+<h2 id="jak-claude-vi-kdy-dovednost-pouzit">Jak Claude ví, kdy dovednost použít</h2>
+<p>Jak tedy Claude ví, kdy dovednost použít? Existují dva způsoby, jak je skutečně spustit.</p>
+<h3 id="1-explicitni-spusteni">1. Explicitní spuštění</h3>
+<p>Můžete být explicitní, což v podstatě znamená, že můžete použít příkaz s lomítkem a říct název dovednosti a on ji přímo spustí. Takže kdybych měl dovednost školního příspěvku, mohl bych říct <code>/school-post</code>.</p>
+<h3 id="2-prirozeny-jazyk">2. Přirozený jazyk</h3>
+<p>Nebo bych mohl přirozeným jazykem prostě říct: „Hej, pomoz mi napsat školní příspěvek o X." Claude by tuto dovednost našel a pak by ji vyvolal.</p>
+<h3 id="jak-to-funguje-pod-kapotou">Jak to funguje pod kapotou</h3>
+<p>Takže když Clauda požádáte, aby něco udělal:</p>
+<ol>
+<li>Nejprve si přečte soubor <code>.claude.md</code></li>
+<li>Analyzuje váš požadavek</li>
+<li>Prohledá dovednosti a zjistí, která z nich pomáhá s tímto dotazem</li>
+<li>Pokud nějakou najde, vyvolá ji</li>
+<li>Pokud ale nic nenajde, v podstatě použije jen své obecné znalosti</li>
+</ol>
+<p>Takže ne každý jednotlivý požadavek, který zadáte Claude Code, vyvolá nějakou dovednost.</p>
+<hr />
+<h2 id="progresivni-nacitani-kontextu-jak-dovednosti-zustavaji-nenarocne">Progresivní načítání kontextu: Jak dovednosti zůstávají nenáročné</h2>
+<p>Opravdu důležitou součástí je pochopení toho, jak dovednosti zůstávají nenáročné, protože pokud jste Claude Code používali, víte, že správa kontextu je obrovská věc. A pokud byste měli všechny tyto dovednosti k prohledání a všechny tyto dovednosti jsou stovky a stovky řádků, pak kdyby Claude Code prohledával všechny tyto dovednosti pokaždé, jistě by to spotřebovalo spoustu vašich tokenů.</p>
+<p>Používá se tedy něco, čemu se říká <strong>progresivní načítání kontextu</strong>, což v podstatě znamená, že máme tři úrovně:</p>
+<h3 id="uroven-1-pocatecni-vyhledavani">Úroveň 1: Počáteční vyhledávání</h3>
+<p>Claude Code hledá <strong>pouze název a popis</strong> z YAML front matter. Takže řekněme, že požadujeme diagram z Excalidraw. V podstatě by prohledal všechny dovednosti, ale přečetl by pouze úvodní materiál YAML. Přečetl by název a popis. A tento úvodní materiál bude obvykle jen zhruba <strong>100 tokenů</strong>. Takže zůstává velmi nenáročný.</p>
+<h3 id="uroven-2-cela-dovednost">Úroveň 2: Celá dovednost</h3>
+<p>Řekněme, že identifikuje „ok, super, tohle je pro danou práci správná dovednost." Pak by spustila celý soubor <code>skill.md</code> a všechno by si přečetla. A tehdy by začala skutečně chápat, co se v dané dovednosti děje. A to by mohlo být od <strong>tisíce do několika tisíc tokenů</strong>.</p>
+<h3 id="uroven-3-dodatecne-soubory">Úroveň 3: Dodatečné soubory</h3>
+<p>A pak je úroveň tři — opět na rozhodnutí. <strong>Načíst další soubory pouze tehdy, když je to potřeba.</strong> Takže pokud se potřebuji podívat na nějaké skripty, reference nebo šablony, nebo potřebuji načíst nějaké prvky značky nebo další kontext, udělám to pouze tehdy, pokud to vyžadují konkrétní požadavky.</p>
+<h3 id="dokumentace">Dokumentace</h3>
+<p>Doufám, že teď začínáte trochu lépe chápat, co se vlastně děje, když požádáte Claude Code, aby za vás něco udělal. A vždycky se můžete podívat do dokumentace Claude Code, do sekce dovedností a přečíst si, jak tohle funguje. Je to opravdu, opravdu jednoduché. V samotné dokumentaci vám řeknou: jen se ujistěte, že soubor <code>skill.md</code> má <strong>méně než 500 řádků</strong> a přesuňte podrobný referenční materiál do samostatných souborů.</p>
+<hr />
+<h2 id="cyklus-zpetne-vazby-a-kdy-vytvaret-dovednost">Cyklus zpětné vazby a kdy vytvářet dovednost</h2>
+<p>Vím, že se to může zdát, jako byste na sebe jen hrnuli spoustou informací. Dovolte mi tedy, abych to zasadil do kontextu, zpomalil a ujistil vás.</p>
+<h3 id="nikdy-nenapisete-perfektni-dovednost-napoprve">Nikdy nenapíšete perfektní dovednost napoprvé</h3>
+<p>Nikdy, nikdy nenapíšete perfektní dovednost napoprvé. Já si své dovednosti buduji tak, že nechám Claude Code, aby se mnou něco udělal. Pokaždé je provedu jednotlivými kroky. A když jsme hotovi, pokud jsme se dostali z bodu A do bodu B, řeknu: „Skvělé. Tohle dělám jednou denně. Pojďme z toho udělat dovednost. Ptejte se mě na další otázky, abychom se ujistili, že máte všechny potřebné informace."</p>
+<h3 id="iterativni-cyklus">Iterativní cyklus</h3>
+<p>Máme tuhle věc, které se říká <strong>cyklus zpětné vazby</strong>, což v podstatě znamená:</p>
+<ol>
+<li>Vyvoláte danou dovednost</li>
+<li>Sledujete agenta při práci</li>
+<li>Poskytnete mu zpětnou vazbu</li>
+<li>On dovednost opraví</li>
+<li>A pak to uděláte znovu</li>
+</ol>
+<p>Takže při prvních několika spuštěních dovednosti si můžete myslet, že tohle působí dost silně jako by to bylo vygenerováno umělou inteligencí. Ale jakmile ji spustíte 10, 20, 30krát, <strong>pokaždé se to zlepší</strong>. Proto je vlastně důležité sledovat agenta při prvních několika spuštěních, protože tak můžete identifikovat příležitosti k jejímu zrychlení a úsporám tokenů.</p>
+<hr />
+<h2 id="priklad-pokrocile-dovednosti-kontrola-pulsu">Příklad pokročilé dovednosti: Kontrola pulsu</h2>
+<p>Tady je příklad dovednosti „kontrola pulsu", kterou jsme spustili dříve. Tato dovednost se vyvolá, když požádám o kontrolu pulsu nebo o kontrolu závazků.</p>
+<p>To, co dělá, je, že čte kontext fungování firmy jako OTAAS — což je důležité, aby pokaždé, když dovednost čte, pochopil, a proto jsem to dal přímo sem, spíše než jako referenční soubor.</p>
+<h3 id="optimalizace-1-napevno-zakodovana-id-seznamu">Optimalizace 1: Napevno zakódovaná ID seznamů</h3>
+<p>To, co musí agent udělat, je provést živé vyhledávání v mém ClickUp, aby pochopil, co se děje. Takže jsem <strong>napevno naprogramoval ID seznamů</strong>, protože když jsem to sledoval, uvědomil jsem si, že pokaždé, když to dělá, volá ClickUp MCP a shromažďuje všechny tyto seznamy, prohledává a analyzuje výsledky a pak extrahuje ID — což trvá tak dlouho a stojí mě to spoustu tokenů.</p>
+<p>Takže jsem si uvědomil, že to bude vždycky stejné. Proč tomu prostě nedám v dokumentu dovedností ID seznamů? A teď to ví, jak to udělat okamžitě pokaždé, a neplýtvá všemi těmi tokeny.</p>
+<h3 id="optimalizace-2-specializovany-subagent">Optimalizace 2: Specializovaný subagent</h3>
+<p>A navíc vím, že vyhledávání přes ClickUp může spotřebovat spoustu času a tokenů. Takže jsem vytvořil <strong>specializovaného subagenta</strong>, který v tomto dovednosti říká: „Hej, deleguj tento dotaz na vyhledávacího agenta ClickUp, aby provedl veškeré toto vyhledávání, abys nezničil své vlastní kontextové okno."</p>
+<p>To všechno se tam vyřeší a vy pak získáte jen informace, které potřebujete. Existuje tedy spousta pokročilých věcí, které můžete udělat pro správu svého kontextu. Do toho všeho se teď nebudu ponořovat. Zaměřujeme se jen na dovednosti, ale chtěl jsem vám jen dát malou ochutnávku toho, co je možné v souborech <code>skill.md</code>.</p>
+<hr />
+<h2 id="priklad-nastroj-pro-tvorbu-dovednosti-skill-builder">Příklad: Nástroj pro tvorbu dovedností (skill builder)</h2>
+<p>Dalším dobrým příkladem potřeby referenční dokumentace je můj <strong>nástroj pro tvorbu dovedností</strong>. Samozřejmě ho používám při vytváření nových dovedností, optimalizaci dovedností, auditu kvality dovedností a podobně.</p>
+<p>A velká část inspirace, kterou jsem z toho získal, pocházela samozřejmě přímo ze samotné dokumentace Claude Code o tom, jak dovednosti skutečně používat, vytvářet a optimalizovat.</p>
+<p>A tak když jsem tohle vytvářel, sledoval jsem agenta, jak spouští dovednost, a uvědomil jsem si, že <strong>pokaždé něco prohledává</strong>. Provádí vyhledávání na webu a prohledává celý dokument, i když potřebuji jen malý kousek informace.</p>
+<p>Takže jsem se rozhodl, že mu řeknu, ať to celé stáhne, a pak mu dám <code>reference.md</code>, což je v podstatě celá dokumentace v lokálním souboru. Takže mám svůj <code>skill.md</code> a on odkazuje na celý soubor, pokud ho potřebuje.</p>
+<h3 id="hlavni-myslenka">Hlavní myšlenka</h3>
+<p><strong>Zpracování Markdown souborů pro vašeho agenta je mnohem rychlejší a levnější než skutečné volání API nebo HTTP požadavků, spouštění funkcí a čtení tun a tun tokenů.</strong></p>
+<h3 id="cil-dovednosti">Cíl dovedností</h3>
+<p>Cílem je, aby se vaše dovednosti dostaly do bodu, kdy je můžete vyvolat, soustředit se na něco jiného 10, 15 minut nebo tak nějak a pak se vrátit s hotovým výsledkem, který je opravdu, opravdu dobrý.</p>
+<p>Ale prvních párkrát, co dovednost testujete, si myslím, že je opravdu dobrý nápad jen tak sedět a dívat se na ni a vidět, co dělá.</p>
+<h3 id="kdy-vytvorit-dovednost">Kdy vytvořit dovednost</h3>
+<p>A spousta lidí se mě ptala — kdy víte, kdy dovednost vytvořit? No, v podstatě se prostě věnujte své práci. A pokud si někdy uvědomíte, že jste už něco udělali, nebo jste zadali jiný pokyn — například když říkám svému Claudeovi, aby nepoužíval pomlčky typu „m". Dobře, to je asi dobrý nápad to do výzvy dát, že?</p>
+<p>Takže pokud se někdy ocitnete v opakujícím se procesu nebo opakujete prompty, pak je to pravděpodobně dobrý případ použití k vytvoření dovednosti. Protože <strong>dovednosti nemusí být složité. Mohou to být doslova jen 50řádkový soubor v Markdownu.</strong></p>
+<hr />
+<h2 id="sestikrokovy-ramec-pro-budovani-dovednosti">Šestikrokový rámec pro budování dovedností</h2>
+<p>Abychom se dostali k živému budování dovednosti od nuly, chtěl jsem nejdřív projít šestikrokový rámec pro budování dovedností.</p>
+<h3 id="1-nazev-a-spoustec">1. Název a spouštěč</h3>
+<p>Jak se dovednost jmenuje? A jaký přirozený jazyk by to v podstatě spustil?</p>
+<h3 id="2-cil">2. Cíl</h3>
+<p>V jedné větě — čeho tato dovednost na konci dosáhne? Jaký bude výstup?</p>
+<h3 id="3-postup-krok-za-krokem-jadro-dovednosti">3. Postup krok za krokem (jádro dovednosti)</h3>
+<p>Pokud byste museli něco udělat ručně — co přesně byste udělali, v jakém pořadí? Na co se díváte? A jaká rozhodnutí děláte?</p>
+<h3 id="4-referencni-soubory">4. Referenční soubory</h3>
+<p>Jaký kontext potřebujete? Potřebujete obrázky? Potřebujete pochopení aktuálních projektů, aktuálních priorit? Potřebujete stylistické průvodce? Co potřebujete k dobré práci?</p>
+<h3 id="5-pravidla">5. Pravidla</h3>
+<p>Zamyslete se nad tím, co by se mohlo pokazit, a pak vám agent může pomoci s vytvořením ochranných mantinelů a omezení.</p>
+<h3 id="6-smycka-sebezdokonalovani">6. Smyčka sebezdokonalování</h3>
+<p>Něco jako „po sestavení" — je to prostě smyčka sebezdokonalování. Po živém sestavení budu mluvit o skutečném testování a iteracích a o tom, co musíte udělat, aby byly opravdu, opravdu dobré.</p>
+<hr />
+<h2 id="zive-sestaveni-dovednosti-od-nuly">Živé sestavení dovednosti od nuly</h2>
+<h3 id="priprava-prostredi">Příprava prostředí</h3>
+<p>Tady máme živé sestavení dovedností ve Visual Studio Code, kde rád používám Claude Code. Pokud nemáte VS Code, stačí jít do prohlížeče, zadat „VS Code" a pak si to stáhnout. Takhle to bude vypadat.</p>
+<p>Pokud je to poprvé, co používáte Claude Code, stačí jít do rozšíření na levé straně, zadat „Claude Code", nainstalovat ho a přihlásit se pomocí svého placeného předplatného Anthropic. Poté klikněte na tlačítko vlevo nahoře a zobrazí se vám věc, která říká, že jste ještě neotevřeli žádnou složku.</p>
+<p>Co musíte udělat, je otevřít projekt, ve kterém chcete pracovat. Můžete buď otevřít ten, na kterém již pracujete, nebo můžete vytvořit novou složku a poté ji otevřít.</p>
+<h3 id="krok-1-stazeni-skill-builderu-a-inicializace">Krok 1: Stažení skill builderu a inicializace</h3>
+<p>Pro účely dema jsem otevřel novou prázdnou složku s názvem „Bunch of Skills". Prvním krokem je přejít na odkaz na bezplatnou školní komunitu, přejít do učebny dovedností agenta a stáhnout si složku skill builder.</p>
+<p>Jakmile budete mít tyto soubory připravené, první věc, kterou chceme udělat, je rychle nastavit tento pracovní prostor. Inicializujeme projekt jednoduchou strukturou <code>.claude/skills</code>. A je to nastavené — máme <code>.claude</code> a složku s dovednostmi.</p>
+<h3 id="krok-2-vlozeni-skill-builderu">Krok 2: Vložení skill builderu</h3>
+<p>V této složce s dovednostmi vytvořím novou složku s názvem <code>skill-builder</code> a stisknu Enter. Pak vezmu dva soubory z komunity — referenci a Markdown — a vložím je sem. Takže teď máme nástroj pro tvorbu dovedností nastavený s referenčním souborem a skutečným skill Markdownem.</p>
+<h3 id="krok-3-spusteni-skill-builderu">Krok 3: Spuštění skill builderu</h3>
+<p>Ptám se Clauda, jestli vidí tu novou dovednost, kterou jsem právě přidal. Říká ano, vidím ji. A já v podstatě jen řeknu: „Super, pojďme spustit tu dovednost a společně vytvořit novou."</p>
+<p>Teď vidíte, co udělal — v podstatě právě čte dovednost. Toto jsou instrukce, které jsme viděli. Jak víte, protože takhle dovednosti fungují — začne číst instrukce.</p>
+<h3 id="krok-4-interaktivni-vytvareni-otazky-a-odpovedi">Krok 4: Interaktivní vytváření — otázky a odpovědi</h3>
+<p>Vytvořil jsem tuto dovednost tak, aby vám kladla otázky a usnadnila sdělení toho, co chcete. Pojďme projít jednotlivé otázky:</p>
+<p><strong>Jaký problém se snažíte vyřešit?</strong> → Chceme tvořit obsah, protože chci vytvářet značkové infografiky.</p>
+<p><strong>Jaký druh obsahu tato dovednost vytváří? Jaký je konkrétní případ použití nebo pracovní postup?</strong> → Zvolím „jiné" — vzdělávací infografiku.</p>
+<p><strong>Jak bychom měli tuto dovednost spustit?</strong> → Chce to být přirozený jazyk, nebo chceme používat jen lomítka? Řeknu, že obojí je v pořádku.</p>
+<p><strong>Postup krok za krokem — proveďte mě tím, co by se mělo dít od spuštění až po výstup.</strong> Má to pár dobrých odhadů. Ale zvolím „jiné" a vysvětlím to tak, jak chci: Řeknu vám, o čem chci infografiku. Vy vytvoříte koncept. Požádáte AI (Nano Banana) o vygenerování obrázku. A také se podíváte na pokyny pro značku, které vám dám, aby vše, co se vytvoří, splňovalo barvy a typografii mé značky.</p>
+<p><strong>Výstupní formát</strong> → PNG, ne nic z nabízených možností.</p>
+<p><strong>Musí to být konverzační, nebo „vystřelit a zapomenout"?</strong> → Prostě to udělám jako „vystřelit a zapomenout".</p>
+<p><strong>Jak funguje integrace s API Nano Banana? Je to volání API?</strong> → Ano, prostě zvolíme volání API.</p>
+<p>A v těchto možnostech byste doslova mohli říct: „Nevím. Zkusme různé věci, pomozte mi zjistit, co je nejlepší."</p>
+<p><strong>Kde se nacházejí prvky značky?</strong> → Vložím je do složky.</p>
+<p><strong>Kam by se měla uložit vygenerovaná infografika PNG?</strong> → Začněme novou složku s názvem „projekty". A všechny je tam hodíme. Takže to také udrží náš projekt organizovaný.</p>
+<h3 id="krok-5-nastaveni-znacky">Krok 5: Nastavení značky</h3>
+<p>Teď se to ptá na pokyny pro značku. Vytvořil jsem složku a vložil jsem do ní naše barevné schéma a také samotné logo. Vložil jsem tam jak zásady pro značku, tak i logo. Chci se ujistit, že v levém horním rohu každé vytvořené infografiky se logo zobrazí přesně tak, jak jsem ho dal.</p>
+<h3 id="krok-6-vysledek-co-se-vytvorilo">Krok 6: Výsledek — co se vytvořilo</h3>
+<p>Po zodpovězení všech otázek vidíte, že se vytvoří dovednost. Vytvoří se:</p>
+<ul>
+<li><strong>Překryvné logo</strong></li>
+<li><strong>Podpůrný referenční soubor Markdown</strong> pro všechny podrobnosti API, které bude potřebovat</li>
+<li><strong>Dovednost se zaregistruje</strong> v souboru <code>.claude.md</code></li>
+<li><strong>Zaznamenávají se rozhodnutí</strong></li>
+</ul>
+<p>Dovednost se kompletně vytvořila. Všechny tyto soubory se vytvořily za nás. Už jen musíme dát API klíč, abychom to mohli spustit.</p>
+<hr />
+<h2 id="testovani-dovednosti-a-iterace-vysledku">Testování dovednosti a iterace výsledků</h2>
+<h3 id="prvni-spusteni">První spuštění</h3>
+<p>Hodil jsem tam svůj API klíč a řekl: „Otestuj to s infografikou o cloudových dovednostech." To je vše. Žádný další kontext. Vyvolala se dovednost.</p>
+<p>To, co je opravdu zajímavé — agent generuje obrázek a pak to jen překryje logo. Bude to tedy mnohem konzistentnější, než dát generátoru obrázků s AI přímo moje logo. Tohle jsem mu ani neřekl, aby udělal — přišel na to sám.</p>
+<p><strong>Výsledek prvního spuštění:</strong> No, tohle se mi nelíbí. Prostě se vrátíme a požádáme o změnu některých věcí. Logo vlevo nahoře nevypadá moc dobře. Dal jsem logo s průhledným pozadím, takže by mělo být jen překryté a měli bychom být schopni vidět pozadí za ním. Samotná infografika je v pořádku, ale vlastně chci, aby tyto vždy měly poměr stran jedna ku jedné.</p>
+<h3 id="druhe-spusteni">Druhé spuštění</h3>
+<p>Dal jsem pár návrhů a agent se pokusí znovu a <strong>aktualizuje svou dovednost</strong>. Podívejme se, jestli je to lepší.</p>
+<p>Tak máme logo nahoře. Máme „Claude Code Skills, Custom AI Workflow, Command Prompt, Trigger, Front Matter, Config Triggers, AI Agent Delegation, Document Output."</p>
+<p>Mějte na paměti — řekli jsme jen „udělej infografiku o cloudových dovednostech". A toto bylo teprve druhé spuštění. <strong>Každým dalším cyklem zpětné vazby se to zlepší.</strong> Po pěti nebo šesti dalších spuštěních by to bylo opravdu, opravdu dobré. A pak pokaždé, když požádám o infografiku, bude konzistentní.</p>
+<h3 id="co-bylo-ve-skutecnosti-vytvoreno">Co bylo ve skutečnosti vytvořeno</h3>
+<p>Pokud otevřeme složku infographic builder, máme samotnou dovednost:</p>
+<ul>
+<li><strong>Front matter</strong> — název, popis</li>
+<li><strong>Co dovednost dělá</strong></li>
+<li><strong>Kontext</strong> — odkaz na brand guidelines a loga</li>
+<li><strong>Krokový workflow</strong></li>
+<li><strong>Odkaz na referenční Markdown</strong> — pro plné API reference a parametry, aby agent nemusel prohledávat web a procházet tuny tokenů, stačí přečíst lokální Markdown soubor</li>
+</ul>
+<hr />
+<h2 id="testovani-ladeni-a-bezne-opravy">Testování, ladění a běžné opravy</h2>
+<p>Mluvili jsme o spoustě věcí o dovednostech a právě jsme jednu postavili živě. Teď chci mluvit o tom, jak skutečně překlenout propast od 90% dobré dovednosti k téměř 100%. Testování, iterace a ladění — různé symptomy mají různé opravy.</p>
+<h3 id="prehled-symptomu-a-reseni">Přehled symptomů a řešení</h3>
+<p><strong>Dělá špatné kroky nebo ve špatném pořadí</strong> → Řekněte agentovi, aby upravil instrukce v <code>skill.md</code>.</p>
+<p><strong>Chybí správný tón, styl nebo kontext</strong> → Přidejte referenční soubory. A samozřejmě ty musí být správně propojené v <code>skill.md</code>.</p>
+<p><strong>Stejná chyba se opakuje stále dokola</strong> → Přidejte explicitní pravidlo.</p>
+<p><strong>Potýká se s nástrojem nebo MCP, nebo opakovaně hledá stejné věci</strong> → Vytvořte referenční dokument.</p>
+<p><strong>Funguje dobře, ale mohlo by to být lepší</strong> → To znamená, že musíte brute force — spouštět znovu a znovu a vytrvale upřesňovat, co dělá špatně, nebo ne nutně špatně, ale co by se dalo zlepšit.</p>
+<p><strong>Dovednost se nespouští</strong> → Zkontrolujte YAML front matter a ujistěte se, že je dostatečně specifický.</p>
+<p><strong>Dovednost se spouští příliš často</strong> → Zkuste zakázat vyvolání modelem (disable model invocation). To je něco, co najdete v dokumentaci Claude Code a v podstatě vám to dá kontrolu nad tím, jestli se dovednost může spouštět pouze přirozeným jazykem, pouze příkazem s lomítkem, nebo obojím.</p>
+<hr />
+<h2 id="pokrocile-nastaveni-yaml-front-matter-reference">Pokročilé nastavení: YAML front matter reference</h2>
+<p>Jak jsem říkal — pokud chcete vidět pokročilejší věci, určitě se podívejte do dokumentace. Ale v tuto chvíli jsme pokryli téměř všechno o dovednostech.</p>
+<p>Jedna věc, na kterou bych upozornil, je samotná <strong>reference pro front matter</strong>. Viděli jsme název a popis, které jsou povinné pokaždé, ale existuje spousta dalších věcí, které můžete přidat:</p>
+<ul>
+<li><strong>disable model invocation</strong> — zakázání vyvolání modelem (jak jsme právě viděli)</li>
+<li><strong>allowed tools</strong> — povolené nástroje</li>
+<li><strong>argument hint</strong> — nápověda pro argumenty</li>
+<li><strong>specific model</strong> — konkrétní model k použití</li>
+<li><strong>specific context</strong> — specifický kontext</li>
+<li><strong>hooks</strong> — háčky</li>
+<li><strong>specific agent</strong> — specifický agent</li>
+</ul>
+<p>Toto vše vám umožňuje být opravdu, opravdu granulární v nastavení přesné dovednosti a způsobu jejího použití. Ale nenechte se tím zahltit. K tomuto bodu se opravdu dostanete, až dovednost spustíte mnohokrát.</p>
+<hr />
+<h2 id="lokalni-vs-globalni-dovednosti-kde-dovednosti-ziji">Lokální vs. globální dovednosti: Kde dovednosti žijí</h2>
+<p>Další věc, kterou je potřeba zmínit, je to, kde dovednosti vlastně žijí. To, co jsme zatím viděli, je jen budování dovedností přímo ve složce <code>.claude/skills</code>. Ale když to takto děláte, <strong>existují pouze v daném konkrétním projektu</strong>. Takže ať už je to můj Herk 2 nebo ten, který jsme právě spustili — pokud bych přešel do jiné složky, daná dovednost by už nebyla přístupná z Claude Code.</p>
+<h3 id="globalni-dovednosti">Globální dovednosti</h3>
+<p>Ale můžete také vytvořit dovednosti, které jsou <strong>globální</strong>. A to uděláte tak, že je umístíte do jiného adresáře v celkovém domovském adresáři (označeném <code>~</code>). A to znamená, že v každém produktu, který používáte v Claude Code, bez ohledu na to, kde jste, bude tato dovednost existovat.</p>
+<p>Například mám dovednost pro <strong>front-end design</strong>, která je nainstalovaná globálně, takže kdykoli jsem kdekoli a potřebuji dělat front-end design, prostě ji můžu použít.</p>
+<h3 id="vizualni-srovnani">Vizuální srovnání</h3>
+<p><strong>Lokální dovednost</strong> — co právě děláme:</p>
+<pre><code>projekt/
+  .claude/
+    skills/
+      moje-dovednost/
+        skill.md
+        reference/
+      dalsi-dovednost/
+</code></pre>
+<p><strong>Globální dovednost</strong> — nemusíte ji vidět v projektu:</p>
+<pre><code>~/.claude/
+  skills/
+    moje-dovednost/
+      skill.md
+</code></pre>
+<p>V samotném projektu ji možná přímo neuvidíte. Bude jen v celkovém domovském adresáři.</p>
+<h3 id="kdy-pouzit-globalni-dovednosti">Kdy použít globální dovednosti</h3>
+<p>Důvod, proč byste to mohli chtít udělat, je ten, že pokud je něco velmi specifického o vás, vašem podnikání, vašich workflows, co chcete aplikovat na <strong>každý jednotlivý projekt</strong> bez ohledu na cokoliv — třeba kontext vaší firmy, vaše projekty, váš tón hlasu, cokoli — pak to můžete nainstalovat globálně místo lokálně.</p>
+<hr />
+<h2 id="zaver">Závěr</h2>
+<p>Pokud milujete tento typ nerdovského obsahu, je tu placená komunita s přes 3000 členy, kteří budují s AI každý den a budují podniky s AI.</p>
+<p>Dovednosti v Claude Code představují zásadní posun v tom, jak můžeme s AI agenty pracovat. Nejsou to jen lepší prompty — jsou to automatizované pracovní postupy, které se s každým použitím zlepšují. Klíčové poznatky:</p>
+<ul>
+<li><strong>Začněte jednoduše</strong> — i 50řádkový Markdown soubor může být plnohodnotná dovednost</li>
+<li><strong>Iterujte</strong> — nikdy to nebude perfektní napoprvé, ale po 10–30 spuštěních to bude skvělé</li>
+<li><strong>Optimalizujte tokeny</strong> — napevno zakódujte opakující se data, delegujte na subagenty, používejte lokální reference místo API volání</li>
+<li><strong>Sdílejte</strong> — co jeden člověk vytvoří, může používat celý tým</li>
+<li><strong>Myslete na kontext</strong> — progresivní načítání udržuje náklady nízko</li>
+<li><strong>Globální vs. lokální</strong> — zvažte, co má být dostupné všude a co jen v konkrétním projektu</li>
+</ul>
+<p>Rychlost práce, které jsme nyní schopni dosáhnout, se zdá šílená, ale stane se normální. A pokud to nedokážete, okamžitě se stanete příliš pomalými a příliš drahými. Investice do budování dovedností se mnohonásobně vrátí — jak jednotlivci, tak celým týmům.</p>
+48:["$","article",null,{"className":"blog-article-card overflow-hidden rounded-[32px] border border-white/10","children":["$","div",null,{"className":"p-7 md:p-12","children":[["$","div",null,{"className":"mb-7 flex flex-wrap gap-2 text-[10px] font-black uppercase tracking-wider text-[#74e7c1]","children":[["$","span",null,{"children":"Martin Švanda"}],["$","span",null,{"children":"·"}],["$","time",null,{"children":"16. března 2026"}],null]}],["$","p",null,{"className":"mb-8 text-lg leading-8 text-zinc-300","children":"Praktický průvodce opakovaně použitelnými AI pracovními postupy, paralelními agenty, optimalizací tokenů a tvorbou vlastních skills."}],null,["$","div",null,{"className":"blog-prose","dangerouslySetInnerHTML":{"__html":"$59"}}],null,null]}]}]
+49:["$","$L5b",null,{}]
+4a:["$","$L5c",null,{"slug":"dovednosti-v-claude-code"}]
+4b:["$","nav",null,{"className":"mt-12 grid gap-3 sm:grid-cols-2","aria-label":"Předchozí a další článek","children":[["$","span",null,{}],["$","$L5d",null,{"href":"/blog/74-releasu-za-52-dni","className":"rounded-2xl border border-white/10 bg-white/5 p-5 text-right text-sm font-bold hover:border-[#4ecca3]/40","children":["74 releasů za 52 dní: co Anthropic vypustil a proč by nás to mělo zajímat"," →"]}]]}]
+4c:["$","section",null,{"className":"mt-14","children":[["$","h2",null,{"className":"text-2xl font-black","children":"Doporučené články"}],["$","div",null,{"className":"mt-4 grid gap-3 md:grid-cols-3","children":[["$","$L5d","ai-agent-nebo-workflow",{"href":"/blog/ai-agent-nebo-workflow","className":"rounded-2xl border border-white/10 bg-white/5 p-4 text-sm font-bold hover:border-[#4ecca3]/40","children":"AI agent, nebo pevný workflow? Rozhodnutí podle práce"}],["$","$L5d","overovani-ai-systemu",{"href":"/blog/overovani-ai-systemu","className":"rounded-2xl border border-white/10 bg-white/5 p-4 text-sm font-bold hover:border-[#4ecca3]/40","children":"Jak ověřovat AI systém: testovací sada, hranice a opakování"}],["$","$L5d","74-releasu-za-52-dni",{"href":"/blog/74-releasu-za-52-dni","className":"rounded-2xl border border-white/10 bg-white/5 p-4 text-sm font-bold hover:border-[#4ecca3]/40","children":"74 releasů za 52 dní: co Anthropic vypustil a proč by nás to mělo zajímat"}]]}]]}]
+4d:["$","aside",null,{"className":"blog-toc-sidebar sticky top-16 hidden rounded-2xl border p-5 lg:block","children":[["$","p",null,{"className":"text-xs font-black uppercase tracking-wider text-[#74e7c1]","children":"Obsah"}],["$","ol",null,{"className":"mt-3 space-y-2 text-xs leading-5 text-zinc-400","children":[["$","li","ziva-ukazka-ctyri-agenti-pracuji-paralelne",{"className":"","children":["$","a",null,{"href":"#ziva-ukazka-ctyri-agenti-pracuji-paralelne","className":"hover:text-white","children":"Živá ukázka: Čtyři agenti pracují paralelně"}]}],["$","li","vysledky-vsech-ctyr-agentu",{"className":"pl-3","children":["$","a",null,{"href":"#vysledky-vsech-ctyr-agentu","className":"hover:text-white","children":"Výsledky všech čtyř agentů"}]}],["$","li","co-jsou-vlastne-dovednosti",{"className":"","children":["$","a",null,{"href":"#co-jsou-vlastne-dovednosti","className":"hover:text-white","children":"Co jsou vlastně dovednosti"}]}],["$","li","priklad-z-praxe-excalidraw-vizualy",{"className":"pl-3","children":["$","a",null,{"href":"#priklad-z-praxe-excalidraw-vizualy","className":"hover:text-white","children":"Příklad z praxe: Excalidraw vizuály"}]}],["$","li","proc-by-vas-dovednosti-mely-zajimat-tri-velke-duvody",{"className":"","children":["$","a",null,{"href":"#proc-by-vas-dovednosti-mely-zajimat-tri-velke-duvody","className":"hover:text-white","children":"Proč by vás dovednosti měly zajímat: Tři velké důvody"}]}],["$","li","1-osobni-produktivita",{"className":"pl-3","children":["$","a",null,{"href":"#1-osobni-produktivita","className":"hover:text-white","children":"1. Osobní produktivita"}]}],["$","li","2-tymova-efektivita",{"className":"pl-3","children":["$","a",null,{"href":"#2-tymova-efektivita","className":"hover:text-white","children":"2. Týmová efektivita"}]}],["$","li","3-monetizace",{"className":"pl-3","children":["$","a",null,{"href":"#3-monetizace","className":"hover:text-white","children":"3. Monetizace"}]}],["$","li","realny-dopad",{"className":"pl-3","children":["$","a",null,{"href":"#realny-dopad","className":"hover:text-white","children":"Reálný dopad"}]}],["$","li","dovednosti-nejsou-jen-text",{"className":"pl-3","children":["$","a",null,{"href":"#dovednosti-nejsou-jen-text","className":"hover:text-white","children":"Dovednosti nejsou jen text"}]}],["$","li","anatomie-dovednosti",{"className":"","children":["$","a",null,{"href":"#anatomie-dovednosti","className":"hover:text-white","children":"Anatomie dovednosti"}]}],["$","li","priklad-ze-skutecneho-projektu",{"className":"pl-3","children":["$","a",null,{"href":"#priklad-ze-skutecneho-projektu","className":"hover:text-white","children":"Příklad ze skutečného projektu"}]}],["$","li","yaml-front-matter",{"className":"pl-3","children":["$","a",null,{"href":"#yaml-front-matter","className":"hover:text-white","children":"YAML front matter"}]}],["$","li","referencni-soubory-kam-je-dat",{"className":"","children":["$","a",null,{"href":"#referencni-soubory-kam-je-dat","className":"hover:text-white","children":"Referenční soubory: Kam je dát"}]}],["$","li","moznost-a-vnorene-primo-pod-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#moznost-a-vnorene-primo-pod-dovednosti","className":"hover:text-white","children":"Možnost A: Vnořené přímo pod dovedností"}]}],["$","li","moznost-b-samostatne-v-projektu",{"className":"pl-3","children":["$","a",null,{"href":"#moznost-b-samostatne-v-projektu","className":"hover:text-white","children":"Možnost B: Samostatně v projektu"}]}],["$","li","konkretni-priklad-dovednost-idea-mining",{"className":"pl-3","children":["$","a",null,{"href":"#konkretni-priklad-dovednost-idea-mining","className":"hover:text-white","children":"Konkrétní příklad: Dovednost „idea mining\""}]}],["$","li","jak-by-to-mohlo-vypadat-s-moznosti-a",{"className":"pl-3","children":["$","a",null,{"href":"#jak-by-to-mohlo-vypadat-s-moznosti-a","className":"hover:text-white","children":"Jak by to mohlo vypadat s možností A"}]}],["$","li","klicove-pravidlo-zalezi-jen-na-spravne-ceste",{"className":"pl-3","children":["$","a",null,{"href":"#klicove-pravidlo-zalezi-jen-na-spravne-ceste","className":"hover:text-white","children":"Klíčové pravidlo: Záleží jen na správné cestě"}]}],"$L5e","$L5f","$L60","$L61","$L62","$L63","$L64","$L65","$L66","$L67","$L68","$L69","$L6a","$L6b","$L6c","$L6d","$L6e","$L6f","$L70","$L71","$L72","$L73","$L74","$L75","$L76","$L77","$L78","$L79","$L7a","$L7b","$L7c","$L7d","$L7e","$L7f","$L80","$L81","$L82","$L83","$L84","$L85","$L86","$L87","$L88","$L89","$L8a","$L8b","$L8c","$L8d","$L8e","$L8f"]}]]}]
+4e:["$","$L90",null,{"children":["$","$54",null,{"name":"Next.MetadataOutlet","children":"$@91"}]}]
+58:true
+a:300
+5e:["$","li","skill-builder-nastroj-ktery-vam-pomuze",{"className":"pl-3","children":["$","a",null,{"href":"#skill-builder-nastroj-ktery-vam-pomuze","className":"hover:text-white","children":"Skill builder: Nástroj, který vám pomůže"}]}]
+5f:["$","li","shrnuti-mozek-a-nastroje",{"className":"pl-3","children":["$","a",null,{"href":"#shrnuti-mozek-a-nastroje","className":"hover:text-white","children":"Shrnutí: Mozek a nástroje"}]}]
+60:["$","li","souvislost-s-frameworkem-wat",{"className":"","children":["$","a",null,{"href":"#souvislost-s-frameworkem-wat","className":"hover:text-white","children":"Souvislost s frameworkem WAT"}]}]
+61:["$","li","kde-dovednosti-ziskat-nemusite-vsechny-vytvaret",{"className":"","children":["$","a",null,{"href":"#kde-dovednosti-ziskat-nemusite-vsechny-vytvaret","className":"hover:text-white","children":"Kde dovednosti získat: Nemusíte všechny vytvářet"}]}]
+62:["$","li","jak-claude-vi-kdy-dovednost-pouzit",{"className":"","children":["$","a",null,{"href":"#jak-claude-vi-kdy-dovednost-pouzit","className":"hover:text-white","children":"Jak Claude ví, kdy dovednost použít"}]}]
+63:["$","li","1-explicitni-spusteni",{"className":"pl-3","children":["$","a",null,{"href":"#1-explicitni-spusteni","className":"hover:text-white","children":"1. Explicitní spuštění"}]}]
+64:["$","li","2-prirozeny-jazyk",{"className":"pl-3","children":["$","a",null,{"href":"#2-prirozeny-jazyk","className":"hover:text-white","children":"2. Přirozený jazyk"}]}]
+65:["$","li","jak-to-funguje-pod-kapotou",{"className":"pl-3","children":["$","a",null,{"href":"#jak-to-funguje-pod-kapotou","className":"hover:text-white","children":"Jak to funguje pod kapotou"}]}]
+66:["$","li","progresivni-nacitani-kontextu-jak-dovednosti-zustavaji-nenarocne",{"className":"","children":["$","a",null,{"href":"#progresivni-nacitani-kontextu-jak-dovednosti-zustavaji-nenarocne","className":"hover:text-white","children":"Progresivní načítání kontextu: Jak dovednosti zůstávají nenáročné"}]}]
+67:["$","li","uroven-1-pocatecni-vyhledavani",{"className":"pl-3","children":["$","a",null,{"href":"#uroven-1-pocatecni-vyhledavani","className":"hover:text-white","children":"Úroveň 1: Počáteční vyhledávání"}]}]
+68:["$","li","uroven-2-cela-dovednost",{"className":"pl-3","children":["$","a",null,{"href":"#uroven-2-cela-dovednost","className":"hover:text-white","children":"Úroveň 2: Celá dovednost"}]}]
+69:["$","li","uroven-3-dodatecne-soubory",{"className":"pl-3","children":["$","a",null,{"href":"#uroven-3-dodatecne-soubory","className":"hover:text-white","children":"Úroveň 3: Dodatečné soubory"}]}]
+6a:["$","li","dokumentace",{"className":"pl-3","children":["$","a",null,{"href":"#dokumentace","className":"hover:text-white","children":"Dokumentace"}]}]
+6b:["$","li","cyklus-zpetne-vazby-a-kdy-vytvaret-dovednost",{"className":"","children":["$","a",null,{"href":"#cyklus-zpetne-vazby-a-kdy-vytvaret-dovednost","className":"hover:text-white","children":"Cyklus zpětné vazby a kdy vytvářet dovednost"}]}]
+6c:["$","li","nikdy-nenapisete-perfektni-dovednost-napoprve",{"className":"pl-3","children":["$","a",null,{"href":"#nikdy-nenapisete-perfektni-dovednost-napoprve","className":"hover:text-white","children":"Nikdy nenapíšete perfektní dovednost napoprvé"}]}]
+6d:["$","li","iterativni-cyklus",{"className":"pl-3","children":["$","a",null,{"href":"#iterativni-cyklus","className":"hover:text-white","children":"Iterativní cyklus"}]}]
+6e:["$","li","priklad-pokrocile-dovednosti-kontrola-pulsu",{"className":"","children":["$","a",null,{"href":"#priklad-pokrocile-dovednosti-kontrola-pulsu","className":"hover:text-white","children":"Příklad pokročilé dovednosti: Kontrola pulsu"}]}]
+6f:["$","li","optimalizace-1-napevno-zakodovana-id-seznamu",{"className":"pl-3","children":["$","a",null,{"href":"#optimalizace-1-napevno-zakodovana-id-seznamu","className":"hover:text-white","children":"Optimalizace 1: Napevno zakódovaná ID seznamů"}]}]
+70:["$","li","optimalizace-2-specializovany-subagent",{"className":"pl-3","children":["$","a",null,{"href":"#optimalizace-2-specializovany-subagent","className":"hover:text-white","children":"Optimalizace 2: Specializovaný subagent"}]}]
+71:["$","li","priklad-nastroj-pro-tvorbu-dovednosti-skill-builder",{"className":"","children":["$","a",null,{"href":"#priklad-nastroj-pro-tvorbu-dovednosti-skill-builder","className":"hover:text-white","children":"Příklad: Nástroj pro tvorbu dovedností (skill builder)"}]}]
+72:["$","li","hlavni-myslenka",{"className":"pl-3","children":["$","a",null,{"href":"#hlavni-myslenka","className":"hover:text-white","children":"Hlavní myšlenka"}]}]
+73:["$","li","cil-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#cil-dovednosti","className":"hover:text-white","children":"Cíl dovedností"}]}]
+74:["$","li","kdy-vytvorit-dovednost",{"className":"pl-3","children":["$","a",null,{"href":"#kdy-vytvorit-dovednost","className":"hover:text-white","children":"Kdy vytvořit dovednost"}]}]
+75:["$","li","sestikrokovy-ramec-pro-budovani-dovednosti",{"className":"","children":["$","a",null,{"href":"#sestikrokovy-ramec-pro-budovani-dovednosti","className":"hover:text-white","children":"Šestikrokový rámec pro budování dovedností"}]}]
+76:["$","li","1-nazev-a-spoustec",{"className":"pl-3","children":["$","a",null,{"href":"#1-nazev-a-spoustec","className":"hover:text-white","children":"1. Název a spouštěč"}]}]
+77:["$","li","2-cil",{"className":"pl-3","children":["$","a",null,{"href":"#2-cil","className":"hover:text-white","children":"2. Cíl"}]}]
+78:["$","li","3-postup-krok-za-krokem-jadro-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#3-postup-krok-za-krokem-jadro-dovednosti","className":"hover:text-white","children":"3. Postup krok za krokem (jádro dovednosti)"}]}]
+79:["$","li","4-referencni-soubory",{"className":"pl-3","children":["$","a",null,{"href":"#4-referencni-soubory","className":"hover:text-white","children":"4. Referenční soubory"}]}]
+7a:["$","li","5-pravidla",{"className":"pl-3","children":["$","a",null,{"href":"#5-pravidla","className":"hover:text-white","children":"5. Pravidla"}]}]
+7b:["$","li","6-smycka-sebezdokonalovani",{"className":"pl-3","children":["$","a",null,{"href":"#6-smycka-sebezdokonalovani","className":"hover:text-white","children":"6. Smyčka sebezdokonalování"}]}]
+7c:["$","li","zive-sestaveni-dovednosti-od-nuly",{"className":"","children":["$","a",null,{"href":"#zive-sestaveni-dovednosti-od-nuly","className":"hover:text-white","children":"Živé sestavení dovednosti od nuly"}]}]
+7d:["$","li","priprava-prostredi",{"className":"pl-3","children":["$","a",null,{"href":"#priprava-prostredi","className":"hover:text-white","children":"Příprava prostředí"}]}]
+7e:["$","li","krok-1-stazeni-skill-builderu-a-inicializace",{"className":"pl-3","children":["$","a",null,{"href":"#krok-1-stazeni-skill-builderu-a-inicializace","className":"hover:text-white","children":"Krok 1: Stažení skill builderu a inicializace"}]}]
+7f:["$","li","krok-2-vlozeni-skill-builderu",{"className":"pl-3","children":["$","a",null,{"href":"#krok-2-vlozeni-skill-builderu","className":"hover:text-white","children":"Krok 2: Vložení skill builderu"}]}]
+80:["$","li","krok-3-spusteni-skill-builderu",{"className":"pl-3","children":["$","a",null,{"href":"#krok-3-spusteni-skill-builderu","className":"hover:text-white","children":"Krok 3: Spuštění skill builderu"}]}]
+81:["$","li","krok-4-interaktivni-vytvareni-otazky-a-odpovedi",{"className":"pl-3","children":["$","a",null,{"href":"#krok-4-interaktivni-vytvareni-otazky-a-odpovedi","className":"hover:text-white","children":"Krok 4: Interaktivní vytváření — otázky a odpovědi"}]}]
+82:["$","li","krok-5-nastaveni-znacky",{"className":"pl-3","children":["$","a",null,{"href":"#krok-5-nastaveni-znacky","className":"hover:text-white","children":"Krok 5: Nastavení značky"}]}]
+83:["$","li","krok-6-vysledek-co-se-vytvorilo",{"className":"pl-3","children":["$","a",null,{"href":"#krok-6-vysledek-co-se-vytvorilo","className":"hover:text-white","children":"Krok 6: Výsledek — co se vytvořilo"}]}]
+84:["$","li","testovani-dovednosti-a-iterace-vysledku",{"className":"","children":["$","a",null,{"href":"#testovani-dovednosti-a-iterace-vysledku","className":"hover:text-white","children":"Testování dovednosti a iterace výsledků"}]}]
+85:["$","li","prvni-spusteni",{"className":"pl-3","children":["$","a",null,{"href":"#prvni-spusteni","className":"hover:text-white","children":"První spuštění"}]}]
+86:["$","li","druhe-spusteni",{"className":"pl-3","children":["$","a",null,{"href":"#druhe-spusteni","className":"hover:text-white","children":"Druhé spuštění"}]}]
+87:["$","li","co-bylo-ve-skutecnosti-vytvoreno",{"className":"pl-3","children":["$","a",null,{"href":"#co-bylo-ve-skutecnosti-vytvoreno","className":"hover:text-white","children":"Co bylo ve skutečnosti vytvořeno"}]}]
+88:["$","li","testovani-ladeni-a-bezne-opravy",{"className":"","children":["$","a",null,{"href":"#testovani-ladeni-a-bezne-opravy","className":"hover:text-white","children":"Testování, ladění a běžné opravy"}]}]
+89:["$","li","prehled-symptomu-a-reseni",{"className":"pl-3","children":["$","a",null,{"href":"#prehled-symptomu-a-reseni","className":"hover:text-white","children":"Přehled symptomů a řešení"}]}]
+8a:["$","li","pokrocile-nastaveni-yaml-front-matter-reference",{"className":"","children":["$","a",null,{"href":"#pokrocile-nastaveni-yaml-front-matter-reference","className":"hover:text-white","children":"Pokročilé nastavení: YAML front matter reference"}]}]
+8b:["$","li","lokalni-vs-globalni-dovednosti-kde-dovednosti-ziji",{"className":"","children":["$","a",null,{"href":"#lokalni-vs-globalni-dovednosti-kde-dovednosti-ziji","className":"hover:text-white","children":"Lokální vs. globální dovednosti: Kde dovednosti žijí"}]}]
+8c:["$","li","globalni-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#globalni-dovednosti","className":"hover:text-white","children":"Globální dovednosti"}]}]
+8d:["$","li","vizualni-srovnani",{"className":"pl-3","children":["$","a",null,{"href":"#vizualni-srovnani","className":"hover:text-white","children":"Vizuální srovnání"}]}]
+8e:["$","li","kdy-pouzit-globalni-dovednosti",{"className":"pl-3","children":["$","a",null,{"href":"#kdy-pouzit-globalni-dovednosti","className":"hover:text-white","children":"Kdy použít globální dovednosti"}]}]
+8f:["$","li","zaver",{"className":"","children":["$","a",null,{"href":"#zaver","className":"hover:text-white","children":"Závěr"}]}]
+91:null
+a:C
+57:0
+c:"$undefined"
+9:"$undefined"
+56:"$undefined"
+4f:"$undefined"

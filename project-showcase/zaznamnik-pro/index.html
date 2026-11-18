@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#080a0f" />
     <meta name="description" content="Záznamník.pro přebírá firemní telefonní hovory a převádí jejich obsah na strukturovaný požadavek pro následnou práci týmu." />
@@ -12,7 +13,10 @@
     <meta property="og:title" content="Zaznamnik.pro · projekt Martina Švandy" />
     <meta property="og:description" content="Záznamník.pro přebírá firemní telefonní hovory a převádí jejich obsah na strukturovaný požadavek pro následnou práci týmu." />
     <meta property="og:url" content="https://svanda.tech/project-showcase/zaznamnik-pro/" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://svanda.tech/portfolio-og.png" />
+    <meta property="og:image:alt" content="Martin Švanda — AI engineer a softwarový architekt" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://svanda.tech/portfolio-og.png" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self' data: https:; base-uri 'none'; form-action 'none'" />
     <link rel="canonical" href="https://svanda.tech/project-showcase/zaznamnik-pro/" />
     <link rel="stylesheet" href="../assets/showcase.css" />
@@ -27,7 +31,7 @@
       </nav>
       <main id="obsah">
         <header class="hero">
-          <p class="eyebrow">Projekt #03 · Produkt · Aktivní vývoj</p>
+          <p class="eyebrow">Projekt #03 · Produkt · Historický produkční stav</p>
           <h1>Zaznamnik.pro</h1>
           <p class="lede">Záznamník.pro přebírá firemní telefonní hovory a převádí jejich obsah na strukturovaný požadavek pro následnou práci týmu.</p>
           <div class="actions">
@@ -36,14 +40,16 @@
           </div>
         </header>
         <section class="facts" aria-label="Projekt v kostce">
-          <article class="fact"><p class="label">Stav</p><p class="value">Aktivní vývoj</p></article><article class="fact"><p class="label">Dostupnost</p><p class="value">Veřejný odkaz; provoz neověřen</p></article><article class="fact"><p class="label">Zdrojový kód</p><p class="value">Repozitář není veřejně propojený</p></article><article class="fact"><p class="label">Typ projektu</p><p class="value">Produkt</p></article>
+          <article class="fact"><p class="label">Stav</p><p class="value">Historický produkční stav</p></article><article class="fact"><p class="label">Dostupnost</p><p class="value">Veřejný odkaz; provoz neověřen</p></article><article class="fact"><p class="label">Role autora</p><p class="value">Architektura a full-stack integrace</p></article><article class="fact"><p class="label">Datum revize podkladů</p><p class="value">2026-08-04</p></article>
         </section>
         <div class="content-grid">
           <section class="panel"><p class="eyebrow">Katalogový kontext</p><h2>Záměr projektu</h2><p>Pracovník může přehledněji určit, kdo volal, co potřebuje a zda je nutné rychle reagovat. Soukromé telefonní čísla, přepisy a klientské záznamy se ve veřejné studii nezveřejňují.</p></section>
-          <section class="panel"><p class="eyebrow">Zdrojově prověřený popis</p><h2>Realizace v dostupných podkladech</h2><p>Navrhl jsem službu s Django REST API, PostgreSQL, Celery/Redis a Angular rozhraním; telefonní vrstva propojuje Twilio a konverzačního agenta ElevenLabs. Auditovaný zdrojový checkout se lišil od nasazené revize, proto zdrojové testy ani implementaci nepovažuji za důkaz přesné parity s produkcí. SLA a úplná funkčnost všech notifikačních kanálů nejsou doložené.</p></section>
-          <section class="panel"><p class="eyebrow">Technické řešení</p><h2>Technologie podle části</h2><div class="stack-groups"><section class="stack-group"><p class="label">Technologie v auditovaném zdroji</p><div class="tags"><span class="tag">Django REST Framework</span><span class="tag">PostgreSQL</span><span class="tag">Celery</span><span class="tag">Redis</span><span class="tag">Angular</span><span class="tag">Twilio</span><span class="tag">ElevenLabs</span></div></section></div></section>
-          <section class="panel"><p class="eyebrow">Ověřitelnost</p><h2>Co je veřejně doložitelné</h2><ul class="proof"><li>Veřejná služba; auditovaný zdroj se lišil od nasazené revize.</li><li>Veřejný provoz je propojen přímo z prezentace.</li><li>Zdrojový repozitář není veřejně propojen.</li></ul></section>
-          <section class="panel wide"><p class="eyebrow">Repo audit · 2026-08-04</p><h2>Ověřené důkazy a publikační hranice</h2><p class="result-count">Auditovaný commit d8f684ecaf6e · Živý produkt s oddělenou produkční revizí</p><div class="audit-columns"><div><h3>Ověřené v repozitáři</h3><ul class="proof"><li>Česká AI telefonní sekretářka třídí zmeškané hovory, naléhavost a strukturované požadavky.</li><li>Architektura propojuje Django/DRF, PostgreSQL, Celery/Redis, Angular, Twilio a ElevenLabs.</li><li>Repozitář obsahuje 95 testovacích souborů a více než 1 200 backendových testovacích případů.</li></ul></div><div><h3>Stav a hranice</h3><ul class="proof limitations"><li>Produkční build se při auditu lišil od HEAD a poslední deploy workflow nebylo zelené.</li><li>Telefonní čísla, přepisy, klientská data a identifikátory poskytovatelů zůstávají neveřejné.</li><li>SLA ani úplná produkční funkčnost všech notifikačních kanálů nejsou doložené.</li></ul></div></div></section>
+          <section class="panel"><p class="eyebrow">Problém a práce autora</p><h2>Architektura a full-stack integrace</h2><p>Zmeškané číslo neříká, proč zákazník volal ani jak je jeho požadavek naléhavý. Cílem bylo zachytit účel hovoru a předat týmu použitelný záznam bez ručního přepisování.</p><p>Twilio řeší telefonní tok, ElevenLabs konverzaci a backend produktová data.</p><p>Zdroj převádí výsledek hovoru na uložený požadavek a navazující úlohy.</p></section>
+          <section class="panel"><p class="eyebrow">Popis z dostupných podkladů</p><h2>Realizace v dostupných podkladech</h2><p>Navrhl jsem službu s Django REST API, PostgreSQL, Celery/Redis a Angular rozhraním; telefonní vrstva propojuje Twilio a konverzačního agenta ElevenLabs. Auditovaný zdrojový checkout se lišil od nasazené revize, proto zdrojové testy ani implementaci nepovažuji za důkaz přesné parity s produkcí. SLA a úplná funkčnost všech notifikačních kanálů nejsou doložené.</p></section>
+          <section class="panel"><p class="eyebrow">Technické řešení</p><h2>Technologie podle části</h2><div class="stack-groups"><section class="stack-group"><p class="label">Technologie v podkladech</p><div class="tags"><span class="tag">Django REST Framework</span><span class="tag">PostgreSQL</span><span class="tag">Celery</span><span class="tag">Redis</span><span class="tag">Angular</span><span class="tag">Twilio</span><span class="tag">ElevenLabs</span></div></section></div></section>
+          <section class="panel"><p class="eyebrow">Ověřitelnost</p><h2>Co je veřejně doložitelné</h2><ul class="proof"><li>Veřejná služba; auditovaný zdroj se lišil od nasazené revize.</li><li>Veřejný odkaz je uveden; současný provoz nebyl touto revizí ověřen.</li><li>Zdrojový repozitář není veřejně propojen.</li></ul></section>
+          <section class="panel wide"><p class="eyebrow">Historická kontrola zdroje · 2026-08-04</p><h2>Podklady a publikační hranice</h2><p class="result-count">Revize zdroje d8f684ecaf6e · Živý produkt s oddělenou produkční revizí</p><div class="audit-columns"><div><h3>Popsané ve zdrojové revizi</h3><ul class="proof"><li>Česká AI telefonní sekretářka třídí zmeškané hovory, naléhavost a strukturované požadavky.</li><li>Architektura propojuje Django/DRF, PostgreSQL, Celery/Redis, Angular, Twilio a ElevenLabs.</li><li>Repozitář obsahuje 95 testovacích souborů a více než 1 200 backendových testovacích případů.</li></ul></div><div><h3>Stav a hranice</h3><ul class="proof limitations"><li>Produkční build se při auditu lišil od HEAD a poslední deploy workflow nebylo zelené.</li><li>Telefonní čísla, přepisy, klientská data a identifikátory poskytovatelů zůstávají neveřejné.</li><li>SLA ani úplná produkční funkčnost všech notifikačních kanálů nejsou doložené.</li></ul></div></div></section>
+
           <section class="panel wide"><p class="eyebrow">Další krok</p><h2>Prohlédnout projekt v kontextu celého portfolia</h2><p>Na svanda.tech je rozšířený profil, související projekty, galerie a aktuální odkazy na provoz nebo zdrojový kód.</p><div class="actions"><a class="button" href="https://svanda.tech/projekty/zaznamnik-pro">Otevřít profil na svanda.tech</a><a class="button secondary" href="https://zaznamnik.pro/">Veřejný projekt</a></div></section>
         </div>
       </main>

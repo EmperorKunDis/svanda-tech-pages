@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#080a0f" />
     <meta name="description" content="Vzdělávací platforma s kohortami, odevzdáváním důkazů práce, lektorským hodnocením a návaznými odměnami a certifikáty." />
@@ -12,7 +13,10 @@
     <meta property="og:title" content="PULS Akademie · projekt Martina Švandy" />
     <meta property="og:description" content="Vzdělávací platforma s kohortami, odevzdáváním důkazů práce, lektorským hodnocením a návaznými odměnami a certifikáty." />
     <meta property="og:url" content="https://svanda.tech/project-showcase/puls-akademie/" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://svanda.tech/portfolio-og.png" />
+    <meta property="og:image:alt" content="Martin Švanda — AI engineer a softwarový architekt" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://svanda.tech/portfolio-og.png" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self' data: https:; base-uri 'none'; form-action 'none'" />
     <link rel="canonical" href="https://svanda.tech/project-showcase/puls-akademie/" />
     <link rel="stylesheet" href="../assets/showcase.css" />
@@ -27,7 +31,7 @@
       </nav>
       <main id="obsah">
         <header class="hero">
-          <p class="eyebrow">Projekt #25 · Produkt · Aktivní vývoj</p>
+          <p class="eyebrow">Projekt #25 · Produkt · Katalogový záznam / studie</p>
           <h1>PULS Akademie</h1>
           <p class="lede">Vzdělávací platforma s kohortami, odevzdáváním důkazů práce, lektorským hodnocením a návaznými odměnami a certifikáty.</p>
           <div class="actions">
@@ -36,14 +40,16 @@
           </div>
         </header>
         <section class="facts" aria-label="Projekt v kostce">
-          <article class="fact"><p class="label">Stav</p><p class="value">Aktivní vývoj</p></article><article class="fact"><p class="label">Dostupnost</p><p class="value">Veřejný odkaz; provoz neověřen</p></article><article class="fact"><p class="label">Zdrojový kód</p><p class="value">Repozitář není veřejně propojený</p></article><article class="fact"><p class="label">Typ projektu</p><p class="value">Produkt</p></article>
+          <article class="fact"><p class="label">Stav</p><p class="value">Katalogový záznam / studie</p></article><article class="fact"><p class="label">Dostupnost</p><p class="value">Veřejný odkaz; provoz neověřen</p></article><article class="fact"><p class="label">Role autora</p><p class="value">Návrh a vývoj vzdělávací platformy</p></article><article class="fact"><p class="label">Datum revize podkladů</p><p class="value">2026-10-05</p></article>
         </section>
         <div class="content-grid">
           <section class="panel"><p class="eyebrow">Katalogový kontext</p><h2>Záměr projektu</h2><p>Student, lektor a správce pracují nad společným stavem studia. Každé odevzdání má revizi a rozhodnutí lze dohledat; certifikace navazuje na pravidla absolvování.</p></section>
-          <section class="panel"><p class="eyebrow">Zdrojově prověřený popis</p><h2>Realizace v dostupných podkladech</h2><p>Angular klient komunikuje s Django REST API. Domény rozdělují účty, kohorty, obsah, odevzdání, hodnocení a certifikáty. PostgreSQL uchovává stav a audit, Celery řeší následné úlohy a MinIO soubory. Schválení revize probíhá transakčně a navazující úlohy se spouštějí po commitu.</p></section>
-          <section class="panel"><p class="eyebrow">Technické řešení</p><h2>Technologie podle části</h2><div class="stack-groups"><section class="stack-group"><p class="label">Technologie v auditovaném zdroji</p><div class="tags"><span class="tag">Angular</span><span class="tag">Django</span><span class="tag">Django REST Framework</span><span class="tag">PostgreSQL</span><span class="tag">Celery</span><span class="tag">Redis</span><span class="tag">MinIO</span></div></section></div></section>
-          <section class="panel"><p class="eyebrow">Ověřitelnost</p><h2>Co je veřejně doložitelné</h2><ul class="proof"><li>Implementovaná platforma s lektorským hodnocením; integrace se posuzují jednotlivě.</li><li>Veřejný provoz je propojen přímo z prezentace.</li><li>Zdrojový repozitář není veřejně propojen.</li></ul></section>
-          <section class="panel wide"><p class="eyebrow">Repo audit · 2026-10-05</p><h2>Ověřené důkazy a publikační hranice</h2><p class="result-count">Auditovaný commit cca00826f59f · Implementovaná vzdělávací platforma</p><div class="audit-columns"><div><h3>Ověřené v repozitáři</h3><ul class="proof"><li>Submission a SubmissionReview evidují revizi, stav, hodnotitele a rozhodnutí.</li><li>review_submission používá databázovou transakci a zámek řádku; jedna revize má unikátní review.</li><li>Po schválení se přes on_commit předávají úlohy pro aktualizaci pokroku, XP a notifikaci.</li><li>Repozitář obsahuje testy přístupů, odevzdání, hodnocení, certifikátů a administrace.</li></ul></div><div><h3>Stav a hranice</h3><ul class="proof limitations"><li>Tato revize nepouštěla testy ani celé produkční nasazení PULS.</li><li>Jitsi konfigurace je označena jako placeholder; živé video nelze vydávat za ověřenou integraci.</li><li>Hodnocení provádí lektor. README vylučuje LLM volání a platební bránu; přístupy přiděluje správce.</li></ul></div></div></section>
+          <section class="panel"><p class="eyebrow">Problém a práce autora</p><h2>Návrh a vývoj vzdělávací platformy</h2><p>Student nesmí přepsat práci právě posuzovanou lektorem a souběžné hodnocení nesmí vytvořit dvě různá rozhodnutí téže revize. Následné odměny a komunikace musí navazovat na uložený stav.</p><p>Odborný úsudek lektora má konkrétního autora a dohledatelnou zpětnou vazbu.</p><p>Zdroj obsahuje celý aplikační tok od členství v kohortě po hodnocení a certifikáty, včetně testů doménových pravidel. Živé video zůstává samostatnou nedokončenou integrací.</p></section>
+          <section class="panel"><p class="eyebrow">Popis z dostupných podkladů</p><h2>Realizace v dostupných podkladech</h2><p>Angular klient komunikuje s Django REST API. Domény rozdělují účty, kohorty, obsah, odevzdání, hodnocení a certifikáty. PostgreSQL uchovává stav a audit, Celery řeší následné úlohy a MinIO soubory. Schválení revize probíhá transakčně a navazující úlohy se spouštějí po commitu.</p></section>
+          <section class="panel"><p class="eyebrow">Technické řešení</p><h2>Technologie podle části</h2><div class="stack-groups"><section class="stack-group"><p class="label">Technologie v podkladech</p><div class="tags"><span class="tag">Angular</span><span class="tag">Django</span><span class="tag">Django REST Framework</span><span class="tag">PostgreSQL</span><span class="tag">Celery</span><span class="tag">Redis</span><span class="tag">MinIO</span></div></section></div></section>
+          <section class="panel"><p class="eyebrow">Ověřitelnost</p><h2>Co je veřejně doložitelné</h2><ul class="proof"><li>Implementovaná platforma s lektorským hodnocením; integrace se posuzují jednotlivě.</li><li>Veřejný odkaz je uveden; současný provoz nebyl touto revizí ověřen.</li><li>Zdrojový repozitář není veřejně propojen.</li></ul></section>
+          <section class="panel wide"><p class="eyebrow">Historická kontrola zdroje · 2026-10-05</p><h2>Podklady a publikační hranice</h2><p class="result-count">Revize zdroje cca00826f59f · Implementovaná vzdělávací platforma</p><div class="audit-columns"><div><h3>Popsané ve zdrojové revizi</h3><ul class="proof"><li>Submission a SubmissionReview evidují revizi, stav, hodnotitele a rozhodnutí.</li><li>review_submission používá databázovou transakci a zámek řádku; jedna revize má unikátní review.</li><li>Po schválení se přes on_commit předávají úlohy pro aktualizaci pokroku, XP a notifikaci.</li><li>Repozitář obsahuje testy přístupů, odevzdání, hodnocení, certifikátů a administrace.</li></ul></div><div><h3>Stav a hranice</h3><ul class="proof limitations"><li>Tato revize nepouštěla testy ani celé produkční nasazení PULS.</li><li>Jitsi konfigurace je označena jako placeholder; živé video nelze vydávat za ověřenou integraci.</li><li>Hodnocení provádí lektor. README vylučuje LLM volání a platební bránu; přístupy přiděluje správce.</li></ul></div></div></section>
+
           <section class="panel wide"><p class="eyebrow">Další krok</p><h2>Prohlédnout projekt v kontextu celého portfolia</h2><p>Na svanda.tech je rozšířený profil, související projekty, galerie a aktuální odkazy na provoz nebo zdrojový kód.</p><div class="actions"><a class="button" href="https://svanda.tech/projekty/puls-akademie">Otevřít profil na svanda.tech</a><a class="button secondary" href="https://puls.praut.cz/">Veřejný projekt</a></div></section>
         </div>
       </main>

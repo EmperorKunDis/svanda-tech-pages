@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#080a0f" />
     <meta name="description" content="Interaktivní statický dashboard bioplynové stanice se syntetickými časovými řadami a přehledy provozu." />
@@ -12,7 +13,10 @@
     <meta property="og:title" content="Zephyr / BPS dashboard · projekt Martina Švandy" />
     <meta property="og:description" content="Interaktivní statický dashboard bioplynové stanice se syntetickými časovými řadami a přehledy provozu." />
     <meta property="og:url" content="https://svanda.tech/project-showcase/zephyr/" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://svanda.tech/portfolio-og.png" />
+    <meta property="og:image:alt" content="Martin Švanda — AI engineer a softwarový architekt" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://svanda.tech/portfolio-og.png" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self' data: https:; base-uri 'none'; form-action 'none'" />
     <link rel="canonical" href="https://svanda.tech/project-showcase/zephyr/" />
     <link rel="stylesheet" href="../assets/showcase.css" />
@@ -27,7 +31,7 @@
       </nav>
       <main id="obsah">
         <header class="hero">
-          <p class="eyebrow">Projekt #13 · Prototyp · Koncept</p>
+          <p class="eyebrow">Projekt #13 · Prototyp · Prototyp při revizi</p>
           <h1>Zephyr / BPS dashboard</h1>
           <p class="lede">Interaktivní statický dashboard bioplynové stanice se syntetickými časovými řadami a přehledy provozu.</p>
           <div class="actions">
@@ -36,14 +40,16 @@
           </div>
         </header>
         <section class="facts" aria-label="Projekt v kostce">
-          <article class="fact"><p class="label">Stav</p><p class="value">Koncept</p></article><article class="fact"><p class="label">Dostupnost</p><p class="value">Veřejný odkaz; provoz neověřen</p></article><article class="fact"><p class="label">Zdrojový kód</p><p class="value">Repozitář není veřejně propojený</p></article><article class="fact"><p class="label">Typ projektu</p><p class="value">Prototyp</p></article>
+          <article class="fact"><p class="label">Stav</p><p class="value">Prototyp při revizi</p></article><article class="fact"><p class="label">Dostupnost</p><p class="value">Veřejný odkaz; provoz neověřen</p></article><article class="fact"><p class="label">Role autora</p><p class="value">Návrh a implementace dashboardu</p></article><article class="fact"><p class="label">Datum revize podkladů</p><p class="value">2026-10-05</p></article>
         </section>
         <div class="content-grid">
           <section class="panel"><p class="eyebrow">Katalogový kontext</p><h2>Záměr projektu</h2><p>Prototyp ukazuje, jak zpřehlednit energii, materiálové toky a provozní ukazatele v jednom rozhraní. Umožňuje posoudit informační strukturu bez připojení k reálné technologii.</p></section>
-          <section class="panel"><p class="eyebrow">Zdrojově prověřený popis</p><h2>Realizace v dostupných podkladech</h2><p>HTML, CSS a JavaScript tvoří samostatnou aplikaci bez build kroku. Chart.js je součástí HTML. Seedovaný generátor vytváří demonstrativní řady, jednotlivé pohledy se sestavují na požádání a grafy se inicializují až po zobrazení plátna.</p></section>
-          <section class="panel"><p class="eyebrow">Technické řešení</p><h2>Technologie podle části</h2><div class="stack-groups"><section class="stack-group"><p class="label">Technologie v auditovaném zdroji</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Chart.js</span><span class="tag">Cloudflare Pages</span></div></section></div></section>
-          <section class="panel"><p class="eyebrow">Ověřitelnost</p><h2>Co je veřejně doložitelné</h2><ul class="proof"><li>Statický prototyp; všechna provozní data jsou syntetická.</li><li>Veřejný provoz je propojen přímo z prezentace.</li><li>Zdrojový repozitář není veřejně propojen.</li></ul></section>
-          <section class="panel wide"><p class="eyebrow">Repo audit · 2026-10-05</p><h2>Ověřené důkazy a publikační hranice</h2><p class="result-count">Auditovaný commit  · Interaktivní statický prototyp</p><div class="audit-columns"><div><h3>Ověřené v repozitáři</h3><ul class="proof"><li>README výslovně uvádí syntetická data a Chart.js vložený v index.html.</li><li>Generátor časových řad používá seed; registr pohledů odděluje sestavení HTML a inicializaci grafů.</li><li>Kód kontroluje rozměry viditelného plátna a při problému omezeně opakuje inicializaci.</li></ul></div><div><h3>Stav a hranice</h3><ul class="proof limitations"><li>Dohledaný projekt neobsahuje backend, živou SCADA integraci ani řízení zařízení.</li><li>Provozní hodnoty neslouží jako měření skutečné bioplynové stanice.</li><li>Konfigurace Cloudflare Pages v README není doklad dostupnosti produkční integrace.</li></ul></div></div></section>
+          <section class="panel"><p class="eyebrow">Problém a práce autora</p><h2>Návrh a implementace dashboardu</h2><p>Spojit rozdílné provozní ukazatele do čitelného rozhraní a umožnit přepínání mezi pohledy bez zbytečného zatížení prohlížeče.</p><p>Umožňuje rychle ověřit podobu dashboardu a jeho ovládání.</p><p>Samostatný interaktivní prototyp, který lze otevřít lokálně nebo staticky publikovat. Neukazuje živá měření ani neposílá příkazy technologii.</p></section>
+          <section class="panel"><p class="eyebrow">Popis z dostupných podkladů</p><h2>Realizace v dostupných podkladech</h2><p>HTML, CSS a JavaScript tvoří samostatnou aplikaci bez build kroku. Chart.js je součástí HTML. Seedovaný generátor vytváří demonstrativní řady, jednotlivé pohledy se sestavují na požádání a grafy se inicializují až po zobrazení plátna.</p></section>
+          <section class="panel"><p class="eyebrow">Technické řešení</p><h2>Technologie podle části</h2><div class="stack-groups"><section class="stack-group"><p class="label">Technologie v podkladech</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Chart.js</span><span class="tag">Cloudflare Pages</span></div></section></div></section>
+          <section class="panel"><p class="eyebrow">Ověřitelnost</p><h2>Co je veřejně doložitelné</h2><ul class="proof"><li>Statický prototyp; všechna provozní data jsou syntetická.</li><li>Veřejný odkaz je uveden; současný provoz nebyl touto revizí ověřen.</li><li>Zdrojový repozitář není veřejně propojen.</li></ul></section>
+          <section class="panel wide"><p class="eyebrow">Interní podklady · 2026-10-05</p><h2>Podklady a publikační hranice</h2><p class="result-count">Datovaná kontrola repozitáře není doložená · Interaktivní statický prototyp</p><div class="audit-columns"><div><h3>Interní auditní poznámky</h3><ul class="proof"><li>README výslovně uvádí syntetická data a Chart.js vložený v index.html.</li><li>Generátor časových řad používá seed; registr pohledů odděluje sestavení HTML a inicializaci grafů.</li><li>Kód kontroluje rozměry viditelného plátna a při problému omezeně opakuje inicializaci.</li></ul></div><div><h3>Stav a hranice</h3><ul class="proof limitations"><li>Dohledaný projekt neobsahuje backend, živou SCADA integraci ani řízení zařízení.</li><li>Provozní hodnoty neslouží jako měření skutečné bioplynové stanice.</li><li>Konfigurace Cloudflare Pages v README není doklad dostupnosti produkční integrace.</li></ul></div></div></section>
+
           <section class="panel wide"><p class="eyebrow">Další krok</p><h2>Prohlédnout projekt v kontextu celého portfolia</h2><p>Na svanda.tech je rozšířený profil, související projekty, galerie a aktuální odkazy na provoz nebo zdrojový kód.</p><div class="actions"><a class="button" href="https://svanda.tech/projekty/zephyr">Otevřít profil na svanda.tech</a><a class="button secondary" href="https://bio.praut.cz/">Veřejný projekt</a></div></section>
         </div>
       </main>
