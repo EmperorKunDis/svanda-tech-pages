@@ -1,8 +1,8 @@
 :HL["/_next/static/css/65567d51426a0430.css","style"]
 :HL["/_next/static/css/a3c10f6ac93876ae.css","style"]
-:HL["/_next/static/css/ca1596099cef7637.css","style"]
+:HL["/_next/static/css/732e7c9adac928d9.css","style"]
 4:[["children",{"s":"__PAGE__","h":160}]]
 3:[["children",{"s":{"n":"slug","t":"d","k":"fantastic-future","s":["agenticdev"]},"h":65632,"c":"$Q4"}]]
 2:[["children",{"s":"projects","h":131168,"c":"$Q3"}]]
 1:[["children",{"s":"en","h":131184,"c":"$Q2"}]]
-0:{"b":"PHVXKLZpzNtyzQwboDmoS","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"qs-oeDoXOoWWpOW3rS0Rt","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
